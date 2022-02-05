@@ -1,3 +1,5 @@
+-- Arquivo criado com os creates e descrições dos objetos
+
 -- DROP SCHEMA SalesLT;
 
 CREATE SCHEMA SalesLT;
