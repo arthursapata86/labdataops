@@ -1,3 +1,4 @@
+
 #clona o diretorio do github
 git clone https://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@github.com/arthursapata86/labdataops.git
 
@@ -14,6 +15,9 @@ git flow init
 git add .
 
 #Commita as alterações
+git config --global user.email "arthur.sapata@gmail.com"
+git config --global user.name "arthursapata86"
+
 git commit -m "Arquivo incluido"
 
 
@@ -26,5 +30,4 @@ git flow release finish 0.1.1
 
 #faz upload para o github
 git push origin master
-
 
