@@ -1,0 +1,30 @@
+#clona o diretorio do github
+git clone https://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@github.com/arthursapata86/labdataops.git
+
+#acessa o diretorio criado
+cd labdataops/
+
+#inicia o git flow no diretorio
+git flow init
+
+#cria o arquivo ou faz as alterações
+
+
+#adiciona o arquivo a branch
+git add .
+
+#Commita as alterações
+git commit -m "Arquivo incluido"
+
+
+#cria a release para homologacao
+#alterar o numero da versao
+git flow release start 0.1.1
+
+git flow release finish 0.1.1
+
+
+#faz upload para o github
+git push origin master
+
+
