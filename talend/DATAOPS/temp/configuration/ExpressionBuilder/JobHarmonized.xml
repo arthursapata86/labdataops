@@ -1,0 +1,23 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_5=>" expression="(row5.OnlineOrderFlag == 0) ? &quot;Offline&quot; : &quot;Online&quot;">
+  <variables name="row5.SalesOrderID" value="0" talendType="id_Integer"/>
+  <variables name="row5.RevisionNumber" value="0" talendType="id_Short"/>
+  <variables name="row5.OrderDate" value="null" talendType="id_Date"/>
+  <variables name="row5.DueDate" value="null" talendType="id_Date"/>
+  <variables name="row5.ShipDate" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row5.Status" value="0" talendType="id_Short"/>
+  <variables name="row5.OnlineOrderFlag" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.SalesOrderNumber" value="null" talendType="id_String"/>
+  <variables name="row5.CustomerID" value="0" talendType="id_Integer"/>
+  <variables name="row5.ShipToAddressID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.BillToAddressID" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.ShipMethod" value="null" talendType="id_String"/>
+  <variables name="row5.CreditCardApprovalCode" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.SubTotal" value="null" talendType="id_Object"/>
+  <variables name="row5.TaxAmt" value="null" talendType="id_Object"/>
+  <variables name="row5.Freight" value="null" talendType="id_Object"/>
+  <variables name="row5.TotalDue" value="null" talendType="id_Object"/>
+  <variables name="row5.Comment" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row5.rowguid" value="null" talendType="id_Object"/>
+  <variables name="row5.ModifiedDate" value="null" talendType="id_Date"/>
+</expression:EMFExpression>
