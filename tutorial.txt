@@ -1,6 +1,6 @@
 
 #clona o diretorio do github
-git clone https://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@github.com/arthursapata86/labdataops.git
+git clone https://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@github.com/arthursapata86/labdataops.git
 
 #acessa o diretorio criado
 cd labdataops/
