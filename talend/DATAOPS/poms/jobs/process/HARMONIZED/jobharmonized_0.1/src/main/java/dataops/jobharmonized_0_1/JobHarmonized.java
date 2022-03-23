@@ -284,37 +284,37 @@ public class JobHarmonized implements TalendJob {
 		}
 	}
 
-	public void tFileInputDelimited_6_error(Exception exception, String errorComponent,
+	public void tFileInputDelimited_3_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		end_Hash.put(errorComponent, System.currentTimeMillis());
 
 		status = "failure";
 
-		tFileInputDelimited_6_onSubJobError(exception, errorComponent, globalMap);
+		tFileInputDelimited_3_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tMap_6_error(Exception exception, String errorComponent, final java.util.Map<String, Object> globalMap)
+	public void tMap_3_error(Exception exception, String errorComponent, final java.util.Map<String, Object> globalMap)
 			throws TalendException {
 
 		end_Hash.put(errorComponent, System.currentTimeMillis());
 
 		status = "failure";
 
-		tFileInputDelimited_6_onSubJobError(exception, errorComponent, globalMap);
+		tFileInputDelimited_3_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tFileOutputDelimited_6_error(Exception exception, String errorComponent,
+	public void tFileOutputDelimited_3_error(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		end_Hash.put(errorComponent, System.currentTimeMillis());
 
 		status = "failure";
 
-		tFileInputDelimited_6_onSubJobError(exception, errorComponent, globalMap);
+		tFileInputDelimited_3_onSubJobError(exception, errorComponent, globalMap);
 	}
 
-	public void tFileInputDelimited_6_onSubJobError(Exception exception, String errorComponent,
+	public void tFileInputDelimited_3_onSubJobError(Exception exception, String errorComponent,
 			final java.util.Map<String, Object> globalMap) throws TalendException {
 
 		resumeUtil.addLog("SYSTEM_LOG", "NODE:" + errorComponent, "", Thread.currentThread().getId() + "", "FATAL", "",
@@ -322,8 +322,7 @@ public class JobHarmonized implements TalendJob {
 
 	}
 
-	public static class out_sales_order_detailStruct
-			implements routines.system.IPersistableRow<out_sales_order_detailStruct> {
+	public static class outaddStruct implements routines.system.IPersistableRow<outaddStruct> {
 		final static byte[] commonByteArrayLock_DATAOPS_JobHarmonized = new byte[0];
 		static byte[] commonByteArray_DATAOPS_JobHarmonized = new byte[0];
 		protected static final int DEFAULT_HASHCODE = 1;
@@ -333,40 +332,22 @@ public class JobHarmonized implements TalendJob {
 
 		public String loopKey;
 
-		public int SalesOrderID;
-
-		public int getSalesOrderID() {
-			return this.SalesOrderID;
-		}
-
-		public int SalesOrderDetailID;
-
-		public int getSalesOrderDetailID() {
-			return this.SalesOrderDetailID;
-		}
-
-		public Object UnitPrice;
-
-		public Object getUnitPrice() {
-			return this.UnitPrice;
-		}
-
-		public Object UnitPriceDiscount;
-
-		public Object getUnitPriceDiscount() {
-			return this.UnitPriceDiscount;
-		}
-
 		public int ProductID;
 
 		public int getProductID() {
 			return this.ProductID;
 		}
 
-		public BigDecimal LineTotal;
+		public String Name;
 
-		public BigDecimal getLineTotal() {
-			return this.LineTotal;
+		public String getName() {
+			return this.Name;
+		}
+
+		public String Color;
+
+		public String getColor() {
+			return this.Color;
 		}
 
 		@Override
@@ -375,9 +356,7 @@ public class JobHarmonized implements TalendJob {
 				final int prime = PRIME;
 				int result = DEFAULT_HASHCODE;
 
-				result = prime * result + (int) this.SalesOrderID;
-
-				result = prime * result + (int) this.SalesOrderDetailID;
+				result = prime * result + (int) this.ProductID;
 
 				this.hashCode = result;
 				this.hashCodeDirty = false;
@@ -393,33 +372,86 @@ public class JobHarmonized implements TalendJob {
 				return false;
 			if (getClass() != obj.getClass())
 				return false;
-			final out_sales_order_detailStruct other = (out_sales_order_detailStruct) obj;
+			final outaddStruct other = (outaddStruct) obj;
 
-			if (this.SalesOrderID != other.SalesOrderID)
-				return false;
-
-			if (this.SalesOrderDetailID != other.SalesOrderDetailID)
+			if (this.ProductID != other.ProductID)
 				return false;
 
 			return true;
 		}
 
-		public void copyDataTo(out_sales_order_detailStruct other) {
+		public void copyDataTo(outaddStruct other) {
 
-			other.SalesOrderID = this.SalesOrderID;
-			other.SalesOrderDetailID = this.SalesOrderDetailID;
-			other.UnitPrice = this.UnitPrice;
-			other.UnitPriceDiscount = this.UnitPriceDiscount;
 			other.ProductID = this.ProductID;
-			other.LineTotal = this.LineTotal;
+			other.Name = this.Name;
+			other.Color = this.Color;
 
 		}
 
-		public void copyKeysDataTo(out_sales_order_detailStruct other) {
+		public void copyKeysDataTo(outaddStruct other) {
 
-			other.SalesOrderID = this.SalesOrderID;
-			other.SalesOrderDetailID = this.SalesOrderDetailID;
+			other.ProductID = this.ProductID;
 
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_DATAOPS_JobHarmonized.length) {
+					if (length < 1024 && commonByteArray_DATAOPS_JobHarmonized.length == 0) {
+						commonByteArray_DATAOPS_JobHarmonized = new byte[1024];
+					} else {
+						commonByteArray_DATAOPS_JobHarmonized = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_DATAOPS_JobHarmonized, 0, length);
+				strReturn = new String(commonByteArray_DATAOPS_JobHarmonized, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private String readString(org.jboss.marshalling.Unmarshaller unmarshaller) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = unmarshaller.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_DATAOPS_JobHarmonized.length) {
+					if (length < 1024 && commonByteArray_DATAOPS_JobHarmonized.length == 0) {
+						commonByteArray_DATAOPS_JobHarmonized = new byte[1024];
+					} else {
+						commonByteArray_DATAOPS_JobHarmonized = new byte[2 * length];
+					}
+				}
+				unmarshaller.readFully(commonByteArray_DATAOPS_JobHarmonized, 0, length);
+				strReturn = new String(commonByteArray_DATAOPS_JobHarmonized, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos) throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		private void writeString(String str, org.jboss.marshalling.Marshaller marshaller) throws IOException {
+			if (str == null) {
+				marshaller.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				marshaller.writeInt(byteArray.length);
+				marshaller.write(byteArray);
+			}
 		}
 
 		public void readData(ObjectInputStream dis) {
@@ -430,23 +462,14 @@ public class JobHarmonized implements TalendJob {
 
 					int length = 0;
 
-					this.SalesOrderID = dis.readInt();
-
-					this.SalesOrderDetailID = dis.readInt();
-
-					this.UnitPrice = (Object) dis.readObject();
-
-					this.UnitPriceDiscount = (Object) dis.readObject();
-
 					this.ProductID = dis.readInt();
 
-					this.LineTotal = (BigDecimal) dis.readObject();
+					this.Name = readString(dis);
+
+					this.Color = readString(dis);
 
 				} catch (IOException e) {
 					throw new RuntimeException(e);
-
-				} catch (ClassNotFoundException eCNFE) {
-					throw new RuntimeException(eCNFE);
 
 				}
 
@@ -462,23 +485,14 @@ public class JobHarmonized implements TalendJob {
 
 					int length = 0;
 
-					this.SalesOrderID = dis.readInt();
-
-					this.SalesOrderDetailID = dis.readInt();
-
-					this.UnitPrice = (Object) dis.readObject();
-
-					this.UnitPriceDiscount = (Object) dis.readObject();
-
 					this.ProductID = dis.readInt();
 
-					this.LineTotal = (BigDecimal) dis.readObject();
+					this.Name = readString(dis);
+
+					this.Color = readString(dis);
 
 				} catch (IOException e) {
 					throw new RuntimeException(e);
-
-				} catch (ClassNotFoundException eCNFE) {
-					throw new RuntimeException(eCNFE);
 
 				}
 
@@ -491,27 +505,15 @@ public class JobHarmonized implements TalendJob {
 
 				// int
 
-				dos.writeInt(this.SalesOrderID);
-
-				// int
-
-				dos.writeInt(this.SalesOrderDetailID);
-
-				// Object
-
-				dos.writeObject(this.UnitPrice);
-
-				// Object
-
-				dos.writeObject(this.UnitPriceDiscount);
-
-				// int
-
 				dos.writeInt(this.ProductID);
 
-				// BigDecimal
+				// String
 
-				dos.writeObject(this.LineTotal);
+				writeString(this.Name, dos);
+
+				// String
+
+				writeString(this.Color, dos);
 
 			} catch (IOException e) {
 				throw new RuntimeException(e);
@@ -524,27 +526,15 @@ public class JobHarmonized implements TalendJob {
 
 				// int
 
-				dos.writeInt(this.SalesOrderID);
-
-				// int
-
-				dos.writeInt(this.SalesOrderDetailID);
-
-				// Object
-
-				dos.writeObject(this.UnitPrice);
-
-				// Object
-
-				dos.writeObject(this.UnitPriceDiscount);
-
-				// int
-
 				dos.writeInt(this.ProductID);
 
-				// BigDecimal
+				// String
 
-				dos.writeObject(this.LineTotal);
+				writeString(this.Name, dos);
+
+				// String
+
+				writeString(this.Color, dos);
 
 			} catch (IOException e) {
 				throw new RuntimeException(e);
@@ -557,12 +547,9 @@ public class JobHarmonized implements TalendJob {
 			StringBuilder sb = new StringBuilder();
 			sb.append(super.toString());
 			sb.append("[");
-			sb.append("SalesOrderID=" + String.valueOf(SalesOrderID));
-			sb.append(",SalesOrderDetailID=" + String.valueOf(SalesOrderDetailID));
-			sb.append(",UnitPrice=" + String.valueOf(UnitPrice));
-			sb.append(",UnitPriceDiscount=" + String.valueOf(UnitPriceDiscount));
-			sb.append(",ProductID=" + String.valueOf(ProductID));
-			sb.append(",LineTotal=" + String.valueOf(LineTotal));
+			sb.append("ProductID=" + String.valueOf(ProductID));
+			sb.append(",Name=" + Name);
+			sb.append(",Color=" + Color);
 			sb.append("]");
 
 			return sb.toString();
@@ -571,16 +558,11 @@ public class JobHarmonized implements TalendJob {
 		/**
 		 * Compare keys
 		 */
-		public int compareTo(out_sales_order_detailStruct other) {
+		public int compareTo(outaddStruct other) {
 
 			int returnValue = -1;
 
-			returnValue = checkNullsAndCompare(this.SalesOrderID, other.SalesOrderID);
-			if (returnValue != 0) {
-				return returnValue;
-			}
-
-			returnValue = checkNullsAndCompare(this.SalesOrderDetailID, other.SalesOrderDetailID);
+			returnValue = checkNullsAndCompare(this.ProductID, other.ProductID);
 			if (returnValue != 0) {
 				return returnValue;
 			}
@@ -611,27 +593,9 @@ public class JobHarmonized implements TalendJob {
 
 	}
 
-	public static class row6Struct implements routines.system.IPersistableRow<row6Struct> {
+	public static class row3Struct implements routines.system.IPersistableRow<row3Struct> {
 		final static byte[] commonByteArrayLock_DATAOPS_JobHarmonized = new byte[0];
 		static byte[] commonByteArray_DATAOPS_JobHarmonized = new byte[0];
-
-		public int SalesOrderID;
-
-		public int getSalesOrderID() {
-			return this.SalesOrderID;
-		}
-
-		public int SalesOrderDetailID;
-
-		public int getSalesOrderDetailID() {
-			return this.SalesOrderDetailID;
-		}
-
-		public short OrderQty;
-
-		public short getOrderQty() {
-			return this.OrderQty;
-		}
 
 		public int ProductID;
 
@@ -639,22 +603,88 @@ public class JobHarmonized implements TalendJob {
 			return this.ProductID;
 		}
 
-		public Object UnitPrice;
+		public String Name;
 
-		public Object getUnitPrice() {
-			return this.UnitPrice;
+		public String getName() {
+			return this.Name;
 		}
 
-		public Object UnitPriceDiscount;
+		public String ProductNumber;
 
-		public Object getUnitPriceDiscount() {
-			return this.UnitPriceDiscount;
+		public String getProductNumber() {
+			return this.ProductNumber;
 		}
 
-		public BigDecimal LineTotal;
+		public String Color;
 
-		public BigDecimal getLineTotal() {
-			return this.LineTotal;
+		public String getColor() {
+			return this.Color;
+		}
+
+		public Object StandardCost;
+
+		public Object getStandardCost() {
+			return this.StandardCost;
+		}
+
+		public Object ListPrice;
+
+		public Object getListPrice() {
+			return this.ListPrice;
+		}
+
+		public String Size;
+
+		public String getSize() {
+			return this.Size;
+		}
+
+		public BigDecimal Weight;
+
+		public BigDecimal getWeight() {
+			return this.Weight;
+		}
+
+		public Integer ProductCategoryID;
+
+		public Integer getProductCategoryID() {
+			return this.ProductCategoryID;
+		}
+
+		public Integer ProductModelID;
+
+		public Integer getProductModelID() {
+			return this.ProductModelID;
+		}
+
+		public java.util.Date SellStartDate;
+
+		public java.util.Date getSellStartDate() {
+			return this.SellStartDate;
+		}
+
+		public java.util.Date SellEndDate;
+
+		public java.util.Date getSellEndDate() {
+			return this.SellEndDate;
+		}
+
+		public java.util.Date DiscontinuedDate;
+
+		public java.util.Date getDiscontinuedDate() {
+			return this.DiscontinuedDate;
+		}
+
+		public Object ThumbNailPhoto;
+
+		public Object getThumbNailPhoto() {
+			return this.ThumbNailPhoto;
+		}
+
+		public String ThumbnailPhotoFileName;
+
+		public String getThumbnailPhotoFileName() {
+			return this.ThumbnailPhotoFileName;
 		}
 
 		public Object rowguid;
@@ -667,6 +697,108 @@ public class JobHarmonized implements TalendJob {
 
 		public java.util.Date getModifiedDate() {
 			return this.ModifiedDate;
+		}
+
+		private String readString(ObjectInputStream dis) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = dis.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_DATAOPS_JobHarmonized.length) {
+					if (length < 1024 && commonByteArray_DATAOPS_JobHarmonized.length == 0) {
+						commonByteArray_DATAOPS_JobHarmonized = new byte[1024];
+					} else {
+						commonByteArray_DATAOPS_JobHarmonized = new byte[2 * length];
+					}
+				}
+				dis.readFully(commonByteArray_DATAOPS_JobHarmonized, 0, length);
+				strReturn = new String(commonByteArray_DATAOPS_JobHarmonized, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private String readString(org.jboss.marshalling.Unmarshaller unmarshaller) throws IOException {
+			String strReturn = null;
+			int length = 0;
+			length = unmarshaller.readInt();
+			if (length == -1) {
+				strReturn = null;
+			} else {
+				if (length > commonByteArray_DATAOPS_JobHarmonized.length) {
+					if (length < 1024 && commonByteArray_DATAOPS_JobHarmonized.length == 0) {
+						commonByteArray_DATAOPS_JobHarmonized = new byte[1024];
+					} else {
+						commonByteArray_DATAOPS_JobHarmonized = new byte[2 * length];
+					}
+				}
+				unmarshaller.readFully(commonByteArray_DATAOPS_JobHarmonized, 0, length);
+				strReturn = new String(commonByteArray_DATAOPS_JobHarmonized, 0, length, utf8Charset);
+			}
+			return strReturn;
+		}
+
+		private void writeString(String str, ObjectOutputStream dos) throws IOException {
+			if (str == null) {
+				dos.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				dos.writeInt(byteArray.length);
+				dos.write(byteArray);
+			}
+		}
+
+		private void writeString(String str, org.jboss.marshalling.Marshaller marshaller) throws IOException {
+			if (str == null) {
+				marshaller.writeInt(-1);
+			} else {
+				byte[] byteArray = str.getBytes(utf8Charset);
+				marshaller.writeInt(byteArray.length);
+				marshaller.write(byteArray);
+			}
+		}
+
+		private Integer readInteger(ObjectInputStream dis) throws IOException {
+			Integer intReturn;
+			int length = 0;
+			length = dis.readByte();
+			if (length == -1) {
+				intReturn = null;
+			} else {
+				intReturn = dis.readInt();
+			}
+			return intReturn;
+		}
+
+		private Integer readInteger(org.jboss.marshalling.Unmarshaller dis) throws IOException {
+			Integer intReturn;
+			int length = 0;
+			length = dis.readByte();
+			if (length == -1) {
+				intReturn = null;
+			} else {
+				intReturn = dis.readInt();
+			}
+			return intReturn;
+		}
+
+		private void writeInteger(Integer intNum, ObjectOutputStream dos) throws IOException {
+			if (intNum == null) {
+				dos.writeByte(-1);
+			} else {
+				dos.writeByte(0);
+				dos.writeInt(intNum);
+			}
+		}
+
+		private void writeInteger(Integer intNum, org.jboss.marshalling.Marshaller marshaller) throws IOException {
+			if (intNum == null) {
+				marshaller.writeByte(-1);
+			} else {
+				marshaller.writeByte(0);
+				marshaller.writeInt(intNum);
+			}
 		}
 
 		private java.util.Date readDate(ObjectInputStream dis) throws IOException {
@@ -719,19 +851,35 @@ public class JobHarmonized implements TalendJob {
 
 					int length = 0;
 
-					this.SalesOrderID = dis.readInt();
-
-					this.SalesOrderDetailID = dis.readInt();
-
-					this.OrderQty = dis.readShort();
-
 					this.ProductID = dis.readInt();
 
-					this.UnitPrice = (Object) dis.readObject();
+					this.Name = readString(dis);
 
-					this.UnitPriceDiscount = (Object) dis.readObject();
+					this.ProductNumber = readString(dis);
 
-					this.LineTotal = (BigDecimal) dis.readObject();
+					this.Color = readString(dis);
+
+					this.StandardCost = (Object) dis.readObject();
+
+					this.ListPrice = (Object) dis.readObject();
+
+					this.Size = readString(dis);
+
+					this.Weight = (BigDecimal) dis.readObject();
+
+					this.ProductCategoryID = readInteger(dis);
+
+					this.ProductModelID = readInteger(dis);
+
+					this.SellStartDate = readDate(dis);
+
+					this.SellEndDate = readDate(dis);
+
+					this.DiscontinuedDate = readDate(dis);
+
+					this.ThumbNailPhoto = (Object) dis.readObject();
+
+					this.ThumbnailPhotoFileName = readString(dis);
 
 					this.rowguid = (Object) dis.readObject();
 
@@ -757,19 +905,35 @@ public class JobHarmonized implements TalendJob {
 
 					int length = 0;
 
-					this.SalesOrderID = dis.readInt();
-
-					this.SalesOrderDetailID = dis.readInt();
-
-					this.OrderQty = dis.readShort();
-
 					this.ProductID = dis.readInt();
 
-					this.UnitPrice = (Object) dis.readObject();
+					this.Name = readString(dis);
 
-					this.UnitPriceDiscount = (Object) dis.readObject();
+					this.ProductNumber = readString(dis);
 
-					this.LineTotal = (BigDecimal) dis.readObject();
+					this.Color = readString(dis);
+
+					this.StandardCost = (Object) dis.readObject();
+
+					this.ListPrice = (Object) dis.readObject();
+
+					this.Size = readString(dis);
+
+					this.Weight = (BigDecimal) dis.readObject();
+
+					this.ProductCategoryID = readInteger(dis);
+
+					this.ProductModelID = readInteger(dis);
+
+					this.SellStartDate = readDate(dis);
+
+					this.SellEndDate = readDate(dis);
+
+					this.DiscontinuedDate = readDate(dis);
+
+					this.ThumbNailPhoto = (Object) dis.readObject();
+
+					this.ThumbnailPhotoFileName = readString(dis);
 
 					this.rowguid = (Object) dis.readObject();
 
@@ -792,31 +956,63 @@ public class JobHarmonized implements TalendJob {
 
 				// int
 
-				dos.writeInt(this.SalesOrderID);
-
-				// int
-
-				dos.writeInt(this.SalesOrderDetailID);
-
-				// short
-
-				dos.writeShort(this.OrderQty);
-
-				// int
-
 				dos.writeInt(this.ProductID);
 
+				// String
+
+				writeString(this.Name, dos);
+
+				// String
+
+				writeString(this.ProductNumber, dos);
+
+				// String
+
+				writeString(this.Color, dos);
+
 				// Object
 
-				dos.writeObject(this.UnitPrice);
+				dos.writeObject(this.StandardCost);
 
 				// Object
 
-				dos.writeObject(this.UnitPriceDiscount);
+				dos.writeObject(this.ListPrice);
+
+				// String
+
+				writeString(this.Size, dos);
 
 				// BigDecimal
 
-				dos.writeObject(this.LineTotal);
+				dos.writeObject(this.Weight);
+
+				// Integer
+
+				writeInteger(this.ProductCategoryID, dos);
+
+				// Integer
+
+				writeInteger(this.ProductModelID, dos);
+
+				// java.util.Date
+
+				writeDate(this.SellStartDate, dos);
+
+				// java.util.Date
+
+				writeDate(this.SellEndDate, dos);
+
+				// java.util.Date
+
+				writeDate(this.DiscontinuedDate, dos);
+
+				// Object
+
+				dos.writeObject(this.ThumbNailPhoto);
+
+				// String
+
+				writeString(this.ThumbnailPhotoFileName, dos);
 
 				// Object
 
@@ -837,31 +1033,63 @@ public class JobHarmonized implements TalendJob {
 
 				// int
 
-				dos.writeInt(this.SalesOrderID);
-
-				// int
-
-				dos.writeInt(this.SalesOrderDetailID);
-
-				// short
-
-				dos.writeShort(this.OrderQty);
-
-				// int
-
 				dos.writeInt(this.ProductID);
 
+				// String
+
+				writeString(this.Name, dos);
+
+				// String
+
+				writeString(this.ProductNumber, dos);
+
+				// String
+
+				writeString(this.Color, dos);
+
 				// Object
 
-				dos.writeObject(this.UnitPrice);
+				dos.writeObject(this.StandardCost);
 
 				// Object
 
-				dos.writeObject(this.UnitPriceDiscount);
+				dos.writeObject(this.ListPrice);
+
+				// String
+
+				writeString(this.Size, dos);
 
 				// BigDecimal
 
-				dos.writeObject(this.LineTotal);
+				dos.writeObject(this.Weight);
+
+				// Integer
+
+				writeInteger(this.ProductCategoryID, dos);
+
+				// Integer
+
+				writeInteger(this.ProductModelID, dos);
+
+				// java.util.Date
+
+				writeDate(this.SellStartDate, dos);
+
+				// java.util.Date
+
+				writeDate(this.SellEndDate, dos);
+
+				// java.util.Date
+
+				writeDate(this.DiscontinuedDate, dos);
+
+				// Object
+
+				dos.writeObject(this.ThumbNailPhoto);
+
+				// String
+
+				writeString(this.ThumbnailPhotoFileName, dos);
 
 				// Object
 
@@ -882,13 +1110,21 @@ public class JobHarmonized implements TalendJob {
 			StringBuilder sb = new StringBuilder();
 			sb.append(super.toString());
 			sb.append("[");
-			sb.append("SalesOrderID=" + String.valueOf(SalesOrderID));
-			sb.append(",SalesOrderDetailID=" + String.valueOf(SalesOrderDetailID));
-			sb.append(",OrderQty=" + String.valueOf(OrderQty));
-			sb.append(",ProductID=" + String.valueOf(ProductID));
-			sb.append(",UnitPrice=" + String.valueOf(UnitPrice));
-			sb.append(",UnitPriceDiscount=" + String.valueOf(UnitPriceDiscount));
-			sb.append(",LineTotal=" + String.valueOf(LineTotal));
+			sb.append("ProductID=" + String.valueOf(ProductID));
+			sb.append(",Name=" + Name);
+			sb.append(",ProductNumber=" + ProductNumber);
+			sb.append(",Color=" + Color);
+			sb.append(",StandardCost=" + String.valueOf(StandardCost));
+			sb.append(",ListPrice=" + String.valueOf(ListPrice));
+			sb.append(",Size=" + Size);
+			sb.append(",Weight=" + String.valueOf(Weight));
+			sb.append(",ProductCategoryID=" + String.valueOf(ProductCategoryID));
+			sb.append(",ProductModelID=" + String.valueOf(ProductModelID));
+			sb.append(",SellStartDate=" + String.valueOf(SellStartDate));
+			sb.append(",SellEndDate=" + String.valueOf(SellEndDate));
+			sb.append(",DiscontinuedDate=" + String.valueOf(DiscontinuedDate));
+			sb.append(",ThumbNailPhoto=" + String.valueOf(ThumbNailPhoto));
+			sb.append(",ThumbnailPhotoFileName=" + ThumbnailPhotoFileName);
 			sb.append(",rowguid=" + String.valueOf(rowguid));
 			sb.append(",ModifiedDate=" + String.valueOf(ModifiedDate));
 			sb.append("]");
@@ -899,7 +1135,7 @@ public class JobHarmonized implements TalendJob {
 		/**
 		 * Compare keys
 		 */
-		public int compareTo(row6Struct other) {
+		public int compareTo(row3Struct other) {
 
 			int returnValue = -1;
 
@@ -929,8 +1165,8 @@ public class JobHarmonized implements TalendJob {
 
 	}
 
-	public void tFileInputDelimited_6Process(final java.util.Map<String, Object> globalMap) throws TalendException {
-		globalMap.put("tFileInputDelimited_6_SUBPROCESS_STATE", 0);
+	public void tFileInputDelimited_3Process(final java.util.Map<String, Object> globalMap) throws TalendException {
+		globalMap.put("tFileInputDelimited_3_SUBPROCESS_STATE", 0);
 
 		final boolean execStat = this.execStat;
 
@@ -949,113 +1185,122 @@ public class JobHarmonized implements TalendJob {
 			if (resumeIt || globalResumeTicket) { // start the resume
 				globalResumeTicket = true;
 
-				row6Struct row6 = new row6Struct();
-				out_sales_order_detailStruct out_sales_order_detail = new out_sales_order_detailStruct();
+				row3Struct row3 = new row3Struct();
+				outaddStruct outadd = new outaddStruct();
 
 				/**
-				 * [tFileOutputDelimited_6 begin ] start
+				 * [tFileOutputDelimited_3 begin ] start
 				 */
 
-				ok_Hash.put("tFileOutputDelimited_6", false);
-				start_Hash.put("tFileOutputDelimited_6", System.currentTimeMillis());
+				ok_Hash.put("tFileOutputDelimited_3", false);
+				start_Hash.put("tFileOutputDelimited_3", System.currentTimeMillis());
 
-				currentComponent = "tFileOutputDelimited_6";
+				currentComponent = "tFileOutputDelimited_3";
 
 				if (execStat) {
-					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "out_sales_order_detail");
+					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "outadd");
 				}
 
-				int tos_count_tFileOutputDelimited_6 = 0;
+				int tos_count_tFileOutputDelimited_3 = 0;
 
-				String fileName_tFileOutputDelimited_6 = "";
-				fileName_tFileOutputDelimited_6 = (new java.io.File(
-						"/Users/arthur/Arthur/FIAP/Trabalhos/DataOps/Talend/TOS_DI-macosx-cocoa.app/Contents/MacOS/workspace/DATAOPS/HARMONIZED/OrderSalesDetail.csv"))
+				String fileName_tFileOutputDelimited_3 = "";
+				fileName_tFileOutputDelimited_3 = (new java.io.File(
+						"/Users/arthur/Arthur/FIAP/Trabalhos/DataOps/Talend/TOS_DI-macosx-cocoa.app/Contents/MacOS/workspace/DATAOPS/HARMONIZED/Product.csv"))
 								.getAbsolutePath().replace("\\", "/");
-				String fullName_tFileOutputDelimited_6 = null;
-				String extension_tFileOutputDelimited_6 = null;
-				String directory_tFileOutputDelimited_6 = null;
-				if ((fileName_tFileOutputDelimited_6.indexOf("/") != -1)) {
-					if (fileName_tFileOutputDelimited_6.lastIndexOf(".") < fileName_tFileOutputDelimited_6
+				String fullName_tFileOutputDelimited_3 = null;
+				String extension_tFileOutputDelimited_3 = null;
+				String directory_tFileOutputDelimited_3 = null;
+				if ((fileName_tFileOutputDelimited_3.indexOf("/") != -1)) {
+					if (fileName_tFileOutputDelimited_3.lastIndexOf(".") < fileName_tFileOutputDelimited_3
 							.lastIndexOf("/")) {
-						fullName_tFileOutputDelimited_6 = fileName_tFileOutputDelimited_6;
-						extension_tFileOutputDelimited_6 = "";
+						fullName_tFileOutputDelimited_3 = fileName_tFileOutputDelimited_3;
+						extension_tFileOutputDelimited_3 = "";
 					} else {
-						fullName_tFileOutputDelimited_6 = fileName_tFileOutputDelimited_6.substring(0,
-								fileName_tFileOutputDelimited_6.lastIndexOf("."));
-						extension_tFileOutputDelimited_6 = fileName_tFileOutputDelimited_6
-								.substring(fileName_tFileOutputDelimited_6.lastIndexOf("."));
+						fullName_tFileOutputDelimited_3 = fileName_tFileOutputDelimited_3.substring(0,
+								fileName_tFileOutputDelimited_3.lastIndexOf("."));
+						extension_tFileOutputDelimited_3 = fileName_tFileOutputDelimited_3
+								.substring(fileName_tFileOutputDelimited_3.lastIndexOf("."));
 					}
-					directory_tFileOutputDelimited_6 = fileName_tFileOutputDelimited_6.substring(0,
-							fileName_tFileOutputDelimited_6.lastIndexOf("/"));
+					directory_tFileOutputDelimited_3 = fileName_tFileOutputDelimited_3.substring(0,
+							fileName_tFileOutputDelimited_3.lastIndexOf("/"));
 				} else {
-					if (fileName_tFileOutputDelimited_6.lastIndexOf(".") != -1) {
-						fullName_tFileOutputDelimited_6 = fileName_tFileOutputDelimited_6.substring(0,
-								fileName_tFileOutputDelimited_6.lastIndexOf("."));
-						extension_tFileOutputDelimited_6 = fileName_tFileOutputDelimited_6
-								.substring(fileName_tFileOutputDelimited_6.lastIndexOf("."));
+					if (fileName_tFileOutputDelimited_3.lastIndexOf(".") != -1) {
+						fullName_tFileOutputDelimited_3 = fileName_tFileOutputDelimited_3.substring(0,
+								fileName_tFileOutputDelimited_3.lastIndexOf("."));
+						extension_tFileOutputDelimited_3 = fileName_tFileOutputDelimited_3
+								.substring(fileName_tFileOutputDelimited_3.lastIndexOf("."));
 					} else {
-						fullName_tFileOutputDelimited_6 = fileName_tFileOutputDelimited_6;
-						extension_tFileOutputDelimited_6 = "";
+						fullName_tFileOutputDelimited_3 = fileName_tFileOutputDelimited_3;
+						extension_tFileOutputDelimited_3 = "";
 					}
-					directory_tFileOutputDelimited_6 = "";
+					directory_tFileOutputDelimited_3 = "";
 				}
-				boolean isFileGenerated_tFileOutputDelimited_6 = true;
-				java.io.File filetFileOutputDelimited_6 = new java.io.File(fileName_tFileOutputDelimited_6);
-				globalMap.put("tFileOutputDelimited_6_FILE_NAME", fileName_tFileOutputDelimited_6);
-				int nb_line_tFileOutputDelimited_6 = 0;
-				int splitedFileNo_tFileOutputDelimited_6 = 0;
-				int currentRow_tFileOutputDelimited_6 = 0;
+				boolean isFileGenerated_tFileOutputDelimited_3 = true;
+				java.io.File filetFileOutputDelimited_3 = new java.io.File(fileName_tFileOutputDelimited_3);
+				globalMap.put("tFileOutputDelimited_3_FILE_NAME", fileName_tFileOutputDelimited_3);
+				int nb_line_tFileOutputDelimited_3 = 0;
+				int splitedFileNo_tFileOutputDelimited_3 = 0;
+				int currentRow_tFileOutputDelimited_3 = 0;
 
-				final String OUT_DELIM_tFileOutputDelimited_6 = /** Start field tFileOutputDelimited_6:FIELDSEPARATOR */
-						";"/** End field tFileOutputDelimited_6:FIELDSEPARATOR */
+				final String OUT_DELIM_tFileOutputDelimited_3 = /** Start field tFileOutputDelimited_3:FIELDSEPARATOR */
+						";"/** End field tFileOutputDelimited_3:FIELDSEPARATOR */
 				;
 
-				final String OUT_DELIM_ROWSEP_tFileOutputDelimited_6 = /**
+				final String OUT_DELIM_ROWSEP_tFileOutputDelimited_3 = /**
 																		 * Start field
-																		 * tFileOutputDelimited_6:ROWSEPARATOR
+																		 * tFileOutputDelimited_3:ROWSEPARATOR
 																		 */
-						"\n"/** End field tFileOutputDelimited_6:ROWSEPARATOR */
+						"\n"/** End field tFileOutputDelimited_3:ROWSEPARATOR */
 				;
 
 				// create directory only if not exists
-				if (directory_tFileOutputDelimited_6 != null && directory_tFileOutputDelimited_6.trim().length() != 0) {
-					java.io.File dir_tFileOutputDelimited_6 = new java.io.File(directory_tFileOutputDelimited_6);
-					if (!dir_tFileOutputDelimited_6.exists()) {
-						dir_tFileOutputDelimited_6.mkdirs();
+				if (directory_tFileOutputDelimited_3 != null && directory_tFileOutputDelimited_3.trim().length() != 0) {
+					java.io.File dir_tFileOutputDelimited_3 = new java.io.File(directory_tFileOutputDelimited_3);
+					if (!dir_tFileOutputDelimited_3.exists()) {
+						dir_tFileOutputDelimited_3.mkdirs();
 					}
 				}
 
 				// routines.system.Row
-				java.io.Writer outtFileOutputDelimited_6 = null;
+				java.io.Writer outtFileOutputDelimited_3 = null;
 
-				java.io.File fileToDelete_tFileOutputDelimited_6 = new java.io.File(fileName_tFileOutputDelimited_6);
-				if (fileToDelete_tFileOutputDelimited_6.exists()) {
-					fileToDelete_tFileOutputDelimited_6.delete();
+				java.io.File fileToDelete_tFileOutputDelimited_3 = new java.io.File(fileName_tFileOutputDelimited_3);
+				if (fileToDelete_tFileOutputDelimited_3.exists()) {
+					fileToDelete_tFileOutputDelimited_3.delete();
 				}
-				outtFileOutputDelimited_6 = new java.io.BufferedWriter(new java.io.OutputStreamWriter(
-						new java.io.FileOutputStream(fileName_tFileOutputDelimited_6, false), "ISO-8859-15"));
+				outtFileOutputDelimited_3 = new java.io.BufferedWriter(new java.io.OutputStreamWriter(
+						new java.io.FileOutputStream(fileName_tFileOutputDelimited_3, false), "ISO-8859-15"));
+				if (filetFileOutputDelimited_3.length() == 0) {
+					outtFileOutputDelimited_3.write("ProductID");
+					outtFileOutputDelimited_3.write(OUT_DELIM_tFileOutputDelimited_3);
+					outtFileOutputDelimited_3.write("Name");
+					outtFileOutputDelimited_3.write(OUT_DELIM_tFileOutputDelimited_3);
+					outtFileOutputDelimited_3.write("Color");
+					outtFileOutputDelimited_3.write(OUT_DELIM_ROWSEP_tFileOutputDelimited_3);
+					outtFileOutputDelimited_3.flush();
+				}
 
-				resourceMap.put("out_tFileOutputDelimited_6", outtFileOutputDelimited_6);
-				resourceMap.put("nb_line_tFileOutputDelimited_6", nb_line_tFileOutputDelimited_6);
+				resourceMap.put("out_tFileOutputDelimited_3", outtFileOutputDelimited_3);
+				resourceMap.put("nb_line_tFileOutputDelimited_3", nb_line_tFileOutputDelimited_3);
 
 				/**
-				 * [tFileOutputDelimited_6 begin ] stop
+				 * [tFileOutputDelimited_3 begin ] stop
 				 */
 
 				/**
-				 * [tMap_6 begin ] start
+				 * [tMap_3 begin ] start
 				 */
 
-				ok_Hash.put("tMap_6", false);
-				start_Hash.put("tMap_6", System.currentTimeMillis());
+				ok_Hash.put("tMap_3", false);
+				start_Hash.put("tMap_3", System.currentTimeMillis());
 
-				currentComponent = "tMap_6";
+				currentComponent = "tMap_3";
 
 				if (execStat) {
-					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "row6");
+					runStat.updateStatOnConnection(resourceMap, iterateId, 0, 0, "row3");
 				}
 
-				int tos_count_tMap_6 = 0;
+				int tos_count_tMap_3 = 0;
 
 // ###############################
 // # Lookup's keys initialization
@@ -1063,294 +1308,686 @@ public class JobHarmonized implements TalendJob {
 
 // ###############################
 // # Vars initialization
-				class Var__tMap_6__Struct {
+				class Var__tMap_3__Struct {
 				}
-				Var__tMap_6__Struct Var__tMap_6 = new Var__tMap_6__Struct();
+				Var__tMap_3__Struct Var__tMap_3 = new Var__tMap_3__Struct();
 // ###############################
 
 // ###############################
 // # Outputs initialization
-				out_sales_order_detailStruct out_sales_order_detail_tmp = new out_sales_order_detailStruct();
+				outaddStruct outadd_tmp = new outaddStruct();
 // ###############################
 
 				/**
-				 * [tMap_6 begin ] stop
+				 * [tMap_3 begin ] stop
 				 */
 
 				/**
-				 * [tFileInputDelimited_6 begin ] start
+				 * [tFileInputDelimited_3 begin ] start
 				 */
 
-				ok_Hash.put("tFileInputDelimited_6", false);
-				start_Hash.put("tFileInputDelimited_6", System.currentTimeMillis());
+				ok_Hash.put("tFileInputDelimited_3", false);
+				start_Hash.put("tFileInputDelimited_3", System.currentTimeMillis());
 
-				currentComponent = "tFileInputDelimited_6";
+				currentComponent = "tFileInputDelimited_3";
 
-				int tos_count_tFileInputDelimited_6 = 0;
+				int tos_count_tFileInputDelimited_3 = 0;
 
-				final routines.system.RowState rowstate_tFileInputDelimited_6 = new routines.system.RowState();
+				final routines.system.RowState rowstate_tFileInputDelimited_3 = new routines.system.RowState();
 
-				int nb_line_tFileInputDelimited_6 = 0;
-				org.talend.fileprocess.FileInputDelimited fid_tFileInputDelimited_6 = null;
-				int limit_tFileInputDelimited_6 = -1;
+				int nb_line_tFileInputDelimited_3 = 0;
+				int footer_tFileInputDelimited_3 = 0;
+				int totalLinetFileInputDelimited_3 = 0;
+				int limittFileInputDelimited_3 = -1;
+				int lastLinetFileInputDelimited_3 = -1;
+
+				char fieldSeparator_tFileInputDelimited_3[] = null;
+
+				// support passing value (property: Field Separator) by 'context.fs' or
+				// 'globalMap.get("fs")'.
+				if (((String) ";").length() > 0) {
+					fieldSeparator_tFileInputDelimited_3 = ((String) ";").toCharArray();
+				} else {
+					throw new IllegalArgumentException("Field Separator must be assigned a char.");
+				}
+
+				char rowSeparator_tFileInputDelimited_3[] = null;
+
+				// support passing value (property: Row Separator) by 'context.rs' or
+				// 'globalMap.get("rs")'.
+				if (((String) "\n").length() > 0) {
+					rowSeparator_tFileInputDelimited_3 = ((String) "\n").toCharArray();
+				} else {
+					throw new IllegalArgumentException("Row Separator must be assigned a char.");
+				}
+
+				Object filename_tFileInputDelimited_3 = /** Start field tFileInputDelimited_3:FILENAME */
+						"/Users/arthur/Arthur/FIAP/Trabalhos/DataOps/Talend/TOS_DI-macosx-cocoa.app/Contents/MacOS/workspace/DATAOPS/RAW/Product.csv"/**
+																																						 * End
+																																						 * field
+																																						 * tFileInputDelimited_3:FILENAME
+																																						 */
+				;
+				com.talend.csv.CSVReader csvReadertFileInputDelimited_3 = null;
+
 				try {
 
-					Object filename_tFileInputDelimited_6 = "/Users/arthur/Arthur/FIAP/Trabalhos/DataOps/Talend/TOS_DI-macosx-cocoa.app/Contents/MacOS/workspace/DATAOPS/RAW/SalesOrderDetail.csv";
-					if (filename_tFileInputDelimited_6 instanceof java.io.InputStream) {
+					String[] rowtFileInputDelimited_3 = null;
+					int currentLinetFileInputDelimited_3 = 0;
+					int outputLinetFileInputDelimited_3 = 0;
+					try {// TD110 begin
+						if (filename_tFileInputDelimited_3 instanceof java.io.InputStream) {
 
-						int footer_value_tFileInputDelimited_6 = 0, random_value_tFileInputDelimited_6 = -1;
-						if (footer_value_tFileInputDelimited_6 > 0 || random_value_tFileInputDelimited_6 > 0) {
-							throw new java.lang.Exception(
-									"When the input source is a stream,footer and random shouldn't be bigger than 0.");
+							int footer_value_tFileInputDelimited_3 = 0;
+							if (footer_value_tFileInputDelimited_3 > 0) {
+								throw new java.lang.Exception(
+										"When the input source is a stream,footer shouldn't be bigger than 0.");
+							}
+
+							csvReadertFileInputDelimited_3 = new com.talend.csv.CSVReader(
+									(java.io.InputStream) filename_tFileInputDelimited_3,
+									fieldSeparator_tFileInputDelimited_3[0], "ISO-8859-15");
+						} else {
+							csvReadertFileInputDelimited_3 = new com.talend.csv.CSVReader(
+									String.valueOf(filename_tFileInputDelimited_3),
+									fieldSeparator_tFileInputDelimited_3[0], "ISO-8859-15");
 						}
 
-					}
-					try {
-						fid_tFileInputDelimited_6 = new org.talend.fileprocess.FileInputDelimited(
-								"/Users/arthur/Arthur/FIAP/Trabalhos/DataOps/Talend/TOS_DI-macosx-cocoa.app/Contents/MacOS/workspace/DATAOPS/RAW/SalesOrderDetail.csv",
-								"ISO-8859-15", ";", "\n", true, 1, 0, limit_tFileInputDelimited_6, -1, false);
+						csvReadertFileInputDelimited_3.setTrimWhitespace(false);
+						if ((rowSeparator_tFileInputDelimited_3[0] != '\n')
+								&& (rowSeparator_tFileInputDelimited_3[0] != '\r'))
+							csvReadertFileInputDelimited_3.setLineEnd("" + rowSeparator_tFileInputDelimited_3[0]);
+
+						csvReadertFileInputDelimited_3.setQuoteChar('"');
+
+						csvReadertFileInputDelimited_3.setEscapeChar(csvReadertFileInputDelimited_3.getQuoteChar());
+
+						if (footer_tFileInputDelimited_3 > 0) {
+							for (totalLinetFileInputDelimited_3 = 0; totalLinetFileInputDelimited_3 < 1; totalLinetFileInputDelimited_3++) {
+								csvReadertFileInputDelimited_3.readNext();
+							}
+							csvReadertFileInputDelimited_3.setSkipEmptyRecords(true);
+							while (csvReadertFileInputDelimited_3.readNext()) {
+
+								rowtFileInputDelimited_3 = csvReadertFileInputDelimited_3.getValues();
+								if (!(rowtFileInputDelimited_3.length == 1
+										&& ("\015").equals(rowtFileInputDelimited_3[0]))) {// empty line when row
+																							// separator is '\n'
+
+									totalLinetFileInputDelimited_3++;
+
+								}
+
+							}
+							int lastLineTemptFileInputDelimited_3 = totalLinetFileInputDelimited_3
+									- footer_tFileInputDelimited_3 < 0 ? 0
+											: totalLinetFileInputDelimited_3 - footer_tFileInputDelimited_3;
+							if (lastLinetFileInputDelimited_3 > 0) {
+								lastLinetFileInputDelimited_3 = lastLinetFileInputDelimited_3 < lastLineTemptFileInputDelimited_3
+										? lastLinetFileInputDelimited_3
+										: lastLineTemptFileInputDelimited_3;
+							} else {
+								lastLinetFileInputDelimited_3 = lastLineTemptFileInputDelimited_3;
+							}
+
+							csvReadertFileInputDelimited_3.close();
+							if (filename_tFileInputDelimited_3 instanceof java.io.InputStream) {
+								csvReadertFileInputDelimited_3 = new com.talend.csv.CSVReader(
+										(java.io.InputStream) filename_tFileInputDelimited_3,
+										fieldSeparator_tFileInputDelimited_3[0], "ISO-8859-15");
+							} else {
+								csvReadertFileInputDelimited_3 = new com.talend.csv.CSVReader(
+										String.valueOf(filename_tFileInputDelimited_3),
+										fieldSeparator_tFileInputDelimited_3[0], "ISO-8859-15");
+							}
+							csvReadertFileInputDelimited_3.setTrimWhitespace(false);
+							if ((rowSeparator_tFileInputDelimited_3[0] != '\n')
+									&& (rowSeparator_tFileInputDelimited_3[0] != '\r'))
+								csvReadertFileInputDelimited_3.setLineEnd("" + rowSeparator_tFileInputDelimited_3[0]);
+
+							csvReadertFileInputDelimited_3.setQuoteChar('"');
+
+							csvReadertFileInputDelimited_3.setEscapeChar(csvReadertFileInputDelimited_3.getQuoteChar());
+
+						}
+
+						if (limittFileInputDelimited_3 != 0) {
+							for (currentLinetFileInputDelimited_3 = 0; currentLinetFileInputDelimited_3 < 1; currentLinetFileInputDelimited_3++) {
+								csvReadertFileInputDelimited_3.readNext();
+							}
+						}
+						csvReadertFileInputDelimited_3.setSkipEmptyRecords(true);
+
 					} catch (java.lang.Exception e) {
-						globalMap.put("tFileInputDelimited_6_ERROR_MESSAGE", e.getMessage());
+						globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE", e.getMessage());
 
 						System.err.println(e.getMessage());
 
-					}
+					} // TD110 end
 
-					while (fid_tFileInputDelimited_6 != null && fid_tFileInputDelimited_6.nextRecord()) {
-						rowstate_tFileInputDelimited_6.reset();
+					while (limittFileInputDelimited_3 != 0 && csvReadertFileInputDelimited_3 != null
+							&& csvReadertFileInputDelimited_3.readNext()) {
+						rowstate_tFileInputDelimited_3.reset();
 
-						row6 = null;
+						rowtFileInputDelimited_3 = csvReadertFileInputDelimited_3.getValues();
 
-						boolean whetherReject_tFileInputDelimited_6 = false;
-						row6 = new row6Struct();
+						if (rowtFileInputDelimited_3.length == 1 && ("\015").equals(rowtFileInputDelimited_3[0])) {// empty
+																													// line
+																													// when
+																													// row
+																													// separator
+																													// is
+																													// '\n'
+							continue;
+						}
+
+						currentLinetFileInputDelimited_3++;
+
+						if (lastLinetFileInputDelimited_3 > -1
+								&& currentLinetFileInputDelimited_3 > lastLinetFileInputDelimited_3) {
+							break;
+						}
+						outputLinetFileInputDelimited_3++;
+						if (limittFileInputDelimited_3 > 0
+								&& outputLinetFileInputDelimited_3 > limittFileInputDelimited_3) {
+							break;
+						}
+
+						row3 = null;
+
+						boolean whetherReject_tFileInputDelimited_3 = false;
+						row3 = new row3Struct();
 						try {
 
-							int columnIndexWithD_tFileInputDelimited_6 = 0;
+							char fieldSeparator_tFileInputDelimited_3_ListType[] = null;
+							// support passing value (property: Field Separator) by 'context.fs' or
+							// 'globalMap.get("fs")'.
+							if (((String) ";").length() > 0) {
+								fieldSeparator_tFileInputDelimited_3_ListType = ((String) ";").toCharArray();
+							} else {
+								throw new IllegalArgumentException("Field Separator must be assigned a char.");
+							}
+							if (rowtFileInputDelimited_3.length == 1 && ("\015").equals(rowtFileInputDelimited_3[0])) {// empty
+																														// line
+																														// when
+																														// row
+																														// separator
+																														// is
+																														// '\n'
 
-							String temp = "";
+								row3.ProductID = 0;
 
-							columnIndexWithD_tFileInputDelimited_6 = 0;
+								row3.Name = null;
 
-							temp = fid_tFileInputDelimited_6.get(columnIndexWithD_tFileInputDelimited_6);
-							if (temp.length() > 0) {
+								row3.ProductNumber = null;
 
-								try {
+								row3.Color = null;
 
-									row6.SalesOrderID = ParserUtils.parseTo_int(temp);
+								row3.StandardCost = null;
 
-								} catch (java.lang.Exception ex_tFileInputDelimited_6) {
-									globalMap.put("tFileInputDelimited_6_ERROR_MESSAGE",
-											ex_tFileInputDelimited_6.getMessage());
-									rowstate_tFileInputDelimited_6.setException(new RuntimeException(String.format(
-											"Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
-											"SalesOrderID", "row6", temp, ex_tFileInputDelimited_6),
-											ex_tFileInputDelimited_6));
-								}
+								row3.ListPrice = null;
+
+								row3.Size = null;
+
+								row3.Weight = null;
+
+								row3.ProductCategoryID = null;
+
+								row3.ProductModelID = null;
+
+								row3.SellStartDate = null;
+
+								row3.SellEndDate = null;
+
+								row3.DiscontinuedDate = null;
+
+								row3.ThumbNailPhoto = null;
+
+								row3.ThumbnailPhotoFileName = null;
+
+								row3.rowguid = null;
+
+								row3.ModifiedDate = null;
 
 							} else {
 
-								rowstate_tFileInputDelimited_6.setException(new RuntimeException(
-										"Value is empty for column : 'SalesOrderID' in 'row6' connection, value is invalid or this column should be nullable or have a default value."));
+								int columnIndexWithD_tFileInputDelimited_3 = 0; // Column Index
 
-							}
+								columnIndexWithD_tFileInputDelimited_3 = 0;
 
-							columnIndexWithD_tFileInputDelimited_6 = 1;
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
 
-							temp = fid_tFileInputDelimited_6.get(columnIndexWithD_tFileInputDelimited_6);
-							if (temp.length() > 0) {
+									if (rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3].length() > 0) {
+										try {
 
-								try {
+											row3.ProductID = ParserUtils.parseTo_int(
+													rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3]);
 
-									row6.SalesOrderDetailID = ParserUtils.parseTo_int(temp);
+										} catch (java.lang.Exception ex_tFileInputDelimited_3) {
+											globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE",
+													ex_tFileInputDelimited_3.getMessage());
+											rowstate_tFileInputDelimited_3.setException(new RuntimeException(String
+													.format("Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
+															"ProductID", "row3",
+															rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+															ex_tFileInputDelimited_3),
+													ex_tFileInputDelimited_3));
+										}
+									} else {
 
-								} catch (java.lang.Exception ex_tFileInputDelimited_6) {
-									globalMap.put("tFileInputDelimited_6_ERROR_MESSAGE",
-											ex_tFileInputDelimited_6.getMessage());
-									rowstate_tFileInputDelimited_6.setException(new RuntimeException(String.format(
-											"Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
-											"SalesOrderDetailID", "row6", temp, ex_tFileInputDelimited_6),
-											ex_tFileInputDelimited_6));
+										rowstate_tFileInputDelimited_3.setException(new RuntimeException(
+												"Value is empty for column : 'ProductID' in 'row3' connection, value is invalid or this column should be nullable or have a default value."));
+
+									}
+
+								} else {
+
+									rowstate_tFileInputDelimited_3.setException(new RuntimeException(
+											"Value is empty for column : 'ProductID' in 'row3' connection, value is invalid or this column should be nullable or have a default value."));
+
 								}
 
-							} else {
+								columnIndexWithD_tFileInputDelimited_3 = 1;
 
-								rowstate_tFileInputDelimited_6.setException(new RuntimeException(
-										"Value is empty for column : 'SalesOrderDetailID' in 'row6' connection, value is invalid or this column should be nullable or have a default value."));
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
 
-							}
+									row3.Name = rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3];
 
-							columnIndexWithD_tFileInputDelimited_6 = 2;
+								} else {
 
-							temp = fid_tFileInputDelimited_6.get(columnIndexWithD_tFileInputDelimited_6);
-							if (temp.length() > 0) {
+									row3.Name = null;
 
-								try {
-
-									row6.OrderQty = ParserUtils.parseTo_short(temp);
-
-								} catch (java.lang.Exception ex_tFileInputDelimited_6) {
-									globalMap.put("tFileInputDelimited_6_ERROR_MESSAGE",
-											ex_tFileInputDelimited_6.getMessage());
-									rowstate_tFileInputDelimited_6.setException(new RuntimeException(String.format(
-											"Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
-											"OrderQty", "row6", temp, ex_tFileInputDelimited_6),
-											ex_tFileInputDelimited_6));
 								}
 
-							} else {
+								columnIndexWithD_tFileInputDelimited_3 = 2;
 
-								rowstate_tFileInputDelimited_6.setException(new RuntimeException(
-										"Value is empty for column : 'OrderQty' in 'row6' connection, value is invalid or this column should be nullable or have a default value."));
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
 
-							}
+									row3.ProductNumber = rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3];
 
-							columnIndexWithD_tFileInputDelimited_6 = 3;
+								} else {
 
-							temp = fid_tFileInputDelimited_6.get(columnIndexWithD_tFileInputDelimited_6);
-							if (temp.length() > 0) {
+									row3.ProductNumber = null;
 
-								try {
-
-									row6.ProductID = ParserUtils.parseTo_int(temp);
-
-								} catch (java.lang.Exception ex_tFileInputDelimited_6) {
-									globalMap.put("tFileInputDelimited_6_ERROR_MESSAGE",
-											ex_tFileInputDelimited_6.getMessage());
-									rowstate_tFileInputDelimited_6.setException(new RuntimeException(String.format(
-											"Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
-											"ProductID", "row6", temp, ex_tFileInputDelimited_6),
-											ex_tFileInputDelimited_6));
 								}
 
-							} else {
+								columnIndexWithD_tFileInputDelimited_3 = 3;
 
-								rowstate_tFileInputDelimited_6.setException(new RuntimeException(
-										"Value is empty for column : 'ProductID' in 'row6' connection, value is invalid or this column should be nullable or have a default value."));
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
 
-							}
+									row3.Color = rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3];
 
-							columnIndexWithD_tFileInputDelimited_6 = 4;
+								} else {
 
-							row6.UnitPrice = fid_tFileInputDelimited_6.get(columnIndexWithD_tFileInputDelimited_6);
+									row3.Color = null;
 
-							columnIndexWithD_tFileInputDelimited_6 = 5;
-
-							row6.UnitPriceDiscount = fid_tFileInputDelimited_6
-									.get(columnIndexWithD_tFileInputDelimited_6);
-
-							columnIndexWithD_tFileInputDelimited_6 = 6;
-
-							temp = fid_tFileInputDelimited_6.get(columnIndexWithD_tFileInputDelimited_6);
-							if (temp.length() > 0) {
-
-								try {
-
-									row6.LineTotal = ParserUtils.parseTo_BigDecimal(temp);
-
-								} catch (java.lang.Exception ex_tFileInputDelimited_6) {
-									globalMap.put("tFileInputDelimited_6_ERROR_MESSAGE",
-											ex_tFileInputDelimited_6.getMessage());
-									rowstate_tFileInputDelimited_6.setException(new RuntimeException(String.format(
-											"Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
-											"LineTotal", "row6", temp, ex_tFileInputDelimited_6),
-											ex_tFileInputDelimited_6));
 								}
 
-							} else {
+								columnIndexWithD_tFileInputDelimited_3 = 4;
 
-								row6.LineTotal = null;
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
 
-							}
+									row3.StandardCost = rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3];
 
-							columnIndexWithD_tFileInputDelimited_6 = 7;
+								} else {
 
-							row6.rowguid = fid_tFileInputDelimited_6.get(columnIndexWithD_tFileInputDelimited_6);
+									row3.StandardCost = null;
 
-							columnIndexWithD_tFileInputDelimited_6 = 8;
-
-							temp = fid_tFileInputDelimited_6.get(columnIndexWithD_tFileInputDelimited_6);
-							if (temp.length() > 0) {
-
-								try {
-
-									row6.ModifiedDate = ParserUtils.parseTo_Date(temp, "dd-MM-yyyy");
-
-								} catch (java.lang.Exception ex_tFileInputDelimited_6) {
-									globalMap.put("tFileInputDelimited_6_ERROR_MESSAGE",
-											ex_tFileInputDelimited_6.getMessage());
-									rowstate_tFileInputDelimited_6.setException(new RuntimeException(String.format(
-											"Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
-											"ModifiedDate", "row6", temp, ex_tFileInputDelimited_6),
-											ex_tFileInputDelimited_6));
 								}
 
-							} else {
+								columnIndexWithD_tFileInputDelimited_3 = 5;
 
-								row6.ModifiedDate = null;
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									row3.ListPrice = rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3];
+
+								} else {
+
+									row3.ListPrice = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 6;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									row3.Size = rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3];
+
+								} else {
+
+									row3.Size = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 7;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									if (rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3].length() > 0) {
+										try {
+
+											row3.Weight = ParserUtils.parseTo_BigDecimal(
+													rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3]);
+
+										} catch (java.lang.Exception ex_tFileInputDelimited_3) {
+											globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE",
+													ex_tFileInputDelimited_3.getMessage());
+											rowstate_tFileInputDelimited_3.setException(new RuntimeException(String
+													.format("Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
+															"Weight", "row3",
+															rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+															ex_tFileInputDelimited_3),
+													ex_tFileInputDelimited_3));
+										}
+									} else {
+
+										row3.Weight = null;
+
+									}
+
+								} else {
+
+									row3.Weight = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 8;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									if (rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3].length() > 0) {
+										try {
+
+											row3.ProductCategoryID = ParserUtils.parseTo_Integer(
+													rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3]);
+
+										} catch (java.lang.Exception ex_tFileInputDelimited_3) {
+											globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE",
+													ex_tFileInputDelimited_3.getMessage());
+											rowstate_tFileInputDelimited_3.setException(new RuntimeException(String
+													.format("Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
+															"ProductCategoryID", "row3",
+															rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+															ex_tFileInputDelimited_3),
+													ex_tFileInputDelimited_3));
+										}
+									} else {
+
+										row3.ProductCategoryID = null;
+
+									}
+
+								} else {
+
+									row3.ProductCategoryID = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 9;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									if (rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3].length() > 0) {
+										try {
+
+											row3.ProductModelID = ParserUtils.parseTo_Integer(
+													rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3]);
+
+										} catch (java.lang.Exception ex_tFileInputDelimited_3) {
+											globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE",
+													ex_tFileInputDelimited_3.getMessage());
+											rowstate_tFileInputDelimited_3.setException(new RuntimeException(String
+													.format("Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
+															"ProductModelID", "row3",
+															rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+															ex_tFileInputDelimited_3),
+													ex_tFileInputDelimited_3));
+										}
+									} else {
+
+										row3.ProductModelID = null;
+
+									}
+
+								} else {
+
+									row3.ProductModelID = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 10;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									if (rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3].length() > 0) {
+										try {
+
+											row3.SellStartDate = ParserUtils.parseTo_Date(
+													rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+													"dd-MM-yyyy");
+
+										} catch (java.lang.Exception ex_tFileInputDelimited_3) {
+											globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE",
+													ex_tFileInputDelimited_3.getMessage());
+											rowstate_tFileInputDelimited_3.setException(new RuntimeException(String
+													.format("Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
+															"SellStartDate", "row3",
+															rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+															ex_tFileInputDelimited_3),
+													ex_tFileInputDelimited_3));
+										}
+									} else {
+
+										row3.SellStartDate = null;
+
+									}
+
+								} else {
+
+									row3.SellStartDate = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 11;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									if (rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3].length() > 0) {
+										try {
+
+											row3.SellEndDate = ParserUtils.parseTo_Date(
+													rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+													"dd-MM-yyyy");
+
+										} catch (java.lang.Exception ex_tFileInputDelimited_3) {
+											globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE",
+													ex_tFileInputDelimited_3.getMessage());
+											rowstate_tFileInputDelimited_3.setException(new RuntimeException(String
+													.format("Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
+															"SellEndDate", "row3",
+															rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+															ex_tFileInputDelimited_3),
+													ex_tFileInputDelimited_3));
+										}
+									} else {
+
+										row3.SellEndDate = null;
+
+									}
+
+								} else {
+
+									row3.SellEndDate = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 12;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									if (rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3].length() > 0) {
+										try {
+
+											row3.DiscontinuedDate = ParserUtils.parseTo_Date(
+													rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+													"dd-MM-yyyy");
+
+										} catch (java.lang.Exception ex_tFileInputDelimited_3) {
+											globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE",
+													ex_tFileInputDelimited_3.getMessage());
+											rowstate_tFileInputDelimited_3.setException(new RuntimeException(String
+													.format("Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
+															"DiscontinuedDate", "row3",
+															rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+															ex_tFileInputDelimited_3),
+													ex_tFileInputDelimited_3));
+										}
+									} else {
+
+										row3.DiscontinuedDate = null;
+
+									}
+
+								} else {
+
+									row3.DiscontinuedDate = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 13;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									row3.ThumbNailPhoto = rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3];
+
+								} else {
+
+									row3.ThumbNailPhoto = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 14;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									row3.ThumbnailPhotoFileName = rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3];
+
+								} else {
+
+									row3.ThumbnailPhotoFileName = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 15;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									row3.rowguid = rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3];
+
+								} else {
+
+									row3.rowguid = null;
+
+								}
+
+								columnIndexWithD_tFileInputDelimited_3 = 16;
+
+								if (columnIndexWithD_tFileInputDelimited_3 < rowtFileInputDelimited_3.length) {
+
+									if (rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3].length() > 0) {
+										try {
+
+											row3.ModifiedDate = ParserUtils.parseTo_Date(
+													rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+													"dd-MM-yyyy");
+
+										} catch (java.lang.Exception ex_tFileInputDelimited_3) {
+											globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE",
+													ex_tFileInputDelimited_3.getMessage());
+											rowstate_tFileInputDelimited_3.setException(new RuntimeException(String
+													.format("Couldn't parse value for column '%s' in '%s', value is '%s'. Details: %s",
+															"ModifiedDate", "row3",
+															rowtFileInputDelimited_3[columnIndexWithD_tFileInputDelimited_3],
+															ex_tFileInputDelimited_3),
+													ex_tFileInputDelimited_3));
+										}
+									} else {
+
+										row3.ModifiedDate = null;
+
+									}
+
+								} else {
+
+									row3.ModifiedDate = null;
+
+								}
 
 							}
 
-							if (rowstate_tFileInputDelimited_6.getException() != null) {
-								throw rowstate_tFileInputDelimited_6.getException();
+							if (rowstate_tFileInputDelimited_3.getException() != null) {
+								throw rowstate_tFileInputDelimited_3.getException();
 							}
 
 						} catch (java.lang.Exception e) {
-							globalMap.put("tFileInputDelimited_6_ERROR_MESSAGE", e.getMessage());
-							whetherReject_tFileInputDelimited_6 = true;
+							globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE", e.getMessage());
+							whetherReject_tFileInputDelimited_3 = true;
 
 							System.err.println(e.getMessage());
-							row6 = null;
+							row3 = null;
+
+							globalMap.put("tFileInputDelimited_3_ERROR_MESSAGE", e.getMessage());
 
 						}
 
 						/**
-						 * [tFileInputDelimited_6 begin ] stop
+						 * [tFileInputDelimited_3 begin ] stop
 						 */
 
 						/**
-						 * [tFileInputDelimited_6 main ] start
+						 * [tFileInputDelimited_3 main ] start
 						 */
 
-						currentComponent = "tFileInputDelimited_6";
+						currentComponent = "tFileInputDelimited_3";
 
-						tos_count_tFileInputDelimited_6++;
+						tos_count_tFileInputDelimited_3++;
 
 						/**
-						 * [tFileInputDelimited_6 main ] stop
+						 * [tFileInputDelimited_3 main ] stop
 						 */
 
 						/**
-						 * [tFileInputDelimited_6 process_data_begin ] start
+						 * [tFileInputDelimited_3 process_data_begin ] start
 						 */
 
-						currentComponent = "tFileInputDelimited_6";
+						currentComponent = "tFileInputDelimited_3";
 
 						/**
-						 * [tFileInputDelimited_6 process_data_begin ] stop
+						 * [tFileInputDelimited_3 process_data_begin ] stop
 						 */
-// Start of branch "row6"
-						if (row6 != null) {
+// Start of branch "row3"
+						if (row3 != null) {
 
 							/**
-							 * [tMap_6 main ] start
+							 * [tMap_3 main ] start
 							 */
 
-							currentComponent = "tMap_6";
+							currentComponent = "tMap_3";
 
 							if (execStat) {
 								runStat.updateStatOnConnection(iterateId, 1, 1
 
-										, "row6"
+										, "row3"
 
 								);
 							}
 
-							boolean hasCasePrimitiveKeyWithNull_tMap_6 = false;
+							boolean hasCasePrimitiveKeyWithNull_tMap_3 = false;
 
 							// ###############################
 							// # Input tables (lookups)
-							boolean rejectedInnerJoin_tMap_6 = false;
-							boolean mainRowRejected_tMap_6 = false;
+							boolean rejectedInnerJoin_tMap_3 = false;
+							boolean mainRowRejected_tMap_3 = false;
 
 							// ###############################
 							{ // start of Var scope
@@ -1358,206 +1995,196 @@ public class JobHarmonized implements TalendJob {
 								// ###############################
 								// # Vars tables
 
-								Var__tMap_6__Struct Var = Var__tMap_6;// ###############################
+								Var__tMap_3__Struct Var = Var__tMap_3;// ###############################
 								// ###############################
 								// # Output tables
 
-								out_sales_order_detail = null;
+								outadd = null;
 
-// # Output table : 'out_sales_order_detail'
-								out_sales_order_detail_tmp.SalesOrderID = row6.SalesOrderID;
-								out_sales_order_detail_tmp.SalesOrderDetailID = row6.SalesOrderDetailID;
-								out_sales_order_detail_tmp.UnitPrice = row6.UnitPrice;
-								out_sales_order_detail_tmp.UnitPriceDiscount = row6.UnitPriceDiscount;
-								out_sales_order_detail_tmp.ProductID = row6.ProductID;
-								out_sales_order_detail_tmp.LineTotal = row6.LineTotal;
-								out_sales_order_detail = out_sales_order_detail_tmp;
+// # Output table : 'outadd'
+								outadd_tmp.ProductID = row3.ProductID;
+								outadd_tmp.Name = row3.Name;
+								outadd_tmp.Color = row3.Color;
+								outadd = outadd_tmp;
 // ###############################
 
 							} // end of Var scope
 
-							rejectedInnerJoin_tMap_6 = false;
+							rejectedInnerJoin_tMap_3 = false;
 
-							tos_count_tMap_6++;
+							tos_count_tMap_3++;
 
 							/**
-							 * [tMap_6 main ] stop
+							 * [tMap_3 main ] stop
 							 */
 
 							/**
-							 * [tMap_6 process_data_begin ] start
+							 * [tMap_3 process_data_begin ] start
 							 */
 
-							currentComponent = "tMap_6";
+							currentComponent = "tMap_3";
 
 							/**
-							 * [tMap_6 process_data_begin ] stop
+							 * [tMap_3 process_data_begin ] stop
 							 */
-// Start of branch "out_sales_order_detail"
-							if (out_sales_order_detail != null) {
+// Start of branch "outadd"
+							if (outadd != null) {
 
 								/**
-								 * [tFileOutputDelimited_6 main ] start
+								 * [tFileOutputDelimited_3 main ] start
 								 */
 
-								currentComponent = "tFileOutputDelimited_6";
+								currentComponent = "tFileOutputDelimited_3";
 
 								if (execStat) {
 									runStat.updateStatOnConnection(iterateId, 1, 1
 
-											, "out_sales_order_detail"
+											, "outadd"
 
 									);
 								}
 
-								StringBuilder sb_tFileOutputDelimited_6 = new StringBuilder();
-								sb_tFileOutputDelimited_6.append(out_sales_order_detail.SalesOrderID);
-								sb_tFileOutputDelimited_6.append(OUT_DELIM_tFileOutputDelimited_6);
-								sb_tFileOutputDelimited_6.append(out_sales_order_detail.SalesOrderDetailID);
-								sb_tFileOutputDelimited_6.append(OUT_DELIM_tFileOutputDelimited_6);
-								if (out_sales_order_detail.UnitPrice != null) {
-									sb_tFileOutputDelimited_6.append(out_sales_order_detail.UnitPrice);
+								StringBuilder sb_tFileOutputDelimited_3 = new StringBuilder();
+								sb_tFileOutputDelimited_3.append(outadd.ProductID);
+								sb_tFileOutputDelimited_3.append(OUT_DELIM_tFileOutputDelimited_3);
+								if (outadd.Name != null) {
+									sb_tFileOutputDelimited_3.append(outadd.Name);
 								}
-								sb_tFileOutputDelimited_6.append(OUT_DELIM_tFileOutputDelimited_6);
-								if (out_sales_order_detail.UnitPriceDiscount != null) {
-									sb_tFileOutputDelimited_6.append(out_sales_order_detail.UnitPriceDiscount);
+								sb_tFileOutputDelimited_3.append(OUT_DELIM_tFileOutputDelimited_3);
+								if (outadd.Color != null) {
+									sb_tFileOutputDelimited_3.append(outadd.Color);
 								}
-								sb_tFileOutputDelimited_6.append(OUT_DELIM_tFileOutputDelimited_6);
-								sb_tFileOutputDelimited_6.append(out_sales_order_detail.ProductID);
-								sb_tFileOutputDelimited_6.append(OUT_DELIM_tFileOutputDelimited_6);
-								if (out_sales_order_detail.LineTotal != null) {
-									sb_tFileOutputDelimited_6.append(out_sales_order_detail.LineTotal
-											.setScale(6, java.math.RoundingMode.HALF_UP).toPlainString());
-								}
-								sb_tFileOutputDelimited_6.append(OUT_DELIM_ROWSEP_tFileOutputDelimited_6);
+								sb_tFileOutputDelimited_3.append(OUT_DELIM_ROWSEP_tFileOutputDelimited_3);
 
-								nb_line_tFileOutputDelimited_6++;
-								resourceMap.put("nb_line_tFileOutputDelimited_6", nb_line_tFileOutputDelimited_6);
+								nb_line_tFileOutputDelimited_3++;
+								resourceMap.put("nb_line_tFileOutputDelimited_3", nb_line_tFileOutputDelimited_3);
 
-								outtFileOutputDelimited_6.write(sb_tFileOutputDelimited_6.toString());
+								outtFileOutputDelimited_3.write(sb_tFileOutputDelimited_3.toString());
 
-								tos_count_tFileOutputDelimited_6++;
+								tos_count_tFileOutputDelimited_3++;
 
 								/**
-								 * [tFileOutputDelimited_6 main ] stop
+								 * [tFileOutputDelimited_3 main ] stop
 								 */
 
 								/**
-								 * [tFileOutputDelimited_6 process_data_begin ] start
+								 * [tFileOutputDelimited_3 process_data_begin ] start
 								 */
 
-								currentComponent = "tFileOutputDelimited_6";
+								currentComponent = "tFileOutputDelimited_3";
 
 								/**
-								 * [tFileOutputDelimited_6 process_data_begin ] stop
+								 * [tFileOutputDelimited_3 process_data_begin ] stop
 								 */
 
 								/**
-								 * [tFileOutputDelimited_6 process_data_end ] start
+								 * [tFileOutputDelimited_3 process_data_end ] start
 								 */
 
-								currentComponent = "tFileOutputDelimited_6";
+								currentComponent = "tFileOutputDelimited_3";
 
 								/**
-								 * [tFileOutputDelimited_6 process_data_end ] stop
+								 * [tFileOutputDelimited_3 process_data_end ] stop
 								 */
 
-							} // End of branch "out_sales_order_detail"
+							} // End of branch "outadd"
 
 							/**
-							 * [tMap_6 process_data_end ] start
+							 * [tMap_3 process_data_end ] start
 							 */
 
-							currentComponent = "tMap_6";
+							currentComponent = "tMap_3";
 
 							/**
-							 * [tMap_6 process_data_end ] stop
+							 * [tMap_3 process_data_end ] stop
 							 */
 
-						} // End of branch "row6"
+						} // End of branch "row3"
 
 						/**
-						 * [tFileInputDelimited_6 process_data_end ] start
+						 * [tFileInputDelimited_3 process_data_end ] start
 						 */
 
-						currentComponent = "tFileInputDelimited_6";
+						currentComponent = "tFileInputDelimited_3";
 
 						/**
-						 * [tFileInputDelimited_6 process_data_end ] stop
+						 * [tFileInputDelimited_3 process_data_end ] stop
 						 */
 
 						/**
-						 * [tFileInputDelimited_6 end ] start
+						 * [tFileInputDelimited_3 end ] start
 						 */
 
-						currentComponent = "tFileInputDelimited_6";
+						currentComponent = "tFileInputDelimited_3";
 
+						nb_line_tFileInputDelimited_3++;
 					}
+
 				} finally {
-					if (!((Object) ("/Users/arthur/Arthur/FIAP/Trabalhos/DataOps/Talend/TOS_DI-macosx-cocoa.app/Contents/MacOS/workspace/DATAOPS/RAW/SalesOrderDetail.csv") instanceof java.io.InputStream)) {
-						if (fid_tFileInputDelimited_6 != null) {
-							fid_tFileInputDelimited_6.close();
+					if (!(filename_tFileInputDelimited_3 instanceof java.io.InputStream)) {
+						if (csvReadertFileInputDelimited_3 != null) {
+							csvReadertFileInputDelimited_3.close();
 						}
 					}
-					if (fid_tFileInputDelimited_6 != null) {
-						globalMap.put("tFileInputDelimited_6_NB_LINE", fid_tFileInputDelimited_6.getRowNumber());
-
+					if (csvReadertFileInputDelimited_3 != null) {
+						globalMap.put("tFileInputDelimited_3_NB_LINE", nb_line_tFileInputDelimited_3);
 					}
+
 				}
 
-				ok_Hash.put("tFileInputDelimited_6", true);
-				end_Hash.put("tFileInputDelimited_6", System.currentTimeMillis());
+				ok_Hash.put("tFileInputDelimited_3", true);
+				end_Hash.put("tFileInputDelimited_3", System.currentTimeMillis());
 
 				/**
-				 * [tFileInputDelimited_6 end ] stop
+				 * [tFileInputDelimited_3 end ] stop
 				 */
 
 				/**
-				 * [tMap_6 end ] start
+				 * [tMap_3 end ] start
 				 */
 
-				currentComponent = "tMap_6";
+				currentComponent = "tMap_3";
 
 // ###############################
 // # Lookup hashes releasing
 // ###############################      
 
 				if (execStat) {
-					runStat.updateStat(resourceMap, iterateId, 2, 0, "row6");
+					runStat.updateStat(resourceMap, iterateId, 2, 0, "row3");
 				}
 
-				ok_Hash.put("tMap_6", true);
-				end_Hash.put("tMap_6", System.currentTimeMillis());
+				ok_Hash.put("tMap_3", true);
+				end_Hash.put("tMap_3", System.currentTimeMillis());
 
 				/**
-				 * [tMap_6 end ] stop
+				 * [tMap_3 end ] stop
 				 */
 
 				/**
-				 * [tFileOutputDelimited_6 end ] start
+				 * [tFileOutputDelimited_3 end ] start
 				 */
 
-				currentComponent = "tFileOutputDelimited_6";
+				currentComponent = "tFileOutputDelimited_3";
 
-				if (outtFileOutputDelimited_6 != null) {
-					outtFileOutputDelimited_6.flush();
-					outtFileOutputDelimited_6.close();
+				if (outtFileOutputDelimited_3 != null) {
+					outtFileOutputDelimited_3.flush();
+					outtFileOutputDelimited_3.close();
 				}
 
-				globalMap.put("tFileOutputDelimited_6_NB_LINE", nb_line_tFileOutputDelimited_6);
-				globalMap.put("tFileOutputDelimited_6_FILE_NAME", fileName_tFileOutputDelimited_6);
+				globalMap.put("tFileOutputDelimited_3_NB_LINE", nb_line_tFileOutputDelimited_3);
+				globalMap.put("tFileOutputDelimited_3_FILE_NAME", fileName_tFileOutputDelimited_3);
 
-				resourceMap.put("finish_tFileOutputDelimited_6", true);
+				resourceMap.put("finish_tFileOutputDelimited_3", true);
 
 				if (execStat) {
-					runStat.updateStat(resourceMap, iterateId, 2, 0, "out_sales_order_detail");
+					runStat.updateStat(resourceMap, iterateId, 2, 0, "outadd");
 				}
 
-				ok_Hash.put("tFileOutputDelimited_6", true);
-				end_Hash.put("tFileOutputDelimited_6", System.currentTimeMillis());
+				ok_Hash.put("tFileOutputDelimited_3", true);
+				end_Hash.put("tFileOutputDelimited_3", System.currentTimeMillis());
 
 				/**
-				 * [tFileOutputDelimited_6 end ] stop
+				 * [tFileOutputDelimited_3 end ] stop
 				 */
 
 			} // end the resume
@@ -1577,44 +2204,44 @@ public class JobHarmonized implements TalendJob {
 			try {
 
 				/**
-				 * [tFileInputDelimited_6 finally ] start
+				 * [tFileInputDelimited_3 finally ] start
 				 */
 
-				currentComponent = "tFileInputDelimited_6";
+				currentComponent = "tFileInputDelimited_3";
 
 				/**
-				 * [tFileInputDelimited_6 finally ] stop
-				 */
-
-				/**
-				 * [tMap_6 finally ] start
-				 */
-
-				currentComponent = "tMap_6";
-
-				/**
-				 * [tMap_6 finally ] stop
+				 * [tFileInputDelimited_3 finally ] stop
 				 */
 
 				/**
-				 * [tFileOutputDelimited_6 finally ] start
+				 * [tMap_3 finally ] start
 				 */
 
-				currentComponent = "tFileOutputDelimited_6";
+				currentComponent = "tMap_3";
 
-				if (resourceMap.get("finish_tFileOutputDelimited_6") == null) {
+				/**
+				 * [tMap_3 finally ] stop
+				 */
 
-					java.io.Writer outtFileOutputDelimited_6 = (java.io.Writer) resourceMap
-							.get("out_tFileOutputDelimited_6");
-					if (outtFileOutputDelimited_6 != null) {
-						outtFileOutputDelimited_6.flush();
-						outtFileOutputDelimited_6.close();
+				/**
+				 * [tFileOutputDelimited_3 finally ] start
+				 */
+
+				currentComponent = "tFileOutputDelimited_3";
+
+				if (resourceMap.get("finish_tFileOutputDelimited_3") == null) {
+
+					java.io.Writer outtFileOutputDelimited_3 = (java.io.Writer) resourceMap
+							.get("out_tFileOutputDelimited_3");
+					if (outtFileOutputDelimited_3 != null) {
+						outtFileOutputDelimited_3.flush();
+						outtFileOutputDelimited_3.close();
 					}
 
 				}
 
 				/**
-				 * [tFileOutputDelimited_6 finally ] stop
+				 * [tFileOutputDelimited_3 finally ] stop
 				 */
 
 			} catch (java.lang.Exception e) {
@@ -1625,7 +2252,7 @@ public class JobHarmonized implements TalendJob {
 			resourceMap = null;
 		}
 
-		globalMap.put("tFileInputDelimited_6_SUBPROCESS_STATE", 1);
+		globalMap.put("tFileInputDelimited_3_SUBPROCESS_STATE", 1);
 	}
 
 	public String resuming_logs_dir_path = null;
@@ -1833,14 +2460,14 @@ public class JobHarmonized implements TalendJob {
 
 		try {
 			errorCode = null;
-			tFileInputDelimited_6Process(globalMap);
+			tFileInputDelimited_3Process(globalMap);
 			if (!"failure".equals(status)) {
 				status = "end";
 			}
-		} catch (TalendException e_tFileInputDelimited_6) {
-			globalMap.put("tFileInputDelimited_6_SUBPROCESS_STATE", -1);
+		} catch (TalendException e_tFileInputDelimited_3) {
+			globalMap.put("tFileInputDelimited_3_SUBPROCESS_STATE", -1);
 
-			e_tFileInputDelimited_6.printStackTrace();
+			e_tFileInputDelimited_3.printStackTrace();
 
 		}
 
@@ -1996,6 +2623,6 @@ public class JobHarmonized implements TalendJob {
 	ResumeUtil resumeUtil = null;
 }
 /************************************************************************************************
- * 61867 characters generated by Talend Open Studio for Data Integration on the
- * 16 de fevereiro de 2022 22:38:12 BRT
+ * 80602 characters generated by Talend Open Studio for Data Integration on the
+ * 23 de março de 2022 19:25:22 BRT
  ************************************************************************************************/
