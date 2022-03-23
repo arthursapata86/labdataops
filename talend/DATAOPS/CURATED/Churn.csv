@@ -1,0 +1,33 @@
+SalesOrderID;TipoVenda;OrderDate;Vendedor;Name;CustomerName;LineTotal;UnitPrice;UnitPriceDiscount
+71774;Offline;01-06-2008;linda3;ML Road Frame-W - Yellow, 38;David  Hodgson;356.898000;356.8980;0.0000
+71776;Offline;01-06-2008;jae0;Rear Brakes;Andrea A. Thomsen;63.900000;63.9000;0.0000
+71780;Offline;01-06-2008;jae0;Hydration Pack - 70 oz.;Raja D. Venugopal;32.994000;32.9940;0.0000
+71782;Offline;01-06-2008;linda3;Sport-100 Helmet, Red;Catherine R. Abel;62.982000;20.9940;0.0000
+71783;Offline;01-06-2008;linda3;Sport-100 Helmet, Black;Kevin  Liu;218.771476;20.2942;0.0200
+71784;Offline;01-06-2008;jae0;Sport-100 Helmet, Black;Terry  Eminhizer;238.659792;20.2942;0.0200
+71796;Offline;01-06-2008;linda3;HL Touring Frame - Yellow, 60;Anthony  Chor;1204.692000;602.3460;0.0000
+71797;Offline;01-06-2008;jae0;ML Road Frame-W - Yellow, 38;Jon  Grande;713.796000;356.8980;0.0000
+71815;Offline;01-06-2008;linda3;Racing Socks, M;Michael John R. Troyer;10.788000;5.3940;0.0000
+71816;Offline;01-06-2008;shu0;Front Brakes;Joseph P. Mitzner;63.900000;63.9000;0.0000
+71831;Offline;01-06-2008;jae0;Women's Mountain Shorts, S;Matthew J. Miller;251.964000;41.9940;0.0000
+71832;Offline;01-06-2008;jae0;LL Mountain Frame - Silver, 52;Pamala M. Kotc;158.430000;158.4300;0.0000
+71845;Offline;01-06-2008;shu0;Chain;Frank  Campbell;36.432000;12.1440;0.0000
+71846;Offline;01-06-2008;jae0;Mountain-400-W Silver, 40;Roger  Van Houten;923.388000;461.6940;0.0000
+71856;Offline;01-06-2008;shu0;Front Derailleur;Vassar J. Stern;54.894000;54.8940;0.0000
+71858;Offline;01-06-2008;linda3;AWC Logo Cap;Pei  Chow;16.182000;5.3940;0.0000
+71863;Offline;01-06-2008;linda3;LL Road Pedal;Walter J. Mays;48.588000;24.2940;0.0000
+71867;Offline;01-06-2008;jae0;HL Road Frame - Red, 62;Brigid F. Cavendish;858.900000;858.9000;0.0000
+71885;Offline;01-06-2008;jae0;Classic Vest, S;Richard A. Byham;114.300000;38.1000;0.0000
+71895;Offline;01-06-2008;shu0;Classic Vest, S;Walter J. Brian;114.300000;38.1000;0.0000
+71897;Offline;01-06-2008;shu0;Front Brakes;Joyce  Jarvis;63.900000;63.9000;0.0000
+71898;Offline;01-06-2008;jae0;Touring-3000 Yellow, 44;Rebecca  Laszlo;890.820000;445.4100;0.0000
+71899;Offline;01-06-2008;shu0;HL Mountain Pedal;Donald L. Blanton;48.594000;48.5940;0.0000
+71902;Offline;01-06-2008;shu0;Classic Vest, M;Jeffrey  Kurtz;228.600000;38.1000;0.0000
+71915;Offline;01-06-2008;linda3;HL Road Pedal;Rosmarie J. Carroll;48.594000;48.5940;0.0000
+71917;Offline;01-06-2008;jae0;Racing Socks, L;Linda  Mitchell;37.758000;5.3940;0.0000
+71920;Offline;01-06-2008;shu0;Hitch Rack - 4-Bike;Melissa R. Marple;72.000000;72.0000;0.0000
+71923;Offline;01-06-2008;shu0;Racing Socks, L;Guy  Gilbert;71.538824;5.2142;0.0200
+71935;Offline;01-06-2008;linda3;Racing Socks, L;Cory K. Booth;66.428908;5.2142;0.0200
+71936;Offline;01-06-2008;jae0;ML Mountain Seat/Saddle;Krishna  Sunkammurali;140.904000;23.4840;0.0000
+71938;Offline;01-06-2008;jae0;Road-550-W Yellow, 44;Christopher R. Beck;2016.882000;672.2940;0.0000
+71946;Offline;01-06-2008;jae0;HL Touring Seat/Saddle;Janeth  Esteves;31.584000;31.5840;0.0000
