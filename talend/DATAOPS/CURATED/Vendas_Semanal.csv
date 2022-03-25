@@ -1,0 +1,34 @@
+SalesOrderID;OrderDate;ProductName;LineTotal;UnitPrice;UnitPriceDiscount;CountryRegion;OrderQty
+SalesOrderID;OrderDate;Name;LineTotal;UnitPrice;UnitPriceDiscount;;OrderQty
+71774;01-06-2008;ML Road Frame-W - Yellow, 38;356.898000;356.8980;0.0000;United States;1
+71776;01-06-2008;Rear Brakes;63.900000;63.9000;0.0000;United Kingdom;1
+71780;01-06-2008;Hydration Pack - 70 oz.;32.994000;32.9940;0.0000;United Kingdom;1
+71782;01-06-2008;Sport-100 Helmet, Red;62.982000;20.9940;0.0000;United States;3
+71783;01-06-2008;Sport-100 Helmet, Black;218.771476;20.2942;0.0200;United States;11
+71784;01-06-2008;Sport-100 Helmet, Black;238.659792;20.2942;0.0200;United Kingdom;12
+71796;01-06-2008;HL Touring Frame - Yellow, 60;1204.692000;602.3460;0.0000;United States;2
+71797;01-06-2008;ML Road Frame-W - Yellow, 38;713.796000;356.8980;0.0000;United Kingdom;2
+71815;01-06-2008;Racing Socks, M;10.788000;5.3940;0.0000;United States;2
+71816;01-06-2008;Front Brakes;63.900000;63.9000;0.0000;United States;1
+71831;01-06-2008;Women's Mountain Shorts, S;251.964000;41.9940;0.0000;United Kingdom;6
+71832;01-06-2008;LL Mountain Frame - Silver, 52;158.430000;158.4300;0.0000;United Kingdom;1
+71845;01-06-2008;Chain;36.432000;12.1440;0.0000;United States;3
+71846;01-06-2008;Mountain-400-W Silver, 40;923.388000;461.6940;0.0000;United Kingdom;2
+71856;01-06-2008;Front Derailleur;54.894000;54.8940;0.0000;United States;1
+71858;01-06-2008;AWC Logo Cap;16.182000;5.3940;0.0000;United States;3
+71863;01-06-2008;LL Road Pedal;48.588000;24.2940;0.0000;United States;2
+71867;01-06-2008;HL Road Frame - Red, 62;858.900000;858.9000;0.0000;United Kingdom;1
+71885;01-06-2008;Classic Vest, S;114.300000;38.1000;0.0000;United Kingdom;3
+71895;01-06-2008;Classic Vest, S;114.300000;38.1000;0.0000;United States;3
+71897;01-06-2008;Front Brakes;63.900000;63.9000;0.0000;United States;1
+71898;01-06-2008;Touring-3000 Yellow, 44;890.820000;445.4100;0.0000;United Kingdom;2
+71899;01-06-2008;HL Mountain Pedal;48.594000;48.5940;0.0000;United States;1
+71902;01-06-2008;Classic Vest, M;228.600000;38.1000;0.0000;United States;6
+71915;01-06-2008;HL Road Pedal;48.594000;48.5940;0.0000;United States;1
+71917;01-06-2008;Racing Socks, L;37.758000;5.3940;0.0000;United Kingdom;7
+71920;01-06-2008;Hitch Rack - 4-Bike;72.000000;72.0000;0.0000;United States;1
+71923;01-06-2008;Racing Socks, L;71.538824;5.2142;0.0200;United States;14
+71935;01-06-2008;Racing Socks, L;66.428908;5.2142;0.0200;United States;13
+71936;01-06-2008;ML Mountain Seat/Saddle;140.904000;23.4840;0.0000;United Kingdom;6
+71938;01-06-2008;Road-550-W Yellow, 44;2016.882000;672.2940;0.0000;United Kingdom;3
+71946;01-06-2008;HL Touring Seat/Saddle;31.584000;31.5840;0.0000;United Kingdom;1
