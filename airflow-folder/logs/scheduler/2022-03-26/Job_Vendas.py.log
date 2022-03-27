@@ -1,0 +1,57 @@
+[2022-03-26 01:11:09,493] {scheduler_job.py:182} INFO - Started process (PID=2429) to work on /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:11:09,560] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas.py for tasks to queue
+[2022-03-26 01:11:09,568] {logging_mixin.py:104} INFO - [2022-03-26 01:11:09,567] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:11:09,987] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas']) retrieved from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:11:10,429] {logging_mixin.py:104} INFO - [2022-03-26 01:11:10,422] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:11:10,638] {logging_mixin.py:104} INFO - [2022-03-26 01:11:10,638] {dag.py:1837} INFO - Creating ORM DAG for Job_Vendas
+[2022-03-26 01:11:11,201] {logging_mixin.py:104} INFO - [2022-03-26 01:11:11,200] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:11:11,783] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas.py took 2.361 seconds
+[2022-03-26 01:11:24,918] {scheduler_job.py:182} INFO - Started process (PID=2355) to work on /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:11:25,060] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas.py for tasks to queue
+[2022-03-26 01:11:25,074] {logging_mixin.py:104} INFO - [2022-03-26 01:11:25,074] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:11:25,573] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas']) retrieved from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:11:25,762] {logging_mixin.py:104} INFO - [2022-03-26 01:11:25,760] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:11:26,114] {logging_mixin.py:104} INFO - [2022-03-26 01:11:26,114] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:11:26,219] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas.py took 1.395 seconds
+[2022-03-26 01:11:56,734] {scheduler_job.py:182} INFO - Started process (PID=2511) to work on /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:11:56,753] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas.py for tasks to queue
+[2022-03-26 01:11:56,764] {logging_mixin.py:104} INFO - [2022-03-26 01:11:56,763] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:11:57,458] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas']) retrieved from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:11:58,299] {logging_mixin.py:104} INFO - [2022-03-26 01:11:58,299] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:11:59,679] {logging_mixin.py:104} INFO - [2022-03-26 01:11:59,679] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:11:59,804] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas.py took 3.138 seconds
+[2022-03-26 01:12:44,507] {scheduler_job.py:182} INFO - Started process (PID=2512) to work on /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:12:44,560] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas.py for tasks to queue
+[2022-03-26 01:12:44,665] {logging_mixin.py:104} INFO - [2022-03-26 01:12:44,641] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:12:45,410] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas']) retrieved from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:12:45,862] {logging_mixin.py:104} INFO - [2022-03-26 01:12:45,862] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:12:46,606] {logging_mixin.py:104} INFO - [2022-03-26 01:12:46,587] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:12:46,749] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas.py took 2.516 seconds
+[2022-03-26 01:12:53,773] {scheduler_job.py:182} INFO - Started process (PID=2628) to work on /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:12:53,783] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas.py for tasks to queue
+[2022-03-26 01:12:53,827] {logging_mixin.py:104} INFO - [2022-03-26 01:12:53,825] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:12:54,128] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas']) retrieved from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:12:54,468] {logging_mixin.py:104} INFO - [2022-03-26 01:12:54,468] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:12:54,952] {logging_mixin.py:104} INFO - [2022-03-26 01:12:54,952] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:12:55,125] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas.py took 1.418 seconds
+[2022-03-26 01:13:36,987] {scheduler_job.py:182} INFO - Started process (PID=2710) to work on /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:13:37,055] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas.py for tasks to queue
+[2022-03-26 01:13:37,108] {logging_mixin.py:104} INFO - [2022-03-26 01:13:37,076] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:13:38,154] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas']) retrieved from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:13:38,579] {logging_mixin.py:104} INFO - [2022-03-26 01:13:38,578] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:13:39,612] {logging_mixin.py:104} INFO - [2022-03-26 01:13:39,611] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:13:39,884] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas.py took 3.073 seconds
+[2022-03-26 01:14:11,534] {scheduler_job.py:182} INFO - Started process (PID=2669) to work on /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:14:11,574] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas.py for tasks to queue
+[2022-03-26 01:14:11,596] {logging_mixin.py:104} INFO - [2022-03-26 01:14:11,595] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:14:12,949] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas']) retrieved from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:14:13,918] {logging_mixin.py:104} INFO - [2022-03-26 01:14:13,915] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:14:14,777] {logging_mixin.py:104} INFO - [2022-03-26 01:14:14,776] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:14:15,161] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas.py took 3.827 seconds
+[2022-03-26 01:14:26,575] {scheduler_job.py:182} INFO - Started process (PID=2787) to work on /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:14:26,598] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas.py for tasks to queue
+[2022-03-26 01:14:26,606] {logging_mixin.py:104} INFO - [2022-03-26 01:14:26,606] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:14:26,922] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas']) retrieved from /opt/airflow/dags/Job_Vendas.py
+[2022-03-26 01:14:27,219] {logging_mixin.py:104} INFO - [2022-03-26 01:14:27,215] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:14:27,688] {logging_mixin.py:104} INFO - [2022-03-26 01:14:27,688] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:14:27,843] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas.py took 1.332 seconds

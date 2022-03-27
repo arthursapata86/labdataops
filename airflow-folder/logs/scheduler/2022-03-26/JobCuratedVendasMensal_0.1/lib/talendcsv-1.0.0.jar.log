@@ -1,0 +1,85 @@
+[2022-03-26 01:05:50,285] {scheduler_job.py:182} INFO - Started process (PID=1753) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:05:50,415] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:05:50,463] {logging_mixin.py:104} INFO - [2022-03-26 01:05:50,463] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:05:50,744] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:05:51,307] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 1.276 seconds
+[2022-03-26 01:06:05,908] {scheduler_job.py:182} INFO - Started process (PID=1905) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:06:05,922] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:06:05,930] {logging_mixin.py:104} INFO - [2022-03-26 01:06:05,929] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:06:05,979] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:06:06,208] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.323 seconds
+[2022-03-26 01:07:01,327] {scheduler_job.py:182} INFO - Started process (PID=1996) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:07:01,343] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:07:01,352] {logging_mixin.py:104} INFO - [2022-03-26 01:07:01,352] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:07:01,398] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:07:01,676] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.407 seconds
+[2022-03-26 01:07:25,827] {scheduler_job.py:182} INFO - Started process (PID=1926) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:07:25,893] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:07:25,908] {logging_mixin.py:104} INFO - [2022-03-26 01:07:25,908] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:07:26,075] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:07:26,507] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.866 seconds
+[2022-03-26 01:07:58,130] {scheduler_job.py:182} INFO - Started process (PID=2100) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:07:58,205] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:07:58,242] {logging_mixin.py:104} INFO - [2022-03-26 01:07:58,242] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:07:58,368] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:07:58,817] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.794 seconds
+[2022-03-26 01:08:48,333] {scheduler_job.py:182} INFO - Started process (PID=2082) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:08:48,369] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:08:48,399] {logging_mixin.py:104} INFO - [2022-03-26 01:08:48,399] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:08:48,526] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:08:48,894] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.666 seconds
+[2022-03-26 01:08:49,432] {scheduler_job.py:182} INFO - Started process (PID=2194) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:08:49,453] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:08:49,460] {logging_mixin.py:104} INFO - [2022-03-26 01:08:49,460] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:08:49,496] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:08:49,693] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.340 seconds
+[2022-03-26 01:09:40,329] {scheduler_job.py:182} INFO - Started process (PID=2295) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:09:40,372] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:09:40,434] {logging_mixin.py:104} INFO - [2022-03-26 01:09:40,433] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:09:40,594] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:09:41,063] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.877 seconds
+[2022-03-26 01:10:07,278] {scheduler_job.py:182} INFO - Started process (PID=2233) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:10:07,299] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:10:07,320] {logging_mixin.py:104} INFO - [2022-03-26 01:10:07,303] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:10:07,426] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:10:07,619] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.376 seconds
+[2022-03-26 01:10:56,984] {scheduler_job.py:182} INFO - Started process (PID=2405) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:10:57,015] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:10:57,034] {logging_mixin.py:104} INFO - [2022-03-26 01:10:57,034] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:10:57,097] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:10:57,427] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.517 seconds
+[2022-03-26 01:11:43,016] {scheduler_job.py:182} INFO - Started process (PID=2494) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:11:43,032] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:11:43,041] {logging_mixin.py:104} INFO - [2022-03-26 01:11:43,039] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:11:43,118] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:11:43,698] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.713 seconds
+[2022-03-26 01:11:51,003] {scheduler_job.py:182} INFO - Started process (PID=2401) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:11:51,026] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:11:51,046] {logging_mixin.py:104} INFO - [2022-03-26 01:11:51,046] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:11:51,149] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:11:51,613] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.666 seconds
+[2022-03-26 01:12:41,844] {scheduler_job.py:182} INFO - Started process (PID=2604) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:12:41,873] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:12:41,898] {logging_mixin.py:104} INFO - [2022-03-26 01:12:41,897] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:12:41,985] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:12:42,101] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.290 seconds
+[2022-03-26 01:13:05,927] {scheduler_job.py:182} INFO - Started process (PID=2551) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:13:05,933] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:13:05,951] {logging_mixin.py:104} INFO - [2022-03-26 01:13:05,950] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:13:06,009] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:13:06,279] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.434 seconds
+[2022-03-26 01:13:27,121] {scheduler_job.py:182} INFO - Started process (PID=2686) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:13:27,134] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:13:27,145] {logging_mixin.py:104} INFO - [2022-03-26 01:13:27,140] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:13:27,199] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:13:27,353] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.352 seconds
+[2022-03-26 01:14:29,458] {scheduler_job.py:182} INFO - Started process (PID=2795) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:14:29,472] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:14:29,480] {logging_mixin.py:104} INFO - [2022-03-26 01:14:29,480] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:14:29,526] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:14:29,758] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.344 seconds
+[2022-03-26 01:14:53,433] {scheduler_job.py:182} INFO - Started process (PID=2753) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:14:53,549] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar for tasks to queue
+[2022-03-26 01:14:53,567] {logging_mixin.py:104} INFO - [2022-03-26 01:14:53,567] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:14:53,688] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar
+[2022-03-26 01:14:54,021] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/talendcsv-1.0.0.jar took 0.709 seconds

@@ -1,0 +1,95 @@
+[2022-03-26 01:05:40,450] {scheduler_job.py:182} INFO - Started process (PID=1740) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:05:40,473] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:05:40,486] {logging_mixin.py:104} INFO - [2022-03-26 01:05:40,484] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:05:40,532] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:05:40,599] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.198 seconds
+[2022-03-26 01:06:12,265] {scheduler_job.py:182} INFO - Started process (PID=1914) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:06:12,283] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:06:12,303] {logging_mixin.py:104} INFO - [2022-03-26 01:06:12,303] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:06:12,370] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:06:12,482] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.269 seconds
+[2022-03-26 01:06:34,765] {scheduler_job.py:182} INFO - Started process (PID=1839) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:06:34,798] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:06:34,811] {logging_mixin.py:104} INFO - [2022-03-26 01:06:34,810] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:06:34,892] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:06:35,030] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.352 seconds
+[2022-03-26 01:07:07,583] {scheduler_job.py:182} INFO - Started process (PID=2005) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:07:07,599] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:07:07,612] {logging_mixin.py:104} INFO - [2022-03-26 01:07:07,612] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:07:07,719] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:07:07,939] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.402 seconds
+[2022-03-26 01:07:53,032] {scheduler_job.py:182} INFO - Started process (PID=2092) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:07:53,065] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:07:53,077] {logging_mixin.py:104} INFO - [2022-03-26 01:07:53,076] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:07:53,241] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:07:53,495] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.514 seconds
+[2022-03-26 01:08:05,245] {scheduler_job.py:182} INFO - Started process (PID=2003) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:08:05,258] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:08:05,309] {logging_mixin.py:104} INFO - [2022-03-26 01:08:05,308] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:08:05,397] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:08:05,543] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.366 seconds
+[2022-03-26 01:08:51,336] {scheduler_job.py:182} INFO - Started process (PID=2198) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:08:51,355] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:08:51,364] {logging_mixin.py:104} INFO - [2022-03-26 01:08:51,364] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:08:51,524] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:08:52,313] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 1.034 seconds
+[2022-03-26 01:09:17,620] {scheduler_job.py:182} INFO - Started process (PID=2147) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:09:17,683] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:09:17,701] {logging_mixin.py:104} INFO - [2022-03-26 01:09:17,701] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:09:17,865] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:09:18,278] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.697 seconds
+[2022-03-26 01:09:31,395] {scheduler_job.py:182} INFO - Started process (PID=2283) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:09:31,413] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:09:31,428] {logging_mixin.py:104} INFO - [2022-03-26 01:09:31,422] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:09:31,503] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:09:31,694] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.331 seconds
+[2022-03-26 01:10:18,255] {scheduler_job.py:182} INFO - Started process (PID=2358) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:10:18,303] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:10:18,310] {logging_mixin.py:104} INFO - [2022-03-26 01:10:18,310] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:10:18,428] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:10:19,175] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.992 seconds
+[2022-03-26 01:11:02,779] {scheduler_job.py:182} INFO - Started process (PID=2318) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:11:02,812] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:11:02,845] {logging_mixin.py:104} INFO - [2022-03-26 01:11:02,844] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:11:03,044] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:11:03,756] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 1.063 seconds
+[2022-03-26 01:11:16,665] {scheduler_job.py:182} INFO - Started process (PID=2444) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:11:16,687] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:11:16,700] {logging_mixin.py:104} INFO - [2022-03-26 01:11:16,700] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:11:16,801] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:11:17,240] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.629 seconds
+[2022-03-26 01:12:04,247] {scheduler_job.py:182} INFO - Started process (PID=2527) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:12:04,285] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:12:04,298] {logging_mixin.py:104} INFO - [2022-03-26 01:12:04,298] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:12:04,373] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:12:04,558] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.401 seconds
+[2022-03-26 01:12:25,161] {scheduler_job.py:182} INFO - Started process (PID=2473) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:12:25,184] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:12:25,188] {logging_mixin.py:104} INFO - [2022-03-26 01:12:25,188] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:12:25,306] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:12:25,563] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.462 seconds
+[2022-03-26 01:12:48,085] {scheduler_job.py:182} INFO - Started process (PID=2614) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:12:48,115] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:12:48,121] {logging_mixin.py:104} INFO - [2022-03-26 01:12:48,120] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:12:48,204] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:12:48,675] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.644 seconds
+[2022-03-26 01:13:44,867] {scheduler_job.py:182} INFO - Started process (PID=2623) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:13:44,895] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:13:44,946] {logging_mixin.py:104} INFO - [2022-03-26 01:13:44,946] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:13:45,065] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:13:45,220] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.460 seconds
+[2022-03-26 01:13:46,203] {scheduler_job.py:182} INFO - Started process (PID=2723) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:13:46,249] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:13:46,265] {logging_mixin.py:104} INFO - [2022-03-26 01:13:46,257] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:13:46,386] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:13:46,550] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.380 seconds
+[2022-03-26 01:14:25,419] {scheduler_job.py:182} INFO - Started process (PID=2693) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:14:25,446] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:14:25,452] {logging_mixin.py:104} INFO - [2022-03-26 01:14:25,452] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:14:25,554] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:14:25,806] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.456 seconds
+[2022-03-26 01:14:34,389] {scheduler_job.py:182} INFO - Started process (PID=2805) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:14:34,413] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar for tasks to queue
+[2022-03-26 01:14:34,422] {logging_mixin.py:104} INFO - [2022-03-26 01:14:34,420] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:14:34,480] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar
+[2022-03-26 01:14:34,738] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/log4j-1.2-api-2.13.2.jar took 0.409 seconds

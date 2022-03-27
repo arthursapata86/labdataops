@@ -1,0 +1,85 @@
+[2022-03-26 01:06:00,034] {scheduler_job.py:182} INFO - Started process (PID=1776) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:06:00,065] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:06:00,089] {logging_mixin.py:104} INFO - [2022-03-26 01:06:00,089] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:06:00,309] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:06:00,629] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.750 seconds
+[2022-03-26 01:06:14,426] {scheduler_job.py:182} INFO - Started process (PID=1919) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:06:14,449] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:06:14,459] {logging_mixin.py:104} INFO - [2022-03-26 01:06:14,458] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:06:14,525] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:06:14,739] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.360 seconds
+[2022-03-26 01:07:09,404] {scheduler_job.py:182} INFO - Started process (PID=2009) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:07:09,416] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:07:09,433] {logging_mixin.py:104} INFO - [2022-03-26 01:07:09,432] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:07:09,477] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:07:09,607] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.271 seconds
+[2022-03-26 01:07:35,992] {scheduler_job.py:182} INFO - Started process (PID=1947) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:07:36,009] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:07:36,024] {logging_mixin.py:104} INFO - [2022-03-26 01:07:36,024] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:07:36,178] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:07:36,425] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.594 seconds
+[2022-03-26 01:07:56,324] {scheduler_job.py:182} INFO - Started process (PID=2097) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:07:56,341] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:07:56,358] {logging_mixin.py:104} INFO - [2022-03-26 01:07:56,351] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:07:56,441] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:07:56,678] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.457 seconds
+[2022-03-26 01:08:54,846] {scheduler_job.py:182} INFO - Started process (PID=2202) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:08:54,871] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:08:54,876] {logging_mixin.py:104} INFO - [2022-03-26 01:08:54,876] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:08:54,930] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:08:55,209] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.403 seconds
+[2022-03-26 01:08:58,885] {scheduler_job.py:182} INFO - Started process (PID=2103) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:08:58,912] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:08:58,923] {logging_mixin.py:104} INFO - [2022-03-26 01:08:58,923] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:08:59,036] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:08:59,267] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.520 seconds
+[2022-03-26 01:09:34,566] {scheduler_job.py:182} INFO - Started process (PID=2287) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:09:34,584] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:09:34,594] {logging_mixin.py:104} INFO - [2022-03-26 01:09:34,592] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:09:34,666] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:09:35,204] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.693 seconds
+[2022-03-26 01:10:16,876] {scheduler_job.py:182} INFO - Started process (PID=2255) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:10:16,947] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:10:16,981] {logging_mixin.py:104} INFO - [2022-03-26 01:10:16,980] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:10:17,106] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:10:17,403] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.591 seconds
+[2022-03-26 01:10:59,423] {scheduler_job.py:182} INFO - Started process (PID=2410) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:10:59,458] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:10:59,480] {logging_mixin.py:104} INFO - [2022-03-26 01:10:59,480] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:10:59,542] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:10:59,702] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.352 seconds
+[2022-03-26 01:12:01,256] {scheduler_job.py:182} INFO - Started process (PID=2423) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:12:01,282] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:12:01,311] {logging_mixin.py:104} INFO - [2022-03-26 01:12:01,311] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:12:01,386] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:12:01,573] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.449 seconds
+[2022-03-26 01:12:05,337] {scheduler_job.py:182} INFO - Started process (PID=2529) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:12:05,355] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:12:05,369] {logging_mixin.py:104} INFO - [2022-03-26 01:12:05,366] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:12:05,433] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:12:05,703] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.390 seconds
+[2022-03-26 01:12:51,515] {scheduler_job.py:182} INFO - Started process (PID=2620) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:12:51,590] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:12:51,608] {logging_mixin.py:104} INFO - [2022-03-26 01:12:51,608] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:12:51,711] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:12:52,017] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.643 seconds
+[2022-03-26 01:13:17,227] {scheduler_job.py:182} INFO - Started process (PID=2573) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:13:17,263] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:13:17,276] {logging_mixin.py:104} INFO - [2022-03-26 01:13:17,275] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:13:17,354] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:13:17,564] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.402 seconds
+[2022-03-26 01:13:51,377] {scheduler_job.py:182} INFO - Started process (PID=2728) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:13:51,414] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:13:51,440] {logging_mixin.py:104} INFO - [2022-03-26 01:13:51,426] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:13:51,610] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:13:51,941] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.797 seconds
+[2022-03-26 01:14:31,480] {scheduler_job.py:182} INFO - Started process (PID=2704) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:14:31,511] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:14:31,521] {logging_mixin.py:104} INFO - [2022-03-26 01:14:31,519] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:14:31,574] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:14:31,713] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.282 seconds
+[2022-03-26 01:14:37,024] {scheduler_job.py:182} INFO - Started process (PID=2811) to work on /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:14:37,037] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar for tasks to queue
+[2022-03-26 01:14:37,046] {logging_mixin.py:104} INFO - [2022-03-26 01:14:37,046] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:14:37,085] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar
+[2022-03-26 01:14:37,166] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasSemanal_0.1/lib/advancedPersistentLookupLib-1.3.jar took 0.178 seconds

@@ -1,0 +1,80 @@
+[2022-03-26 01:05:55,540] {scheduler_job.py:182} INFO - Started process (PID=1771) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:05:55,553] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:05:55,559] {logging_mixin.py:104} INFO - [2022-03-26 01:05:55,559] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:05:56,568] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:05:57,296] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 1.876 seconds
+[2022-03-26 01:06:18,123] {scheduler_job.py:182} INFO - Started process (PID=1928) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:06:18,139] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:06:18,153] {logging_mixin.py:104} INFO - [2022-03-26 01:06:18,153] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:06:18,479] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:06:18,591] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.504 seconds
+[2022-03-26 01:07:11,633] {scheduler_job.py:182} INFO - Started process (PID=2018) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:07:11,647] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:07:11,658] {logging_mixin.py:104} INFO - [2022-03-26 01:07:11,657] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:07:11,801] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:07:11,878] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.266 seconds
+[2022-03-26 01:07:33,050] {scheduler_job.py:182} INFO - Started process (PID=1942) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:07:33,068] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:07:33,087] {logging_mixin.py:104} INFO - [2022-03-26 01:07:33,087] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:07:33,261] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:07:33,502] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.489 seconds
+[2022-03-26 01:08:01,274] {scheduler_job.py:182} INFO - Started process (PID=2107) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:08:01,335] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:08:01,358] {logging_mixin.py:104} INFO - [2022-03-26 01:08:01,346] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:08:01,498] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:08:01,573] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.360 seconds
+[2022-03-26 01:08:54,732] {scheduler_job.py:182} INFO - Started process (PID=2098) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:08:54,793] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:08:54,809] {logging_mixin.py:104} INFO - [2022-03-26 01:08:54,806] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:08:54,935] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:08:55,257] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.588 seconds
+[2022-03-26 01:08:58,992] {scheduler_job.py:182} INFO - Started process (PID=2211) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:08:59,059] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:08:59,071] {logging_mixin.py:104} INFO - [2022-03-26 01:08:59,070] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:08:59,232] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:08:59,471] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.503 seconds
+[2022-03-26 01:10:04,428] {scheduler_job.py:182} INFO - Started process (PID=2329) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:10:04,441] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:10:04,451] {logging_mixin.py:104} INFO - [2022-03-26 01:10:04,450] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:10:04,594] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:10:04,717] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.307 seconds
+[2022-03-26 01:10:13,281] {scheduler_job.py:182} INFO - Started process (PID=2243) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:10:13,288] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:10:13,302] {logging_mixin.py:104} INFO - [2022-03-26 01:10:13,295] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:10:13,449] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:10:13,678] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.542 seconds
+[2022-03-26 01:11:27,609] {scheduler_job.py:182} INFO - Started process (PID=2462) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:11:27,643] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:11:27,650] {logging_mixin.py:104} INFO - [2022-03-26 01:11:27,649] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:11:27,774] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:11:27,886] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.311 seconds
+[2022-03-26 01:11:57,593] {scheduler_job.py:182} INFO - Started process (PID=2417) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:11:57,607] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:11:57,618] {logging_mixin.py:104} INFO - [2022-03-26 01:11:57,616] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:11:57,874] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:11:58,532] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.957 seconds
+[2022-03-26 01:12:27,335] {scheduler_job.py:182} INFO - Started process (PID=2573) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:12:27,344] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:12:27,362] {logging_mixin.py:104} INFO - [2022-03-26 01:12:27,361] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:12:27,460] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:12:27,570] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.259 seconds
+[2022-03-26 01:13:15,156] {scheduler_job.py:182} INFO - Started process (PID=2568) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:13:15,175] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:13:15,183] {logging_mixin.py:104} INFO - [2022-03-26 01:13:15,183] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:13:15,364] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:13:15,586] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.589 seconds
+[2022-03-26 01:13:29,147] {scheduler_job.py:182} INFO - Started process (PID=2691) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:13:29,162] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:13:29,186] {logging_mixin.py:104} INFO - [2022-03-26 01:13:29,176] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:13:29,426] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:13:29,554] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.436 seconds
+[2022-03-26 01:14:37,307] {scheduler_job.py:182} INFO - Started process (PID=2813) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:14:37,324] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:14:37,328] {logging_mixin.py:104} INFO - [2022-03-26 01:14:37,328] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:14:37,426] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:14:37,542] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.257 seconds
+[2022-03-26 01:14:56,407] {scheduler_job.py:182} INFO - Started process (PID=2759) to work on /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:14:56,427] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar for tasks to queue
+[2022-03-26 01:14:56,446] {logging_mixin.py:104} INFO - [2022-03-26 01:14:56,445] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:14:56,613] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar
+[2022-03-26 01:14:56,825] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/lib/trove.jar took 0.523 seconds

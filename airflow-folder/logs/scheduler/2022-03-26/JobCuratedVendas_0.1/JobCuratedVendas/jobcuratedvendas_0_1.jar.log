@@ -1,0 +1,110 @@
+[2022-03-26 01:05:36,561] {scheduler_job.py:182} INFO - Started process (PID=1722) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:05:36,581] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:05:36,590] {logging_mixin.py:104} INFO - [2022-03-26 01:05:36,589] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:05:36,608] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:05:36,736] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.210 seconds
+[2022-03-26 01:06:14,646] {scheduler_job.py:182} INFO - Started process (PID=1802) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:06:14,676] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:06:14,708] {logging_mixin.py:104} INFO - [2022-03-26 01:06:14,708] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:06:14,795] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:06:15,122] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.526 seconds
+[2022-03-26 01:06:18,805] {scheduler_job.py:182} INFO - Started process (PID=1930) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:06:18,818] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:06:18,825] {logging_mixin.py:104} INFO - [2022-03-26 01:06:18,824] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:06:18,851] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:06:18,951] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.221 seconds
+[2022-03-26 01:07:07,882] {scheduler_job.py:182} INFO - Started process (PID=1892) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:07:07,927] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:07:07,958] {logging_mixin.py:104} INFO - [2022-03-26 01:07:07,958] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:07:08,063] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:07:08,170] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.356 seconds
+[2022-03-26 01:07:12,203] {scheduler_job.py:182} INFO - Started process (PID=2020) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:07:12,241] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:07:12,275] {logging_mixin.py:104} INFO - [2022-03-26 01:07:12,275] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:07:12,325] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:07:12,598] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.461 seconds
+[2022-03-26 01:07:49,615] {scheduler_job.py:182} INFO - Started process (PID=1974) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:07:49,654] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:07:49,671] {logging_mixin.py:104} INFO - [2022-03-26 01:07:49,668] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:07:49,717] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:07:49,960] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.463 seconds
+[2022-03-26 01:08:01,761] {scheduler_job.py:182} INFO - Started process (PID=2109) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:08:01,801] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:08:01,828] {logging_mixin.py:104} INFO - [2022-03-26 01:08:01,825] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:08:01,874] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:08:02,090] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.358 seconds
+[2022-03-26 01:08:32,088] {scheduler_job.py:182} INFO - Started process (PID=2052) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:08:32,104] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:08:32,162] {logging_mixin.py:104} INFO - [2022-03-26 01:08:32,153] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:08:32,243] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:08:32,508] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.534 seconds
+[2022-03-26 01:08:59,727] {scheduler_job.py:182} INFO - Started process (PID=2213) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:08:59,737] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:08:59,748] {logging_mixin.py:104} INFO - [2022-03-26 01:08:59,746] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:08:59,812] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:08:59,978] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.277 seconds
+[2022-03-26 01:09:08,550] {scheduler_job.py:182} INFO - Started process (PID=2128) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:09:08,620] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:09:08,648] {logging_mixin.py:104} INFO - [2022-03-26 01:09:08,647] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:09:08,724] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:09:09,012] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.522 seconds
+[2022-03-26 01:09:47,895] {scheduler_job.py:182} INFO - Started process (PID=2194) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:09:47,977] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:09:47,999] {logging_mixin.py:104} INFO - [2022-03-26 01:09:47,997] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:09:48,054] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:09:48,609] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.808 seconds
+[2022-03-26 01:10:04,871] {scheduler_job.py:182} INFO - Started process (PID=2331) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:10:04,880] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:10:04,886] {logging_mixin.py:104} INFO - [2022-03-26 01:10:04,885] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:10:04,908] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:10:04,991] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.140 seconds
+[2022-03-26 01:10:39,035] {scheduler_job.py:182} INFO - Started process (PID=2282) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:10:39,055] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:10:39,075] {logging_mixin.py:104} INFO - [2022-03-26 01:10:39,072] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:10:39,140] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:10:39,311] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.396 seconds
+[2022-03-26 01:11:27,186] {scheduler_job.py:182} INFO - Started process (PID=2460) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:11:27,208] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:11:27,218] {logging_mixin.py:104} INFO - [2022-03-26 01:11:27,217] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:11:27,263] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:11:27,343] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.192 seconds
+[2022-03-26 01:11:29,526] {scheduler_job.py:182} INFO - Started process (PID=2364) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:11:29,700] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:11:29,719] {logging_mixin.py:104} INFO - [2022-03-26 01:11:29,718] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:11:29,862] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:11:30,317] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.945 seconds
+[2022-03-26 01:12:11,650] {scheduler_job.py:182} INFO - Started process (PID=2448) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:12:11,674] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:12:11,691] {logging_mixin.py:104} INFO - [2022-03-26 01:12:11,691] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:12:11,832] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:12:12,149] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.588 seconds
+[2022-03-26 01:12:26,889] {scheduler_job.py:182} INFO - Started process (PID=2571) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:12:26,932] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:12:26,945] {logging_mixin.py:104} INFO - [2022-03-26 01:12:26,945] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:12:26,986] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:12:27,096] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.290 seconds
+[2022-03-26 01:12:50,776] {scheduler_job.py:182} INFO - Started process (PID=2523) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:12:50,877] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:12:50,889] {logging_mixin.py:104} INFO - [2022-03-26 01:12:50,889] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:12:50,953] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:12:51,431] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.935 seconds
+[2022-03-26 01:13:29,192] {scheduler_job.py:182} INFO - Started process (PID=2598) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:13:29,210] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:13:29,247] {logging_mixin.py:104} INFO - [2022-03-26 01:13:29,246] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:13:29,258] {scheduler_job.py:182} INFO - Started process (PID=2692) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:13:29,302] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:13:29,294] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:13:29,322] {logging_mixin.py:104} INFO - [2022-03-26 01:13:29,322] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:13:29,379] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:13:29,499] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.314 seconds
+[2022-03-26 01:13:29,569] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.445 seconds
+[2022-03-26 01:14:37,742] {scheduler_job.py:182} INFO - Started process (PID=2814) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:14:37,780] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:14:37,789] {logging_mixin.py:104} INFO - [2022-03-26 01:14:37,788] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:14:37,865] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:14:38,050] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.377 seconds
+[2022-03-26 01:14:38,907] {scheduler_job.py:182} INFO - Started process (PID=2727) to work on /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:14:38,984] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar for tasks to queue
+[2022-03-26 01:14:38,993] {logging_mixin.py:104} INFO - [2022-03-26 01:14:38,993] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:14:39,116] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar
+[2022-03-26 01:14:39,584] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendas_0.1/JobCuratedVendas/jobcuratedvendas_0_1.jar took 0.738 seconds

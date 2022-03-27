@@ -1,0 +1,115 @@
+[2022-03-26 01:05:36,963] {scheduler_job.py:182} INFO - Started process (PID=1723) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:05:36,984] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:05:36,996] {logging_mixin.py:104} INFO - [2022-03-26 01:05:36,993] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:05:37,130] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:05:37,232] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.347 seconds
+[2022-03-26 01:06:15,796] {scheduler_job.py:182} INFO - Started process (PID=1811) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:06:15,835] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:06:15,859] {logging_mixin.py:104} INFO - [2022-03-26 01:06:15,856] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:06:16,134] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:06:16,346] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.749 seconds
+[2022-03-26 01:06:16,713] {scheduler_job.py:182} INFO - Started process (PID=1924) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:06:16,728] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:06:16,744] {logging_mixin.py:104} INFO - [2022-03-26 01:06:16,744] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:06:16,894] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:06:17,026] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.359 seconds
+[2022-03-26 01:07:08,470] {scheduler_job.py:182} INFO - Started process (PID=1894) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:08,487] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:07:08,502] {logging_mixin.py:104} INFO - [2022-03-26 01:07:08,501] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:08,680] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:08,932] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.519 seconds
+[2022-03-26 01:07:10,746] {scheduler_job.py:182} INFO - Started process (PID=2014) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:10,776] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:07:10,786] {logging_mixin.py:104} INFO - [2022-03-26 01:07:10,784] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:10,887] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:11,025] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.354 seconds
+[2022-03-26 01:07:50,286] {scheduler_job.py:182} INFO - Started process (PID=1976) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:50,336] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:07:50,373] {logging_mixin.py:104} INFO - [2022-03-26 01:07:50,367] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:50,872] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:52,083] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 1.890 seconds
+[2022-03-26 01:07:59,287] {scheduler_job.py:182} INFO - Started process (PID=2103) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:59,349] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:07:59,381] {logging_mixin.py:104} INFO - [2022-03-26 01:07:59,371] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:59,602] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:07:59,823] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.597 seconds
+[2022-03-26 01:08:33,218] {scheduler_job.py:182} INFO - Started process (PID=2054) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:08:33,241] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:08:33,265] {logging_mixin.py:104} INFO - [2022-03-26 01:08:33,262] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:08:33,967] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:08:34,590] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 1.495 seconds
+[2022-03-26 01:08:57,083] {scheduler_job.py:182} INFO - Started process (PID=2207) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:08:57,239] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:08:57,359] {logging_mixin.py:104} INFO - [2022-03-26 01:08:57,348] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:08:58,014] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:08:58,405] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 1.435 seconds
+[2022-03-26 01:09:10,327] {scheduler_job.py:182} INFO - Started process (PID=2130) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:09:10,380] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:09:10,425] {logging_mixin.py:104} INFO - [2022-03-26 01:09:10,423] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:09:10,590] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:09:11,058] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.764 seconds
+[2022-03-26 01:09:40,099] {scheduler_job.py:182} INFO - Started process (PID=2294) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:09:40,145] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:09:40,175] {logging_mixin.py:104} INFO - [2022-03-26 01:09:40,174] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:09:40,547] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:09:40,974] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 1.080 seconds
+[2022-03-26 01:09:50,065] {scheduler_job.py:182} INFO - Started process (PID=2196) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:09:50,106] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:09:50,140] {logging_mixin.py:104} INFO - [2022-03-26 01:09:50,137] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:09:50,487] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:09:50,867] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.933 seconds
+[2022-03-26 01:10:39,570] {scheduler_job.py:182} INFO - Started process (PID=2284) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:10:39,618] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:10:39,636] {logging_mixin.py:104} INFO - [2022-03-26 01:10:39,634] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:10:40,595] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:10:41,916] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 2.380 seconds
+[2022-03-26 01:11:01,574] {scheduler_job.py:182} INFO - Started process (PID=2415) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:11:01,580] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:11:01,587] {logging_mixin.py:104} INFO - [2022-03-26 01:11:01,586] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:11:01,711] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:11:01,881] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.358 seconds
+[2022-03-26 01:11:31,192] {scheduler_job.py:182} INFO - Started process (PID=2372) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:11:31,297] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:11:31,333] {logging_mixin.py:104} INFO - [2022-03-26 01:11:31,322] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:11:31,950] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:11:32,205] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 1.144 seconds
+[2022-03-26 01:12:06,887] {scheduler_job.py:182} INFO - Started process (PID=2534) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:06,927] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:12:06,936] {logging_mixin.py:104} INFO - [2022-03-26 01:12:06,935] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:07,127] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:07,921] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 1.117 seconds
+[2022-03-26 01:12:13,822] {scheduler_job.py:182} INFO - Started process (PID=2450) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:13,854] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:12:13,860] {logging_mixin.py:104} INFO - [2022-03-26 01:12:13,860] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:14,082] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:14,253] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.624 seconds
+[2022-03-26 01:12:52,831] {scheduler_job.py:182} INFO - Started process (PID=2525) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:52,845] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:12:52,869] {logging_mixin.py:104} INFO - [2022-03-26 01:12:52,862] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:53,110] {scheduler_job.py:182} INFO - Started process (PID=2625) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:53,131] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:53,138] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:12:53,153] {logging_mixin.py:104} INFO - [2022-03-26 01:12:53,153] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:53,293] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:12:53,323] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.557 seconds
+[2022-03-26 01:12:53,411] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.358 seconds
+[2022-03-26 01:13:29,929] {scheduler_job.py:182} INFO - Started process (PID=2600) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:13:29,945] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:13:29,969] {logging_mixin.py:104} INFO - [2022-03-26 01:13:29,964] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:13:30,172] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:13:30,269] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.423 seconds
+[2022-03-26 01:13:55,236] {scheduler_job.py:182} INFO - Started process (PID=2733) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:13:55,371] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:13:55,397] {logging_mixin.py:104} INFO - [2022-03-26 01:13:55,396] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:13:55,788] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:13:56,079] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 1.051 seconds
+[2022-03-26 01:14:40,992] {scheduler_job.py:182} INFO - Started process (PID=2729) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:14:41,068] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:14:41,101] {logging_mixin.py:104} INFO - [2022-03-26 01:14:41,095] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:14:41,728] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:14:41,937] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 1.109 seconds
+[2022-03-26 01:14:55,451] {scheduler_job.py:182} INFO - Started process (PID=2842) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:14:55,465] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar for tasks to queue
+[2022-03-26 01:14:55,490] {logging_mixin.py:104} INFO - [2022-03-26 01:14:55,489] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:14:55,585] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar
+[2022-03-26 01:14:55,740] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/commons-collections-3.2.2.jar took 0.315 seconds

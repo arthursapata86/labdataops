@@ -1,0 +1,321 @@
+[2022-03-26 01:00:46,490] {scheduler_job.py:182} INFO - Started process (PID=1265) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:00:47,158] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:00:47,183] {logging_mixin.py:104} INFO - [2022-03-26 01:00:47,182] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:00:49,867] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:00:53,777] {logging_mixin.py:104} INFO - [2022-03-26 01:00:53,776] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:00:54,777] {scheduler_job.py:182} INFO - Started process (PID=1541) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:00:54,807] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:00:54,823] {logging_mixin.py:104} INFO - [2022-03-26 01:00:54,823] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:00:55,405] {logging_mixin.py:104} INFO - [2022-03-26 01:00:55,404] {dag.py:1837} INFO - Creating ORM DAG for Job_Churn
+[2022-03-26 01:00:55,634] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:00:56,547] {logging_mixin.py:104} INFO - [2022-03-26 01:00:56,540] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:00:56,906] {logging_mixin.py:104} INFO - [2022-03-26 01:00:56,892] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:00:57,227] {logging_mixin.py:104} INFO - [2022-03-26 01:00:57,226] {dag.py:1837} INFO - Creating ORM DAG for Job_Churn
+[2022-03-26 01:00:57,578] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 11.793 seconds
+[2022-03-26 01:00:58,399] {logging_mixin.py:104} INFO - [2022-03-26 01:00:58,398] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:00:58,547] {scheduler_job.py:193} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "dag_pkey"
+DETAIL:  Key (dag_id)=(Job_Churn) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/jobs/scheduler_job.py", line 187, in _run_file_processor
+    callback_requests=callback_requests,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 65, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/jobs/scheduler_job.py", line 648, in process_file
+    dagbag.sync_to_db()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 65, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 552, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/home/airflow/.local/lib/python3.6/site-packages/tenacity/__init__.py", line 390, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/home/airflow/.local/lib/python3.6/site-packages/tenacity/__init__.py", line 356, in iter
+    return fut.result()
+  File "/usr/local/lib/python3.6/concurrent/futures/_base.py", line 425, in result
+    return self.__get_result()
+  File "/usr/local/lib/python3.6/concurrent/futures/_base.py", line 384, in __get_result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 566, in sync_to_db
+    DAG.bulk_write_to_db(self.dags.values(), session=session)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 62, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dag.py", line 1904, in bulk_write_to_db
+    DagCode.bulk_sync_to_db([dag.fileloc for dag in orm_dags])
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 65, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/usr/local/lib/python3.6/contextlib.py", line 88, in __exit__
+    next(self.gen)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 32, in create_session
+    session.commit()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 1046, in commit
+    self.transaction.commit()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 504, in commit
+    self._prepare_impl()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 483, in _prepare_impl
+    self.session.flush()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2540, in flush
+    self._flush(objects)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2682, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/session.py", line 2642, in _flush
+    flush_context.execute()
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/unitofwork.py", line 589, in execute
+    uow,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 245, in save_obj
+    insert,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/orm/persistence.py", line 1083, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1130, in _execute_clauseelement
+    distilled_params,
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1317, in _execute_context
+    e, statement, parameters, cursor, context
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1511, in _handle_dbapi_exception
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/base.py", line 1277, in _execute_context
+    cursor, statement, parameters, context
+  File "/home/airflow/.local/lib/python3.6/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "dag_pkey"
+DETAIL:  Key (dag_id)=(Job_Churn) already exists.
+
+[SQL: INSERT INTO dag (dag_id, root_dag_id, is_paused, is_subdag, is_active, last_scheduler_run, last_pickled, last_expired, scheduler_lock, pickle_id, fileloc, owners, description, default_view, schedule_interval, concurrency, has_task_concurrency_limits, next_dagrun, next_dagrun_create_after) VALUES (%(dag_id)s, %(root_dag_id)s, %(is_paused)s, %(is_subdag)s, %(is_active)s, %(last_scheduler_run)s, %(last_pickled)s, %(last_expired)s, %(scheduler_lock)s, %(pickle_id)s, %(fileloc)s, %(owners)s, %(description)s, %(default_view)s, %(schedule_interval)s, %(concurrency)s, %(has_task_concurrency_limits)s, %(next_dagrun)s, %(next_dagrun_create_after)s)]
+[parameters: {'dag_id': 'Job_Churn', 'root_dag_id': None, 'is_paused': True, 'is_subdag': False, 'is_active': True, 'last_scheduler_run': None, 'last_pickled': None, 'last_expired': None, 'scheduler_lock': None, 'pickle_id': None, 'fileloc': '/opt/airflow/dags/JOB_Churn.py', 'owners': 'airflow', 'description': None, 'default_view': 'tree', 'schedule_interval': '"0 0 * * *"', 'concurrency': 16, 'has_task_concurrency_limits': False, 'next_dagrun': datetime.datetime(2022, 3, 24, 0, 0, tzinfo=Timezone('UTC')), 'next_dagrun_create_after': datetime.datetime(2022, 3, 25, 0, 0, tzinfo=Timezone('UTC'))}]
+(Background on this error at: http://sqlalche.me/e/13/gkpj)
+[2022-03-26 01:01:28,888] {scheduler_job.py:182} INFO - Started process (PID=1333) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:01:28,893] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:01:28,900] {logging_mixin.py:104} INFO - [2022-03-26 01:01:28,899] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:01:29,034] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:01:29,094] {logging_mixin.py:104} INFO - [2022-03-26 01:01:29,093] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:01:29,186] {logging_mixin.py:104} INFO - [2022-03-26 01:01:29,185] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:01:29,236] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 0.366 seconds
+[2022-03-26 01:01:29,310] {scheduler_job.py:182} INFO - Started process (PID=1585) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:01:29,315] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:01:29,327] {logging_mixin.py:104} INFO - [2022-03-26 01:01:29,326] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:01:29,415] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:01:29,478] {logging_mixin.py:104} INFO - [2022-03-26 01:01:29,478] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:01:29,546] {logging_mixin.py:104} INFO - [2022-03-26 01:01:29,546] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:01:29,582] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 0.306 seconds
+[2022-03-26 01:02:00,651] {scheduler_job.py:182} INFO - Started process (PID=1628) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:00,667] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:02:00,675] {logging_mixin.py:104} INFO - [2022-03-26 01:02:00,675] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:00,852] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:00,935] {scheduler_job.py:182} INFO - Started process (PID=1391) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:00,951] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:02:00,969] {logging_mixin.py:104} INFO - [2022-03-26 01:02:00,968] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:01,105] {logging_mixin.py:104} INFO - [2022-03-26 01:02:01,087] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:02:01,733] {logging_mixin.py:104} INFO - [2022-03-26 01:02:01,733] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:02:01,784] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:01,918] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.291 seconds
+[2022-03-26 01:02:02,285] {logging_mixin.py:104} INFO - [2022-03-26 01:02:02,284] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:02:03,234] {logging_mixin.py:104} INFO - [2022-03-26 01:02:03,223] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:02:03,476] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 2.596 seconds
+[2022-03-26 01:02:32,818] {scheduler_job.py:182} INFO - Started process (PID=1670) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:32,841] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:02:32,849] {logging_mixin.py:104} INFO - [2022-03-26 01:02:32,844] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:33,299] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:33,381] {logging_mixin.py:104} INFO - [2022-03-26 01:02:33,381] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:02:33,512] {logging_mixin.py:104} INFO - [2022-03-26 01:02:33,511] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:02:33,577] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 0.800 seconds
+[2022-03-26 01:02:35,667] {scheduler_job.py:182} INFO - Started process (PID=1456) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:35,697] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:02:35,715] {logging_mixin.py:104} INFO - [2022-03-26 01:02:35,715] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:36,005] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:02:36,211] {logging_mixin.py:104} INFO - [2022-03-26 01:02:36,206] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:02:36,665] {logging_mixin.py:104} INFO - [2022-03-26 01:02:36,661] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:02:36,804] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.222 seconds
+[2022-03-26 01:03:23,014] {scheduler_job.py:182} INFO - Started process (PID=1709) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:03:23,028] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:03:23,034] {logging_mixin.py:104} INFO - [2022-03-26 01:03:23,033] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:03:23,286] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:03:23,567] {logging_mixin.py:104} INFO - [2022-03-26 01:03:23,565] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:03:23,927] {logging_mixin.py:104} INFO - [2022-03-26 01:03:23,926] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:03:24,177] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.219 seconds
+[2022-03-26 01:03:25,027] {scheduler_job.py:182} INFO - Started process (PID=1523) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:03:25,072] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:03:25,145] {logging_mixin.py:104} INFO - [2022-03-26 01:03:25,133] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:03:26,267] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:03:26,950] {logging_mixin.py:104} INFO - [2022-03-26 01:03:26,950] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:03:27,980] {logging_mixin.py:104} INFO - [2022-03-26 01:03:27,979] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:03:28,132] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 3.403 seconds
+[2022-03-26 01:04:00,885] {scheduler_job.py:182} INFO - Started process (PID=1748) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:00,903] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:04:00,929] {logging_mixin.py:104} INFO - [2022-03-26 01:04:00,928] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:01,735] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:01,886] {logging_mixin.py:104} INFO - [2022-03-26 01:04:01,885] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:04:02,651] {logging_mixin.py:104} INFO - [2022-03-26 01:04:02,648] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:04:03,224] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 2.633 seconds
+[2022-03-26 01:04:13,527] {scheduler_job.py:182} INFO - Started process (PID=1598) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:13,544] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:04:13,567] {logging_mixin.py:104} INFO - [2022-03-26 01:04:13,566] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:14,168] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:14,873] {logging_mixin.py:104} INFO - [2022-03-26 01:04:14,873] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:04:16,508] {logging_mixin.py:104} INFO - [2022-03-26 01:04:16,508] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:04:16,963] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 3.482 seconds
+[2022-03-26 01:04:36,252] {scheduler_job.py:182} INFO - Started process (PID=1791) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:36,332] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:04:36,390] {logging_mixin.py:104} INFO - [2022-03-26 01:04:36,389] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:37,028] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:37,772] {logging_mixin.py:104} INFO - [2022-03-26 01:04:37,771] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:04:38,998] {logging_mixin.py:104} INFO - [2022-03-26 01:04:38,998] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:04:39,671] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 3.451 seconds
+[2022-03-26 01:04:48,370] {scheduler_job.py:182} INFO - Started process (PID=1652) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:48,417] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:04:48,425] {logging_mixin.py:104} INFO - [2022-03-26 01:04:48,425] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:48,852] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:04:49,292] {logging_mixin.py:104} INFO - [2022-03-26 01:04:49,291] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:04:49,875] {logging_mixin.py:104} INFO - [2022-03-26 01:04:49,874] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:04:50,291] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.946 seconds
+[2022-03-26 01:05:13,109] {scheduler_job.py:182} INFO - Started process (PID=1835) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:05:13,115] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:05:13,123] {logging_mixin.py:104} INFO - [2022-03-26 01:05:13,122] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:05:13,243] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:05:13,328] {logging_mixin.py:104} INFO - [2022-03-26 01:05:13,328] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:05:13,441] {logging_mixin.py:104} INFO - [2022-03-26 01:05:13,441] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:05:13,499] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 0.429 seconds
+[2022-03-26 01:05:24,644] {scheduler_job.py:182} INFO - Started process (PID=1697) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:05:24,716] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:05:24,745] {logging_mixin.py:104} INFO - [2022-03-26 01:05:24,740] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:05:25,525] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:05:26,416] {logging_mixin.py:104} INFO - [2022-03-26 01:05:26,415] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:05:27,254] {logging_mixin.py:104} INFO - [2022-03-26 01:05:27,242] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:05:27,921] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 3.374 seconds
+[2022-03-26 01:06:06,620] {scheduler_job.py:182} INFO - Started process (PID=1907) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:06:06,638] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:06:06,647] {logging_mixin.py:104} INFO - [2022-03-26 01:06:06,646] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:06:06,917] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:06:07,333] {logging_mixin.py:104} INFO - [2022-03-26 01:06:07,333] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:06:08,329] {logging_mixin.py:104} INFO - [2022-03-26 01:06:08,305] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:06:08,652] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 2.100 seconds
+[2022-03-26 01:06:48,662] {scheduler_job.py:182} INFO - Started process (PID=1859) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:06:48,668] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:06:48,712] {logging_mixin.py:104} INFO - [2022-03-26 01:06:48,711] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:06:49,315] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:06:49,639] {logging_mixin.py:104} INFO - [2022-03-26 01:06:49,638] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:06:50,124] {logging_mixin.py:104} INFO - [2022-03-26 01:06:50,124] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:06:50,366] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.856 seconds
+[2022-03-26 01:07:02,019] {scheduler_job.py:182} INFO - Started process (PID=1998) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:07:02,034] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:07:02,055] {logging_mixin.py:104} INFO - [2022-03-26 01:07:02,054] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:07:02,509] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:07:02,925] {logging_mixin.py:104} INFO - [2022-03-26 01:07:02,924] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:07:04,197] {logging_mixin.py:104} INFO - [2022-03-26 01:07:04,197] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:07:04,467] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 2.516 seconds
+[2022-03-26 01:07:47,172] {scheduler_job.py:182} INFO - Started process (PID=2085) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:07:47,210] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:07:47,233] {logging_mixin.py:104} INFO - [2022-03-26 01:07:47,233] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:07:47,562] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:07:48,140] {logging_mixin.py:104} INFO - [2022-03-26 01:07:48,139] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:07:49,116] {logging_mixin.py:104} INFO - [2022-03-26 01:07:49,116] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:07:49,434] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 2.288 seconds
+[2022-03-26 01:08:12,094] {scheduler_job.py:182} INFO - Started process (PID=2015) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:08:12,125] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:08:12,168] {logging_mixin.py:104} INFO - [2022-03-26 01:08:12,131] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:08:12,627] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:08:13,149] {logging_mixin.py:104} INFO - [2022-03-26 01:08:13,141] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:08:14,358] {logging_mixin.py:104} INFO - [2022-03-26 01:08:14,357] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:08:14,424] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 2.452 seconds
+[2022-03-26 01:08:32,726] {scheduler_job.py:182} INFO - Started process (PID=2168) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:08:32,751] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:08:32,797] {logging_mixin.py:104} INFO - [2022-03-26 01:08:32,797] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:08:33,652] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:08:34,340] {logging_mixin.py:104} INFO - [2022-03-26 01:08:34,335] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:08:34,949] {logging_mixin.py:104} INFO - [2022-03-26 01:08:34,948] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:08:35,582] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 2.923 seconds
+[2022-03-26 01:09:17,706] {scheduler_job.py:182} INFO - Started process (PID=2252) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:09:17,725] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:09:17,737] {logging_mixin.py:104} INFO - [2022-03-26 01:09:17,737] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:09:18,090] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:09:18,352] {logging_mixin.py:104} INFO - [2022-03-26 01:09:18,352] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:09:18,654] {logging_mixin.py:104} INFO - [2022-03-26 01:09:18,653] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:09:18,803] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.135 seconds
+[2022-03-26 01:09:23,973] {scheduler_job.py:182} INFO - Started process (PID=2158) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:09:23,990] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:09:24,008] {logging_mixin.py:104} INFO - [2022-03-26 01:09:24,002] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:09:24,278] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:09:24,703] {logging_mixin.py:104} INFO - [2022-03-26 01:09:24,703] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:09:25,110] {logging_mixin.py:104} INFO - [2022-03-26 01:09:25,109] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:09:25,249] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.316 seconds
+[2022-03-26 01:10:13,666] {scheduler_job.py:182} INFO - Started process (PID=2351) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:10:13,687] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:10:13,789] {logging_mixin.py:104} INFO - [2022-03-26 01:10:13,789] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:10:14,365] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:10:14,809] {logging_mixin.py:104} INFO - [2022-03-26 01:10:14,809] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:10:15,407] {logging_mixin.py:104} INFO - [2022-03-26 01:10:15,406] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:10:15,637] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 2.031 seconds
+[2022-03-26 01:11:11,066] {scheduler_job.py:182} INFO - Started process (PID=2336) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:11:11,102] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:11:11,120] {logging_mixin.py:104} INFO - [2022-03-26 01:11:11,119] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:11:11,791] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:11:12,847] {logging_mixin.py:104} INFO - [2022-03-26 01:11:12,846] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:11:13,453] {logging_mixin.py:104} INFO - [2022-03-26 01:11:13,453] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:11:13,621] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 2.738 seconds
+[2022-03-26 01:11:13,779] {scheduler_job.py:182} INFO - Started process (PID=2437) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:11:13,801] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:11:13,808] {logging_mixin.py:104} INFO - [2022-03-26 01:11:13,807] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:11:14,188] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:11:14,492] {logging_mixin.py:104} INFO - [2022-03-26 01:11:14,491] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:11:14,867] {logging_mixin.py:104} INFO - [2022-03-26 01:11:14,866] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:11:14,970] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.245 seconds
+[2022-03-26 01:12:01,390] {scheduler_job.py:182} INFO - Started process (PID=2520) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:12:01,408] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:12:01,422] {logging_mixin.py:104} INFO - [2022-03-26 01:12:01,421] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:12:01,640] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:12:01,876] {logging_mixin.py:104} INFO - [2022-03-26 01:12:01,876] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:12:02,373] {logging_mixin.py:104} INFO - [2022-03-26 01:12:02,373] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:12:02,485] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.144 seconds
+[2022-03-26 01:12:32,305] {scheduler_job.py:182} INFO - Started process (PID=2492) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:12:32,387] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:12:32,406] {logging_mixin.py:104} INFO - [2022-03-26 01:12:32,406] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:12:32,995] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:12:33,397] {logging_mixin.py:104} INFO - [2022-03-26 01:12:33,396] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:12:33,825] {logging_mixin.py:104} INFO - [2022-03-26 01:12:33,824] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:12:33,987] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.842 seconds
+[2022-03-26 01:12:44,200] {scheduler_job.py:182} INFO - Started process (PID=2607) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:12:44,277] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:12:44,328] {logging_mixin.py:104} INFO - [2022-03-26 01:12:44,328] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:12:44,929] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:12:45,447] {logging_mixin.py:104} INFO - [2022-03-26 01:12:45,446] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:12:45,811] {logging_mixin.py:104} INFO - [2022-03-26 01:12:45,811] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:12:45,909] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 1.851 seconds
+[2022-03-26 01:13:42,190] {scheduler_job.py:182} INFO - Started process (PID=2717) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:13:42,278] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:13:42,294] {logging_mixin.py:104} INFO - [2022-03-26 01:13:42,294] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:13:42,806] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:13:43,399] {logging_mixin.py:104} INFO - [2022-03-26 01:13:43,399] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:13:44,473] {logging_mixin.py:104} INFO - [2022-03-26 01:13:44,473] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:13:44,740] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 2.682 seconds
+[2022-03-26 01:13:56,366] {scheduler_job.py:182} INFO - Started process (PID=2642) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:13:56,415] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:13:56,437] {logging_mixin.py:104} INFO - [2022-03-26 01:13:56,436] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:13:57,403] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:13:58,048] {logging_mixin.py:104} INFO - [2022-03-26 01:13:58,047] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:13:59,802] {logging_mixin.py:104} INFO - [2022-03-26 01:13:59,778] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:14:00,187] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 3.911 seconds
+[2022-03-26 01:14:30,951] {scheduler_job.py:182} INFO - Started process (PID=2798) to work on /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:14:30,985] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JOB_Churn.py for tasks to queue
+[2022-03-26 01:14:30,997] {logging_mixin.py:104} INFO - [2022-03-26 01:14:30,996] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:14:31,319] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Churn']) retrieved from /opt/airflow/dags/JOB_Churn.py
+[2022-03-26 01:14:31,449] {logging_mixin.py:104} INFO - [2022-03-26 01:14:31,449] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:14:31,719] {logging_mixin.py:104} INFO - [2022-03-26 01:14:31,718] {dag.py:2273} INFO - Setting next_dagrun for Job_Churn to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:14:31,807] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JOB_Churn.py took 0.883 seconds

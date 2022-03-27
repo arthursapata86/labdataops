@@ -1,0 +1,250 @@
+[2022-03-26 00:50:47,384] {scheduler_job.py:182} INFO - Started process (PID=794) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:50:47,396] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:50:47,402] {logging_mixin.py:104} INFO - [2022-03-26 00:50:47,401] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:50:47,461] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:50:47,568] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.212 seconds
+[2022-03-26 00:51:18,510] {scheduler_job.py:182} INFO - Started process (PID=837) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:51:18,528] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:51:18,538] {logging_mixin.py:104} INFO - [2022-03-26 00:51:18,533] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:51:18,595] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:51:18,692] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.209 seconds
+[2022-03-26 00:51:49,780] {scheduler_job.py:182} INFO - Started process (PID=880) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:51:49,807] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:51:49,819] {logging_mixin.py:104} INFO - [2022-03-26 00:51:49,819] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:51:49,910] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:51:50,023] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.310 seconds
+[2022-03-26 00:52:23,071] {scheduler_job.py:182} INFO - Started process (PID=923) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:52:23,105] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:52:23,123] {logging_mixin.py:104} INFO - [2022-03-26 00:52:23,123] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:52:23,226] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:52:23,692] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.767 seconds
+[2022-03-26 00:53:20,791] {scheduler_job.py:182} INFO - Started process (PID=970) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:53:20,800] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:53:20,811] {logging_mixin.py:104} INFO - [2022-03-26 00:53:20,810] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:53:20,845] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:53:21,047] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.276 seconds
+[2022-03-26 00:53:51,275] {scheduler_job.py:182} INFO - Started process (PID=1012) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:53:51,292] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:53:51,307] {logging_mixin.py:104} INFO - [2022-03-26 00:53:51,306] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:53:51,356] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:53:51,426] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.171 seconds
+[2022-03-26 00:54:22,544] {scheduler_job.py:182} INFO - Started process (PID=1054) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:54:22,551] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:54:22,558] {logging_mixin.py:104} INFO - [2022-03-26 00:54:22,557] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:54:22,583] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:54:22,654] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.127 seconds
+[2022-03-26 00:54:52,935] {scheduler_job.py:182} INFO - Started process (PID=1096) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:54:52,943] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:54:52,947] {logging_mixin.py:104} INFO - [2022-03-26 00:54:52,947] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:54:52,965] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:54:52,996] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.085 seconds
+[2022-03-26 00:55:23,981] {scheduler_job.py:182} INFO - Started process (PID=1136) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:55:23,998] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:55:24,007] {logging_mixin.py:104} INFO - [2022-03-26 00:55:24,006] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:55:24,080] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:55:24,156] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.195 seconds
+[2022-03-26 00:55:54,571] {scheduler_job.py:182} INFO - Started process (PID=1178) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:55:54,581] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:55:54,596] {logging_mixin.py:104} INFO - [2022-03-26 00:55:54,595] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:55:54,647] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:55:54,723] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.176 seconds
+[2022-03-26 00:56:25,131] {scheduler_job.py:182} INFO - Started process (PID=1220) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:56:25,139] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:56:25,144] {logging_mixin.py:104} INFO - [2022-03-26 00:56:25,144] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:56:25,175] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:56:25,239] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.157 seconds
+[2022-03-26 00:56:55,561] {scheduler_job.py:182} INFO - Started process (PID=1262) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:56:55,570] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:56:55,577] {logging_mixin.py:104} INFO - [2022-03-26 00:56:55,576] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:56:55,612] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:56:55,656] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.112 seconds
+[2022-03-26 00:57:26,376] {scheduler_job.py:182} INFO - Started process (PID=1304) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:57:26,405] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:57:26,422] {logging_mixin.py:104} INFO - [2022-03-26 00:57:26,421] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:57:26,487] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:57:26,592] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.323 seconds
+[2022-03-26 00:57:57,329] {scheduler_job.py:182} INFO - Started process (PID=1346) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:57:57,344] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:57:57,350] {logging_mixin.py:104} INFO - [2022-03-26 00:57:57,349] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:57:57,379] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:57:57,544] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.241 seconds
+[2022-03-26 00:58:28,710] {scheduler_job.py:182} INFO - Started process (PID=1388) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:58:28,798] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:58:28,904] {logging_mixin.py:104} INFO - [2022-03-26 00:58:28,817] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:58:29,128] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:58:30,152] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 1.674 seconds
+[2022-03-26 00:59:15,336] {scheduler_job.py:182} INFO - Started process (PID=1429) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:59:15,344] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:59:15,348] {logging_mixin.py:104} INFO - [2022-03-26 00:59:15,347] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:59:15,385] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:59:15,529] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.216 seconds
+[2022-03-26 00:59:46,113] {scheduler_job.py:182} INFO - Started process (PID=1468) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:59:46,123] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 00:59:46,130] {logging_mixin.py:104} INFO - [2022-03-26 00:59:46,129] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:59:46,189] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 00:59:46,325] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.247 seconds
+[2022-03-26 01:00:17,854] {scheduler_job.py:182} INFO - Started process (PID=1511) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:00:17,871] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:00:17,883] {logging_mixin.py:104} INFO - [2022-03-26 01:00:17,883] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:00:17,930] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:00:18,053] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.233 seconds
+[2022-03-26 01:00:32,515] {scheduler_job.py:182} INFO - Started process (PID=1247) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:00:32,531] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:00:32,539] {logging_mixin.py:104} INFO - [2022-03-26 01:00:32,539] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:00:32,578] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:00:32,765] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.286 seconds
+[2022-03-26 01:01:12,507] {scheduler_job.py:182} INFO - Started process (PID=1560) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:12,517] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:01:12,535] {logging_mixin.py:104} INFO - [2022-03-26 01:01:12,532] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:12,724] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:13,004] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.518 seconds
+[2022-03-26 01:01:23,621] {scheduler_job.py:182} INFO - Started process (PID=1314) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:23,641] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:01:23,645] {logging_mixin.py:104} INFO - [2022-03-26 01:01:23,644] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:23,690] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:23,754] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.173 seconds
+[2022-03-26 01:01:44,360] {scheduler_job.py:182} INFO - Started process (PID=1603) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:44,401] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:01:44,454] {logging_mixin.py:104} INFO - [2022-03-26 01:01:44,454] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:44,565] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:44,800] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.524 seconds
+[2022-03-26 01:01:59,552] {scheduler_job.py:182} INFO - Started process (PID=1382) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:59,566] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:01:59,576] {logging_mixin.py:104} INFO - [2022-03-26 01:01:59,576] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:59,639] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:01:59,752] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.228 seconds
+[2022-03-26 01:02:16,942] {scheduler_job.py:182} INFO - Started process (PID=1649) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:02:16,949] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:02:16,979] {logging_mixin.py:104} INFO - [2022-03-26 01:02:16,971] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:02:17,038] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:02:17,150] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.260 seconds
+[2022-03-26 01:02:34,999] {scheduler_job.py:182} INFO - Started process (PID=1455) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:02:35,026] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:02:35,118] {logging_mixin.py:104} INFO - [2022-03-26 01:02:35,118] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:02:35,177] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:02:35,399] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.438 seconds
+[2022-03-26 01:03:15,048] {scheduler_job.py:182} INFO - Started process (PID=1700) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:03:15,077] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:03:15,095] {logging_mixin.py:104} INFO - [2022-03-26 01:03:15,094] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:03:15,172] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:03:15,725] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.777 seconds
+[2022-03-26 01:03:43,447] {scheduler_job.py:182} INFO - Started process (PID=1544) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:03:43,559] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:03:43,655] {logging_mixin.py:104} INFO - [2022-03-26 01:03:43,655] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:03:43,858] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:03:44,594] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 1.320 seconds
+[2022-03-26 01:03:51,241] {scheduler_job.py:182} INFO - Started process (PID=1738) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:03:51,253] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:03:51,271] {logging_mixin.py:104} INFO - [2022-03-26 01:03:51,270] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:03:51,330] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:03:51,635] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.407 seconds
+[2022-03-26 01:04:25,582] {scheduler_job.py:182} INFO - Started process (PID=1780) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:04:25,608] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:04:25,637] {logging_mixin.py:104} INFO - [2022-03-26 01:04:25,624] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:04:25,926] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:04:26,429] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 1.028 seconds
+[2022-03-26 01:04:41,884] {scheduler_job.py:182} INFO - Started process (PID=1634) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:04:41,908] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:04:41,938] {logging_mixin.py:104} INFO - [2022-03-26 01:04:41,938] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:04:41,996] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:04:42,087] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.296 seconds
+[2022-03-26 01:04:58,298] {scheduler_job.py:182} INFO - Started process (PID=1823) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:04:58,324] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:04:58,337] {logging_mixin.py:104} INFO - [2022-03-26 01:04:58,330] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:04:58,396] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:04:58,537] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.302 seconds
+[2022-03-26 01:05:31,862] {scheduler_job.py:182} INFO - Started process (PID=1863) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:05:31,903] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:05:31,914] {logging_mixin.py:104} INFO - [2022-03-26 01:05:31,914] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:05:31,954] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:05:32,039] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.225 seconds
+[2022-03-26 01:05:32,798] {scheduler_job.py:182} INFO - Started process (PID=1710) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:05:32,819] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:05:32,858] {logging_mixin.py:104} INFO - [2022-03-26 01:05:32,851] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:05:33,044] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:05:33,261] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.557 seconds
+[2022-03-26 01:06:27,549] {scheduler_job.py:182} INFO - Started process (PID=1831) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:06:27,591] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:06:27,608] {logging_mixin.py:104} INFO - [2022-03-26 01:06:27,608] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:06:27,750] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:06:28,137] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.647 seconds
+[2022-03-26 01:06:47,624] {scheduler_job.py:182} INFO - Started process (PID=1965) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:06:47,643] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:06:47,678] {logging_mixin.py:104} INFO - [2022-03-26 01:06:47,677] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:06:47,884] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:06:48,164] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.654 seconds
+[2022-03-26 01:07:18,393] {scheduler_job.py:182} INFO - Started process (PID=1913) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:07:18,423] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:07:18,466] {logging_mixin.py:104} INFO - [2022-03-26 01:07:18,466] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:07:18,688] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:07:19,208] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.944 seconds
+[2022-03-26 01:07:43,562] {scheduler_job.py:182} INFO - Started process (PID=2080) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:07:43,605] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:07:43,636] {logging_mixin.py:104} INFO - [2022-03-26 01:07:43,635] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:07:44,015] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:07:44,390] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 1.050 seconds
+[2022-03-26 01:08:38,658] {scheduler_job.py:182} INFO - Started process (PID=2177) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:08:38,679] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:08:38,712] {logging_mixin.py:104} INFO - [2022-03-26 01:08:38,708] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:08:38,827] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:08:38,925] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.304 seconds
+[2022-03-26 01:08:39,755] {scheduler_job.py:182} INFO - Started process (PID=2061) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:08:39,771] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:08:39,801] {logging_mixin.py:104} INFO - [2022-03-26 01:08:39,799] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:08:39,918] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:08:40,275] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.564 seconds
+[2022-03-26 01:09:24,938] {scheduler_job.py:182} INFO - Started process (PID=2272) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:09:24,955] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:09:24,976] {logging_mixin.py:104} INFO - [2022-03-26 01:09:24,976] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:09:25,060] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:09:25,189] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.271 seconds
+[2022-03-26 01:10:00,696] {scheduler_job.py:182} INFO - Started process (PID=2212) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:10:00,736] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:10:00,839] {logging_mixin.py:104} INFO - [2022-03-26 01:10:00,838] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:10:01,103] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:10:01,461] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.809 seconds
+[2022-03-26 01:10:31,290] {scheduler_job.py:182} INFO - Started process (PID=2370) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:10:31,298] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:10:31,318] {logging_mixin.py:104} INFO - [2022-03-26 01:10:31,312] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:10:31,447] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:10:31,588] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.341 seconds
+[2022-03-26 01:10:56,831] {scheduler_job.py:182} INFO - Started process (PID=2311) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:10:56,871] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:10:56,895] {logging_mixin.py:104} INFO - [2022-03-26 01:10:56,894] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:10:57,091] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:10:57,532] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.904 seconds
+[2022-03-26 01:11:26,466] {scheduler_job.py:182} INFO - Started process (PID=2458) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:11:26,482] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:11:26,488] {logging_mixin.py:104} INFO - [2022-03-26 01:11:26,487] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:11:26,565] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:11:26,688] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.270 seconds
+[2022-03-26 01:12:20,459] {scheduler_job.py:182} INFO - Started process (PID=2459) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:12:20,553] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:12:20,577] {logging_mixin.py:104} INFO - [2022-03-26 01:12:20,564] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:12:20,692] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:12:21,333] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 1.052 seconds
+[2022-03-26 01:12:25,716] {scheduler_job.py:182} INFO - Started process (PID=2569) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:12:25,756] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:12:25,766] {logging_mixin.py:104} INFO - [2022-03-26 01:12:25,764] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:12:25,838] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:12:25,983] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.320 seconds
+[2022-03-26 01:13:15,023] {scheduler_job.py:182} INFO - Started process (PID=2661) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:13:15,040] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:13:15,054] {logging_mixin.py:104} INFO - [2022-03-26 01:13:15,054] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:13:15,131] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:13:15,351] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.354 seconds
+[2022-03-26 01:13:35,758] {scheduler_job.py:182} INFO - Started process (PID=2615) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:13:35,844] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:13:35,865] {logging_mixin.py:104} INFO - [2022-03-26 01:13:35,865] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:13:36,099] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:13:36,227] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.797 seconds
+[2022-03-26 01:14:21,159] {scheduler_job.py:182} INFO - Started process (PID=2775) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:14:21,188] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:14:21,229] {logging_mixin.py:104} INFO - [2022-03-26 01:14:21,216] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:14:21,393] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:14:21,573] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 0.458 seconds
+[2022-03-26 01:14:45,902] {scheduler_job.py:182} INFO - Started process (PID=2742) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:14:45,970] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar for tasks to queue
+[2022-03-26 01:14:45,986] {logging_mixin.py:104} INFO - [2022-03-26 01:14:45,986] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:14:46,106] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar
+[2022-03-26 01:14:46,959] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/routines.jar took 1.173 seconds

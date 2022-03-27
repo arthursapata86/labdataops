@@ -1,0 +1,240 @@
+[2022-03-26 00:50:47,708] {scheduler_job.py:182} INFO - Started process (PID=797) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:50:47,716] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:50:47,724] {logging_mixin.py:104} INFO - [2022-03-26 00:50:47,722] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:50:47,748] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:50:47,807] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.111 seconds
+[2022-03-26 00:51:18,997] {scheduler_job.py:182} INFO - Started process (PID=840) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:51:19,011] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:51:19,039] {logging_mixin.py:104} INFO - [2022-03-26 00:51:19,038] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:51:19,128] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:51:19,361] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.384 seconds
+[2022-03-26 00:51:50,401] {scheduler_job.py:182} INFO - Started process (PID=883) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:51:50,431] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:51:50,449] {logging_mixin.py:104} INFO - [2022-03-26 00:51:50,449] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:51:50,575] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:51:50,746] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.392 seconds
+[2022-03-26 00:52:24,793] {scheduler_job.py:182} INFO - Started process (PID=926) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:52:24,823] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:52:24,835] {logging_mixin.py:104} INFO - [2022-03-26 00:52:24,832] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:52:24,928] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:52:25,049] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.285 seconds
+[2022-03-26 00:53:21,325] {scheduler_job.py:182} INFO - Started process (PID=972) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:53:21,355] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:53:21,396] {logging_mixin.py:104} INFO - [2022-03-26 00:53:21,395] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:53:21,486] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:53:22,067] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.784 seconds
+[2022-03-26 00:53:52,615] {scheduler_job.py:182} INFO - Started process (PID=1014) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:53:52,638] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:53:52,656] {logging_mixin.py:104} INFO - [2022-03-26 00:53:52,656] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:53:52,740] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:53:52,888] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.301 seconds
+[2022-03-26 00:54:23,998] {scheduler_job.py:182} INFO - Started process (PID=1057) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:54:24,011] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:54:24,017] {logging_mixin.py:104} INFO - [2022-03-26 00:54:24,017] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:54:24,061] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:54:24,108] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.137 seconds
+[2022-03-26 00:54:54,254] {scheduler_job.py:182} INFO - Started process (PID=1099) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:54:54,276] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:54:54,281] {logging_mixin.py:104} INFO - [2022-03-26 00:54:54,280] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:54:54,306] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:54:54,355] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.125 seconds
+[2022-03-26 00:55:25,335] {scheduler_job.py:182} INFO - Started process (PID=1141) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:55:25,349] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:55:25,363] {logging_mixin.py:104} INFO - [2022-03-26 00:55:25,362] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:55:25,410] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:55:25,477] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.176 seconds
+[2022-03-26 00:55:57,569] {scheduler_job.py:182} INFO - Started process (PID=1183) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:55:57,583] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:55:57,594] {logging_mixin.py:104} INFO - [2022-03-26 00:55:57,592] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:55:57,630] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:55:57,702] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.185 seconds
+[2022-03-26 00:56:27,944] {scheduler_job.py:182} INFO - Started process (PID=1225) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:56:27,957] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:56:27,964] {logging_mixin.py:104} INFO - [2022-03-26 00:56:27,963] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:56:28,003] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:56:28,074] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.156 seconds
+[2022-03-26 00:56:59,651] {scheduler_job.py:182} INFO - Started process (PID=1268) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:56:59,676] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:56:59,692] {logging_mixin.py:104} INFO - [2022-03-26 00:56:59,685] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:56:59,742] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:56:59,866] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.251 seconds
+[2022-03-26 00:57:30,284] {scheduler_job.py:182} INFO - Started process (PID=1311) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:57:30,289] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:57:30,312] {logging_mixin.py:104} INFO - [2022-03-26 00:57:30,310] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:57:30,364] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:57:30,456] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.193 seconds
+[2022-03-26 00:58:00,823] {scheduler_job.py:182} INFO - Started process (PID=1353) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:58:00,836] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:58:00,847] {logging_mixin.py:104} INFO - [2022-03-26 00:58:00,846] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:58:00,888] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:58:00,986] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.177 seconds
+[2022-03-26 00:58:47,191] {scheduler_job.py:182} INFO - Started process (PID=1399) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:58:47,231] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:58:47,251] {logging_mixin.py:104} INFO - [2022-03-26 00:58:47,250] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:58:47,382] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:58:47,693] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.594 seconds
+[2022-03-26 00:59:19,340] {scheduler_job.py:182} INFO - Started process (PID=1440) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:59:19,367] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:59:19,379] {logging_mixin.py:104} INFO - [2022-03-26 00:59:19,378] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:59:19,489] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:59:19,703] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.456 seconds
+[2022-03-26 00:59:50,027] {scheduler_job.py:182} INFO - Started process (PID=1481) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:59:50,043] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 00:59:50,052] {logging_mixin.py:104} INFO - [2022-03-26 00:59:50,052] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:59:50,116] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 00:59:50,176] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.176 seconds
+[2022-03-26 01:00:21,929] {scheduler_job.py:182} INFO - Started process (PID=1524) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:00:21,945] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:00:21,952] {logging_mixin.py:104} INFO - [2022-03-26 01:00:21,951] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:00:22,018] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:00:22,102] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.201 seconds
+[2022-03-26 01:01:17,227] {scheduler_job.py:182} INFO - Started process (PID=1299) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:17,233] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:01:17,250] {logging_mixin.py:104} INFO - [2022-03-26 01:01:17,249] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:17,304] {scheduler_job.py:182} INFO - Started process (PID=1570) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:17,321] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:17,329] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:01:17,348] {logging_mixin.py:104} INFO - [2022-03-26 01:01:17,348] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:17,417] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:17,451] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.266 seconds
+[2022-03-26 01:01:17,576] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.305 seconds
+[2022-03-26 01:01:50,024] {scheduler_job.py:182} INFO - Started process (PID=1612) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:50,063] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:01:50,077] {logging_mixin.py:104} INFO - [2022-03-26 01:01:50,076] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:50,176] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:50,426] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.509 seconds
+[2022-03-26 01:01:51,335] {scheduler_job.py:182} INFO - Started process (PID=1365) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:51,357] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:01:51,371] {logging_mixin.py:104} INFO - [2022-03-26 01:01:51,370] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:51,504] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:01:51,804] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.617 seconds
+[2022-03-26 01:02:20,595] {scheduler_job.py:182} INFO - Started process (PID=1655) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:02:20,609] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:02:20,617] {logging_mixin.py:104} INFO - [2022-03-26 01:02:20,616] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:02:20,648] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:02:20,706] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.150 seconds
+[2022-03-26 01:02:21,932] {scheduler_job.py:182} INFO - Started process (PID=1423) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:02:21,936] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:02:21,941] {logging_mixin.py:104} INFO - [2022-03-26 01:02:21,940] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:02:21,974] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:02:22,039] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.121 seconds
+[2022-03-26 01:03:18,278] {scheduler_job.py:182} INFO - Started process (PID=1704) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:03:18,325] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:03:18,342] {logging_mixin.py:104} INFO - [2022-03-26 01:03:18,341] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:03:18,564] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:03:18,919] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.728 seconds
+[2022-03-26 01:03:20,932] {scheduler_job.py:182} INFO - Started process (PID=1512) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:03:21,034] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:03:21,069] {logging_mixin.py:104} INFO - [2022-03-26 01:03:21,058] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:03:21,228] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:03:21,875] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.975 seconds
+[2022-03-26 01:03:54,543] {scheduler_job.py:182} INFO - Started process (PID=1742) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:03:54,560] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:03:54,610] {logging_mixin.py:104} INFO - [2022-03-26 01:03:54,602] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:03:54,728] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:03:55,117] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.635 seconds
+[2022-03-26 01:04:12,076] {scheduler_job.py:182} INFO - Started process (PID=1588) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:04:12,139] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:04:12,180] {logging_mixin.py:104} INFO - [2022-03-26 01:04:12,180] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:04:12,266] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:04:12,323] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.299 seconds
+[2022-03-26 01:04:31,645] {scheduler_job.py:182} INFO - Started process (PID=1786) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:04:31,667] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:04:31,680] {logging_mixin.py:104} INFO - [2022-03-26 01:04:31,680] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:04:31,742] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:04:31,989] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.417 seconds
+[2022-03-26 01:05:07,577] {scheduler_job.py:182} INFO - Started process (PID=1672) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:05:07,825] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:05:08,134] {logging_mixin.py:104} INFO - [2022-03-26 01:05:08,133] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:05:08,184] {scheduler_job.py:182} INFO - Started process (PID=1829) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:05:08,206] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:05:08,220] {logging_mixin.py:104} INFO - [2022-03-26 01:05:08,220] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:05:08,262] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:05:08,352] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:05:08,634] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 1.255 seconds
+[2022-03-26 01:05:08,859] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.754 seconds
+[2022-03-26 01:05:39,536] {scheduler_job.py:182} INFO - Started process (PID=1872) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:05:39,552] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:05:39,612] {logging_mixin.py:104} INFO - [2022-03-26 01:05:39,611] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:05:39,687] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:05:39,832] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.346 seconds
+[2022-03-26 01:06:33,322] {scheduler_job.py:182} INFO - Started process (PID=1949) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:06:33,371] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:06:33,402] {logging_mixin.py:104} INFO - [2022-03-26 01:06:33,394] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:06:33,511] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:06:33,772] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.555 seconds
+[2022-03-26 01:07:01,253] {scheduler_job.py:182} INFO - Started process (PID=1879) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:07:01,265] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:07:01,277] {logging_mixin.py:104} INFO - [2022-03-26 01:07:01,277] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:07:01,523] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:07:01,777] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.560 seconds
+[2022-03-26 01:07:27,739] {scheduler_job.py:182} INFO - Started process (PID=2046) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:07:27,775] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:07:27,816] {logging_mixin.py:104} INFO - [2022-03-26 01:07:27,815] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:07:28,016] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:07:28,213] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.515 seconds
+[2022-03-26 01:08:12,670] {scheduler_job.py:182} INFO - Started process (PID=2131) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:08:12,678] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:08:12,684] {logging_mixin.py:104} INFO - [2022-03-26 01:08:12,682] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:08:12,723] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:08:12,955] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.303 seconds
+[2022-03-26 01:08:26,434] {scheduler_job.py:182} INFO - Started process (PID=2036) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:08:26,494] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:08:26,508] {logging_mixin.py:104} INFO - [2022-03-26 01:08:26,507] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:08:26,625] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:08:26,817] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.463 seconds
+[2022-03-26 01:09:08,486] {scheduler_job.py:182} INFO - Started process (PID=2235) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:09:08,511] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:09:08,522] {logging_mixin.py:104} INFO - [2022-03-26 01:09:08,521] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:09:08,595] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:09:08,794] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.403 seconds
+[2022-03-26 01:09:40,561] {scheduler_job.py:182} INFO - Started process (PID=2186) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:09:40,742] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:09:40,816] {logging_mixin.py:104} INFO - [2022-03-26 01:09:40,812] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:09:41,043] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:09:41,686] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 1.327 seconds
+[2022-03-26 01:10:00,335] {scheduler_job.py:182} INFO - Started process (PID=2320) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:10:00,361] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:10:00,367] {logging_mixin.py:104} INFO - [2022-03-26 01:10:00,366] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:10:00,444] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:10:00,642] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.395 seconds
+[2022-03-26 01:10:53,957] {scheduler_job.py:182} INFO - Started process (PID=2398) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:10:53,974] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:10:53,981] {logging_mixin.py:104} INFO - [2022-03-26 01:10:53,980] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:10:54,037] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:10:54,279] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.353 seconds
+[2022-03-26 01:11:25,965] {scheduler_job.py:182} INFO - Started process (PID=2357) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:11:26,051] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:11:26,066] {logging_mixin.py:104} INFO - [2022-03-26 01:11:26,061] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:11:26,152] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:11:26,275] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.387 seconds
+[2022-03-26 01:11:40,015] {scheduler_job.py:182} INFO - Started process (PID=2487) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:11:40,026] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:11:40,046] {logging_mixin.py:104} INFO - [2022-03-26 01:11:40,036] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:11:40,134] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:11:40,262] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.320 seconds
+[2022-03-26 01:12:36,067] {scheduler_job.py:182} INFO - Started process (PID=2595) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:12:36,085] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:12:36,099] {logging_mixin.py:104} INFO - [2022-03-26 01:12:36,099] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:12:36,166] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:12:36,320] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.297 seconds
+[2022-03-26 01:12:46,307] {scheduler_job.py:182} INFO - Started process (PID=2516) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:12:46,338] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:12:46,350] {logging_mixin.py:104} INFO - [2022-03-26 01:12:46,350] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:12:46,432] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:12:46,694] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.474 seconds
+[2022-03-26 01:13:22,907] {scheduler_job.py:182} INFO - Started process (PID=2679) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:13:22,916] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:13:22,927] {logging_mixin.py:104} INFO - [2022-03-26 01:13:22,927] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:13:22,985] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:13:23,099] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 0.211 seconds
+[2022-03-26 01:14:12,843] {scheduler_job.py:182} INFO - Started process (PID=2760) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:14:12,865] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:14:12,881] {logging_mixin.py:104} INFO - [2022-03-26 01:14:12,873] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:14:13,111] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:14:13,232] {scheduler_job.py:182} INFO - Started process (PID=2671) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:14:13,380] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar for tasks to queue
+[2022-03-26 01:14:13,413] {logging_mixin.py:104} INFO - [2022-03-26 01:14:13,408] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:14:13,914] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar
+[2022-03-26 01:14:14,044] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 1.310 seconds
+[2022-03-26 01:14:14,387] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/talend_file_enhanced-1.1.jar took 1.356 seconds

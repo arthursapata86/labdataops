@@ -1,0 +1,85 @@
+[2022-03-26 01:05:57,725] {scheduler_job.py:182} INFO - Started process (PID=1773) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:05:57,781] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:05:57,812] {logging_mixin.py:104} INFO - [2022-03-26 01:05:57,811] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:05:58,281] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:05:58,934] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 1.392 seconds
+[2022-03-26 01:06:15,102] {scheduler_job.py:182} INFO - Started process (PID=1920) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:06:15,126] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:06:15,154] {logging_mixin.py:104} INFO - [2022-03-26 01:06:15,147] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:06:15,244] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:06:15,391] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.347 seconds
+[2022-03-26 01:07:09,861] {scheduler_job.py:182} INFO - Started process (PID=2010) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:07:09,881] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:07:09,886] {logging_mixin.py:104} INFO - [2022-03-26 01:07:09,886] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:07:09,913] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:07:09,980] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.144 seconds
+[2022-03-26 01:07:34,183] {scheduler_job.py:182} INFO - Started process (PID=1944) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:07:34,198] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:07:34,205] {logging_mixin.py:104} INFO - [2022-03-26 01:07:34,204] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:07:34,307] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:07:34,618] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.552 seconds
+[2022-03-26 01:07:56,908] {scheduler_job.py:182} INFO - Started process (PID=2098) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:07:56,917] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:07:56,927] {logging_mixin.py:104} INFO - [2022-03-26 01:07:56,927] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:07:57,014] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:07:57,164] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.283 seconds
+[2022-03-26 01:08:55,386] {scheduler_job.py:182} INFO - Started process (PID=2203) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:08:55,405] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:08:55,449] {logging_mixin.py:104} INFO - [2022-03-26 01:08:55,433] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:08:55,511] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:08:55,614] {scheduler_job.py:182} INFO - Started process (PID=2100) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:08:55,656] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:08:55,669] {logging_mixin.py:104} INFO - [2022-03-26 01:08:55,669] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:08:55,889] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.520 seconds
+[2022-03-26 01:08:55,852] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:08:56,509] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.993 seconds
+[2022-03-26 01:09:35,701] {scheduler_job.py:182} INFO - Started process (PID=2288) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:09:35,820] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:09:35,870] {logging_mixin.py:104} INFO - [2022-03-26 01:09:35,869] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:09:36,133] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:09:36,365] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.722 seconds
+[2022-03-26 01:10:14,863] {scheduler_job.py:182} INFO - Started process (PID=2246) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:10:14,883] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:10:14,906] {logging_mixin.py:104} INFO - [2022-03-26 01:10:14,905] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:10:15,007] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:10:15,236] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.446 seconds
+[2022-03-26 01:10:59,611] {scheduler_job.py:182} INFO - Started process (PID=2411) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:10:59,644] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:10:59,650] {logging_mixin.py:104} INFO - [2022-03-26 01:10:59,650] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:10:59,726] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:11:00,143] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.610 seconds
+[2022-03-26 01:11:59,283] {scheduler_job.py:182} INFO - Started process (PID=2420) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:11:59,403] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:11:59,423] {logging_mixin.py:104} INFO - [2022-03-26 01:11:59,423] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:11:59,660] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:12:00,014] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.765 seconds
+[2022-03-26 01:12:05,463] {scheduler_job.py:182} INFO - Started process (PID=2530) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:12:05,500] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:12:05,511] {logging_mixin.py:104} INFO - [2022-03-26 01:12:05,509] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:12:05,553] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:12:05,746] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.362 seconds
+[2022-03-26 01:12:51,848] {scheduler_job.py:182} INFO - Started process (PID=2621) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:12:51,867] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:12:51,875] {logging_mixin.py:104} INFO - [2022-03-26 01:12:51,875] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:12:51,922] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:12:52,353] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.547 seconds
+[2022-03-26 01:13:15,924] {scheduler_job.py:182} INFO - Started process (PID=2570) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:13:15,963] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:13:15,985] {logging_mixin.py:104} INFO - [2022-03-26 01:13:15,984] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:13:16,083] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:13:16,368] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.506 seconds
+[2022-03-26 01:13:51,657] {scheduler_job.py:182} INFO - Started process (PID=2729) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:13:51,721] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:13:51,751] {logging_mixin.py:104} INFO - [2022-03-26 01:13:51,750] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:13:51,862] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:13:51,989] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.423 seconds
+[2022-03-26 01:14:37,275] {scheduler_job.py:182} INFO - Started process (PID=2812) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:14:37,292] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:14:37,297] {logging_mixin.py:104} INFO - [2022-03-26 01:14:37,297] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:14:37,340] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:14:37,500] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.250 seconds
+[2022-03-26 01:14:57,086] {scheduler_job.py:182} INFO - Started process (PID=2760) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:14:57,106] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar for tasks to queue
+[2022-03-26 01:14:57,112] {logging_mixin.py:104} INFO - [2022-03-26 01:14:57,112] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:14:57,153] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar
+[2022-03-26 01:14:57,330] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/crypto-utils-0.31.12.jar took 0.275 seconds

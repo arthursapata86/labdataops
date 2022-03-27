@@ -1,0 +1,100 @@
+[2022-03-26 01:05:38,413] {scheduler_job.py:182} INFO - Started process (PID=1728) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:05:38,447] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:05:38,472] {logging_mixin.py:104} INFO - [2022-03-26 01:05:38,472] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:05:38,648] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:05:38,825] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.478 seconds
+[2022-03-26 01:05:52,889] {scheduler_job.py:182} INFO - Started process (PID=1880) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:05:52,898] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:05:52,902] {logging_mixin.py:104} INFO - [2022-03-26 01:05:52,901] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:05:52,919] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:05:53,001] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.137 seconds
+[2022-03-26 01:06:50,944] {scheduler_job.py:182} INFO - Started process (PID=1971) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:06:50,978] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:06:50,996] {logging_mixin.py:104} INFO - [2022-03-26 01:06:50,995] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:06:51,096] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:06:51,165] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.277 seconds
+[2022-03-26 01:07:01,701] {scheduler_job.py:182} INFO - Started process (PID=1880) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:07:01,713] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:07:01,734] {logging_mixin.py:104} INFO - [2022-03-26 01:07:01,734] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:07:01,864] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:07:02,066] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.510 seconds
+[2022-03-26 01:07:32,000] {scheduler_job.py:182} INFO - Started process (PID=2054) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:07:32,017] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:07:32,071] {logging_mixin.py:104} INFO - [2022-03-26 01:07:32,064] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:07:32,166] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:07:32,397] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.481 seconds
+[2022-03-26 01:08:05,685] {scheduler_job.py:182} INFO - Started process (PID=2119) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:08:05,698] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:08:05,703] {logging_mixin.py:104} INFO - [2022-03-26 01:08:05,703] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:08:05,740] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:08:05,885] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.264 seconds
+[2022-03-26 01:08:27,115] {scheduler_job.py:182} INFO - Started process (PID=2037) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:08:27,155] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:08:27,164] {logging_mixin.py:104} INFO - [2022-03-26 01:08:27,164] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:08:27,278] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:08:27,535] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.516 seconds
+[2022-03-26 01:08:43,471] {scheduler_job.py:182} INFO - Started process (PID=2185) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:08:43,504] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:08:43,519] {logging_mixin.py:104} INFO - [2022-03-26 01:08:43,519] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:08:43,597] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:08:44,142] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.737 seconds
+[2022-03-26 01:09:20,207] {scheduler_job.py:182} INFO - Started process (PID=2258) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:09:20,223] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:09:20,238] {logging_mixin.py:104} INFO - [2022-03-26 01:09:20,237] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:09:20,286] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:09:20,413] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.264 seconds
+[2022-03-26 01:09:41,223] {scheduler_job.py:182} INFO - Started process (PID=2187) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:09:41,245] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:09:41,261] {logging_mixin.py:104} INFO - [2022-03-26 01:09:41,260] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:09:41,393] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:09:42,210] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 1.074 seconds
+[2022-03-26 01:10:07,585] {scheduler_job.py:182} INFO - Started process (PID=2338) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:10:07,596] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:10:07,611] {logging_mixin.py:104} INFO - [2022-03-26 01:10:07,610] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:10:07,638] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:10:07,725] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.162 seconds
+[2022-03-26 01:11:05,492] {scheduler_job.py:182} INFO - Started process (PID=2423) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:11:05,598] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:11:05,622] {logging_mixin.py:104} INFO - [2022-03-26 01:11:05,621] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:11:05,756] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:11:05,987] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.646 seconds
+[2022-03-26 01:11:26,622] {scheduler_job.py:182} INFO - Started process (PID=2358) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:11:26,677] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:11:26,719] {logging_mixin.py:104} INFO - [2022-03-26 01:11:26,709] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:11:26,775] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:11:26,984] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.459 seconds
+[2022-03-26 01:11:53,219] {scheduler_job.py:182} INFO - Started process (PID=2505) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:11:53,256] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:11:53,270] {logging_mixin.py:104} INFO - [2022-03-26 01:11:53,270] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:11:53,527] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:11:53,640] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.491 seconds
+[2022-03-26 01:12:30,051] {scheduler_job.py:182} INFO - Started process (PID=2581) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:12:30,076] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:12:30,091] {logging_mixin.py:104} INFO - [2022-03-26 01:12:30,091] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:12:30,152] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:12:30,420] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.434 seconds
+[2022-03-26 01:12:46,968] {scheduler_job.py:182} INFO - Started process (PID=2517) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:12:46,975] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:12:46,980] {logging_mixin.py:104} INFO - [2022-03-26 01:12:46,979] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:12:47,037] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:12:47,257] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.371 seconds
+[2022-03-26 01:13:18,188] {scheduler_job.py:182} INFO - Started process (PID=2669) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:13:18,214] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:13:18,230] {logging_mixin.py:104} INFO - [2022-03-26 01:13:18,229] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:13:18,260] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:13:18,378] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.218 seconds
+[2022-03-26 01:14:02,298] {scheduler_job.py:182} INFO - Started process (PID=2742) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:14:02,314] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:14:02,332] {logging_mixin.py:104} INFO - [2022-03-26 01:14:02,331] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:14:02,365] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:14:02,495] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.227 seconds
+[2022-03-26 01:14:15,214] {scheduler_job.py:182} INFO - Started process (PID=2672) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:14:15,246] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:14:15,253] {logging_mixin.py:104} INFO - [2022-03-26 01:14:15,252] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:14:15,388] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:14:15,685] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 0.548 seconds
+[2022-03-26 01:14:46,271] {scheduler_job.py:182} INFO - Started process (PID=2828) to work on /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:14:46,376] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:14:46,519] {logging_mixin.py:104} INFO - [2022-03-26 01:14:46,491] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:14:46,841] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar
+[2022-03-26 01:14:47,522] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedVendasMensal_0.1/lib/jboss-marshalling-river-2.0.12.Final.jar took 1.362 seconds

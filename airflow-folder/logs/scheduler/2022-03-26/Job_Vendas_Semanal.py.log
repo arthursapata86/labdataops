@@ -1,0 +1,43 @@
+[2022-03-26 01:11:07,331] {scheduler_job.py:182} INFO - Started process (PID=2427) to work on /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:11:07,349] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas_Semanal.py for tasks to queue
+[2022-03-26 01:11:07,356] {logging_mixin.py:104} INFO - [2022-03-26 01:11:07,355] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:11:07,576] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas_Semanal']) retrieved from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:11:07,865] {logging_mixin.py:104} INFO - [2022-03-26 01:11:07,860] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:11:08,148] {logging_mixin.py:104} INFO - [2022-03-26 01:11:08,148] {dag.py:1837} INFO - Creating ORM DAG for Job_Vendas_Semanal
+[2022-03-26 01:11:08,627] {logging_mixin.py:104} INFO - [2022-03-26 01:11:08,627] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas_Semanal to 2022-03-24 00:00:00+00:00
+[2022-03-26 01:11:08,870] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas_Semanal.py took 1.582 seconds
+[2022-03-26 01:11:55,166] {scheduler_job.py:182} INFO - Started process (PID=2509) to work on /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:11:55,174] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas_Semanal.py for tasks to queue
+[2022-03-26 01:11:55,205] {logging_mixin.py:104} INFO - [2022-03-26 01:11:55,195] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:11:55,436] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas_Semanal']) retrieved from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:11:55,828] {logging_mixin.py:104} INFO - [2022-03-26 01:11:55,822] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:11:56,156] {logging_mixin.py:104} INFO - [2022-03-26 01:11:56,155] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas_Semanal to 2022-03-28 05:00:00+00:00
+[2022-03-26 01:11:56,395] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas_Semanal.py took 1.255 seconds
+[2022-03-26 01:12:33,029] {scheduler_job.py:182} INFO - Started process (PID=2586) to work on /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:12:33,041] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas_Semanal.py for tasks to queue
+[2022-03-26 01:12:33,048] {logging_mixin.py:104} INFO - [2022-03-26 01:12:33,047] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:12:33,238] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas_Semanal']) retrieved from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:12:33,368] {logging_mixin.py:104} INFO - [2022-03-26 01:12:33,368] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:12:33,539] {logging_mixin.py:104} INFO - [2022-03-26 01:12:33,538] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas_Semanal to 2022-03-28 05:00:00+00:00
+[2022-03-26 01:12:33,620] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas_Semanal.py took 0.630 seconds
+[2022-03-26 01:13:20,512] {scheduler_job.py:182} INFO - Started process (PID=2673) to work on /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:13:20,533] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas_Semanal.py for tasks to queue
+[2022-03-26 01:13:20,551] {logging_mixin.py:104} INFO - [2022-03-26 01:13:20,551] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:13:20,779] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas_Semanal']) retrieved from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:13:21,165] {logging_mixin.py:104} INFO - [2022-03-26 01:13:21,165] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:13:21,424] {logging_mixin.py:104} INFO - [2022-03-26 01:13:21,423] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas_Semanal to 2022-03-28 05:00:00+00:00
+[2022-03-26 01:13:21,508] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas_Semanal.py took 1.073 seconds
+[2022-03-26 01:14:04,429] {scheduler_job.py:182} INFO - Started process (PID=2746) to work on /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:14:04,443] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas_Semanal.py for tasks to queue
+[2022-03-26 01:14:04,455] {logging_mixin.py:104} INFO - [2022-03-26 01:14:04,455] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:14:04,857] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas_Semanal']) retrieved from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:14:05,130] {logging_mixin.py:104} INFO - [2022-03-26 01:14:05,130] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:14:05,543] {logging_mixin.py:104} INFO - [2022-03-26 01:14:05,543] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas_Semanal to 2022-03-28 05:00:00+00:00
+[2022-03-26 01:14:05,676] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas_Semanal.py took 1.305 seconds
+[2022-03-26 01:14:50,007] {scheduler_job.py:182} INFO - Started process (PID=2832) to work on /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:14:50,024] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/Job_Vendas_Semanal.py for tasks to queue
+[2022-03-26 01:14:50,039] {logging_mixin.py:104} INFO - [2022-03-26 01:14:50,039] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:14:50,228] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['Job_Vendas_Semanal']) retrieved from /opt/airflow/dags/Job_Vendas_Semanal.py
+[2022-03-26 01:14:50,394] {logging_mixin.py:104} INFO - [2022-03-26 01:14:50,394] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-03-26 01:14:50,723] {logging_mixin.py:104} INFO - [2022-03-26 01:14:50,723] {dag.py:2273} INFO - Setting next_dagrun for Job_Vendas_Semanal to 2022-03-28 05:00:00+00:00
+[2022-03-26 01:14:50,861] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/Job_Vendas_Semanal.py took 0.903 seconds

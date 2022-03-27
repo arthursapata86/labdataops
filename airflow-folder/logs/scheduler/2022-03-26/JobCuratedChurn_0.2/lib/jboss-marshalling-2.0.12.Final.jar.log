@@ -1,0 +1,240 @@
+[2022-03-26 00:50:48,304] {scheduler_job.py:182} INFO - Started process (PID=800) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:50:48,311] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:50:48,323] {logging_mixin.py:104} INFO - [2022-03-26 00:50:48,323] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:50:48,463] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:50:48,605] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.334 seconds
+[2022-03-26 00:51:19,512] {scheduler_job.py:182} INFO - Started process (PID=842) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:51:19,542] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:51:19,554] {logging_mixin.py:104} INFO - [2022-03-26 00:51:19,554] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:51:19,628] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:51:19,692] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.222 seconds
+[2022-03-26 00:51:50,713] {scheduler_job.py:182} INFO - Started process (PID=884) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:51:50,732] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:51:50,738] {logging_mixin.py:104} INFO - [2022-03-26 00:51:50,738] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:51:50,812] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:51:50,866] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.172 seconds
+[2022-03-26 00:52:24,134] {scheduler_job.py:182} INFO - Started process (PID=925) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:52:24,183] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:52:24,192] {logging_mixin.py:104} INFO - [2022-03-26 00:52:24,189] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:52:24,364] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:52:24,791] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.779 seconds
+[2022-03-26 00:53:23,459] {scheduler_job.py:182} INFO - Started process (PID=975) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:53:23,488] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:53:23,508] {logging_mixin.py:104} INFO - [2022-03-26 00:53:23,507] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:53:23,664] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:53:23,940] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.621 seconds
+[2022-03-26 00:53:54,235] {scheduler_job.py:182} INFO - Started process (PID=1017) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:53:54,254] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:53:54,268] {logging_mixin.py:104} INFO - [2022-03-26 00:53:54,268] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:53:54,341] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:53:54,660] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.451 seconds
+[2022-03-26 00:54:25,074] {scheduler_job.py:182} INFO - Started process (PID=1059) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:54:25,081] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:54:25,093] {logging_mixin.py:104} INFO - [2022-03-26 00:54:25,092] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:54:25,141] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:54:25,260] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.221 seconds
+[2022-03-26 00:54:55,447] {scheduler_job.py:182} INFO - Started process (PID=1101) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:54:55,456] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:54:55,461] {logging_mixin.py:104} INFO - [2022-03-26 00:54:55,460] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:54:55,490] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:54:55,551] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.132 seconds
+[2022-03-26 00:55:25,844] {scheduler_job.py:182} INFO - Started process (PID=1143) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:55:25,850] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:55:25,855] {logging_mixin.py:104} INFO - [2022-03-26 00:55:25,854] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:55:25,887] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:55:25,942] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.113 seconds
+[2022-03-26 00:55:57,925] {scheduler_job.py:182} INFO - Started process (PID=1185) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:55:57,944] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:55:57,952] {logging_mixin.py:104} INFO - [2022-03-26 00:55:57,951] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:55:58,034] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:55:58,117] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.230 seconds
+[2022-03-26 00:56:28,290] {scheduler_job.py:182} INFO - Started process (PID=1227) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:56:28,297] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:56:28,300] {logging_mixin.py:104} INFO - [2022-03-26 00:56:28,299] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:56:28,321] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:56:28,357] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.080 seconds
+[2022-03-26 00:56:59,721] {scheduler_job.py:182} INFO - Started process (PID=1269) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:56:59,755] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:56:59,768] {logging_mixin.py:104} INFO - [2022-03-26 00:56:59,767] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:56:59,815] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:56:59,860] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.172 seconds
+[2022-03-26 00:57:30,130] {scheduler_job.py:182} INFO - Started process (PID=1310) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:57:30,134] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:57:30,139] {logging_mixin.py:104} INFO - [2022-03-26 00:57:30,139] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:57:30,169] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:57:30,209] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.091 seconds
+[2022-03-26 00:58:00,688] {scheduler_job.py:182} INFO - Started process (PID=1352) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:58:00,700] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:58:00,709] {logging_mixin.py:104} INFO - [2022-03-26 00:58:00,709] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:58:00,771] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:58:00,849] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.181 seconds
+[2022-03-26 00:58:38,606] {scheduler_job.py:182} INFO - Started process (PID=1394) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:58:38,791] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:58:38,883] {logging_mixin.py:104} INFO - [2022-03-26 00:58:38,827] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:58:39,108] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:58:39,733] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 1.745 seconds
+[2022-03-26 00:59:18,709] {scheduler_job.py:182} INFO - Started process (PID=1438) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:59:18,727] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:59:18,746] {logging_mixin.py:104} INFO - [2022-03-26 00:59:18,745] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:59:18,812] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:59:18,915] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.277 seconds
+[2022-03-26 00:59:49,697] {scheduler_job.py:182} INFO - Started process (PID=1480) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:59:49,706] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 00:59:49,715] {logging_mixin.py:104} INFO - [2022-03-26 00:59:49,715] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:59:49,779] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 00:59:49,876] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.195 seconds
+[2022-03-26 01:00:20,246] {scheduler_job.py:182} INFO - Started process (PID=1521) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:00:20,301] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:00:20,308] {logging_mixin.py:104} INFO - [2022-03-26 01:00:20,308] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:00:20,413] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:00:20,743] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.648 seconds
+[2022-03-26 01:01:13,399] {scheduler_job.py:182} INFO - Started process (PID=1288) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:13,424] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:01:13,453] {logging_mixin.py:104} INFO - [2022-03-26 01:01:13,451] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:13,698] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:14,123] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.765 seconds
+[2022-03-26 01:01:15,039] {scheduler_job.py:182} INFO - Started process (PID=1564) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:15,052] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:01:15,057] {logging_mixin.py:104} INFO - [2022-03-26 01:01:15,056] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:15,120] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:15,229] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.243 seconds
+[2022-03-26 01:01:44,750] {scheduler_job.py:182} INFO - Started process (PID=1354) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:44,777] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:01:44,817] {logging_mixin.py:104} INFO - [2022-03-26 01:01:44,816] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:44,914] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:45,162] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.469 seconds
+[2022-03-26 01:01:45,420] {scheduler_job.py:182} INFO - Started process (PID=1607) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:45,435] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:01:45,440] {logging_mixin.py:104} INFO - [2022-03-26 01:01:45,439] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:45,491] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:01:45,551] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.165 seconds
+[2022-03-26 01:02:15,617] {scheduler_job.py:182} INFO - Started process (PID=1419) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:02:15,641] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:02:15,665] {logging_mixin.py:104} INFO - [2022-03-26 01:02:15,664] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:02:15,860] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:02:16,148] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.630 seconds
+[2022-03-26 01:02:17,389] {scheduler_job.py:182} INFO - Started process (PID=1651) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:02:17,403] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:02:17,427] {logging_mixin.py:104} INFO - [2022-03-26 01:02:17,426] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:02:17,495] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:02:17,573] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.258 seconds
+[2022-03-26 01:03:01,297] {scheduler_job.py:182} INFO - Started process (PID=1491) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:03:01,528] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:03:01,548] {logging_mixin.py:104} INFO - [2022-03-26 01:03:01,547] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:03:01,857] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:03:02,094] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.883 seconds
+[2022-03-26 01:03:21,576] {scheduler_job.py:182} INFO - Started process (PID=1708) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:03:21,677] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:03:21,706] {logging_mixin.py:104} INFO - [2022-03-26 01:03:21,706] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:03:22,154] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:03:22,717] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 1.354 seconds
+[2022-03-26 01:04:06,144] {scheduler_job.py:182} INFO - Started process (PID=1756) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:06,154] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:04:06,164] {logging_mixin.py:104} INFO - [2022-03-26 01:04:06,164] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:06,270] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:06,366] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.262 seconds
+[2022-03-26 01:04:07,143] {scheduler_job.py:182} INFO - Started process (PID=1582) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:07,152] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:04:07,159] {logging_mixin.py:104} INFO - [2022-03-26 01:04:07,159] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:07,271] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:07,510] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.411 seconds
+[2022-03-26 01:04:48,452] {scheduler_job.py:182} INFO - Started process (PID=1808) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:48,482] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:04:48,491] {logging_mixin.py:104} INFO - [2022-03-26 01:04:48,490] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:48,569] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:48,868] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.471 seconds
+[2022-03-26 01:04:50,640] {scheduler_job.py:182} INFO - Started process (PID=1655) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:50,699] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:04:50,723] {logging_mixin.py:104} INFO - [2022-03-26 01:04:50,722] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:50,880] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:04:51,133] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.636 seconds
+[2022-03-26 01:05:24,667] {scheduler_job.py:182} INFO - Started process (PID=1851) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:05:24,684] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:05:24,688] {logging_mixin.py:104} INFO - [2022-03-26 01:05:24,687] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:05:24,750] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:05:24,946] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.324 seconds
+[2022-03-26 01:05:33,516] {scheduler_job.py:182} INFO - Started process (PID=1712) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:05:33,545] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:05:33,549] {logging_mixin.py:104} INFO - [2022-03-26 01:05:33,549] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:05:33,648] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:05:33,818] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.335 seconds
+[2022-03-26 01:06:34,231] {scheduler_job.py:182} INFO - Started process (PID=1952) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:06:34,246] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:06:34,282] {logging_mixin.py:104} INFO - [2022-03-26 01:06:34,276] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:06:34,406] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:06:34,599] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.439 seconds
+[2022-03-26 01:07:00,770] {scheduler_job.py:182} INFO - Started process (PID=1878) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:07:00,802] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:07:00,845] {logging_mixin.py:104} INFO - [2022-03-26 01:07:00,824] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:07:00,981] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:07:01,147] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.457 seconds
+[2022-03-26 01:07:30,280] {scheduler_job.py:182} INFO - Started process (PID=2051) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:07:30,294] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:07:30,307] {logging_mixin.py:104} INFO - [2022-03-26 01:07:30,307] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:07:30,376] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:07:30,604] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.379 seconds
+[2022-03-26 01:08:14,363] {scheduler_job.py:182} INFO - Started process (PID=2134) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:08:14,378] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:08:14,392] {logging_mixin.py:104} INFO - [2022-03-26 01:08:14,392] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:08:14,468] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:08:14,562] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.268 seconds
+[2022-03-26 01:08:25,805] {scheduler_job.py:182} INFO - Started process (PID=2035) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:08:25,815] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:08:25,833] {logging_mixin.py:104} INFO - [2022-03-26 01:08:25,832] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:08:25,942] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:08:26,090] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.362 seconds
+[2022-03-26 01:09:10,577] {scheduler_job.py:182} INFO - Started process (PID=2238) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:09:10,613] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:09:10,633] {logging_mixin.py:104} INFO - [2022-03-26 01:09:10,633] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:09:10,759] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:09:11,025] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.597 seconds
+[2022-03-26 01:09:38,918] {scheduler_job.py:182} INFO - Started process (PID=2179) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:09:39,007] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:09:39,040] {logging_mixin.py:104} INFO - [2022-03-26 01:09:39,038] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:09:39,298] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:09:39,590] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.958 seconds
+[2022-03-26 01:10:01,894] {scheduler_job.py:182} INFO - Started process (PID=2323) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:10:01,960] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:10:01,968] {logging_mixin.py:104} INFO - [2022-03-26 01:10:01,968] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:10:02,076] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:10:02,315] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.451 seconds
+[2022-03-26 01:10:56,482] {scheduler_job.py:182} INFO - Started process (PID=2404) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:10:56,512] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:10:56,538] {logging_mixin.py:104} INFO - [2022-03-26 01:10:56,537] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:10:56,599] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:10:56,785] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.347 seconds
+[2022-03-26 01:11:25,405] {scheduler_job.py:182} INFO - Started process (PID=2356) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:11:25,485] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:11:25,495] {logging_mixin.py:104} INFO - [2022-03-26 01:11:25,495] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:11:25,558] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:11:25,688] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.411 seconds
+[2022-03-26 01:11:42,452] {scheduler_job.py:182} INFO - Started process (PID=2493) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:11:42,488] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:11:42,504] {logging_mixin.py:104} INFO - [2022-03-26 01:11:42,501] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:11:42,641] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:11:42,995] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.636 seconds
+[2022-03-26 01:12:40,432] {scheduler_job.py:182} INFO - Started process (PID=2602) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:12:40,444] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:12:40,457] {logging_mixin.py:104} INFO - [2022-03-26 01:12:40,450] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:12:40,609] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:12:40,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.483 seconds
+[2022-03-26 01:12:45,601] {scheduler_job.py:182} INFO - Started process (PID=2514) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:12:45,611] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:12:45,616] {logging_mixin.py:104} INFO - [2022-03-26 01:12:45,616] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:12:45,737] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:12:45,872] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.286 seconds
+[2022-03-26 01:13:26,507] {scheduler_job.py:182} INFO - Started process (PID=2684) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:13:26,519] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:13:26,542] {logging_mixin.py:104} INFO - [2022-03-26 01:13:26,538] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:13:26,598] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:13:26,719] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.362 seconds
+[2022-03-26 01:14:11,420] {scheduler_job.py:182} INFO - Started process (PID=2670) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:14:11,460] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:14:11,484] {logging_mixin.py:104} INFO - [2022-03-26 01:14:11,476] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:14:12,059] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:14:12,294] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.989 seconds
+[2022-03-26 01:14:16,035] {scheduler_job.py:182} INFO - Started process (PID=2765) to work on /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:14:16,058] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar for tasks to queue
+[2022-03-26 01:14:16,064] {logging_mixin.py:104} INFO - [2022-03-26 01:14:16,064] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:14:16,148] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar
+[2022-03-26 01:14:16,286] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/JobCuratedChurn_0.2/lib/jboss-marshalling-2.0.12.Final.jar took 0.306 seconds
